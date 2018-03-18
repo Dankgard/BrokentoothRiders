@@ -13,6 +13,7 @@ public class MovimientoProtagonista : MonoBehaviour {
 
     public float RepeleX;
     public float RepeleY;
+    public int repelDamage;
 
     public float tiempoSincont;
 
@@ -92,6 +93,8 @@ public class MovimientoProtagonista : MonoBehaviour {
                 rb.velocity = new Vector2(RepeleX, RepeleY);               
                 
             }
+
+            GameManager.instance.TakeDamage(repelDamage);
                 
         }
     }

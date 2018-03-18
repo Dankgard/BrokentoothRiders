@@ -224,6 +224,7 @@ MonoBehaviour:
   climbSpeed: 5
   RepeleX: 5
   RepeleY: 5
+  repelDamage: 10
   tiempoSincont: 0.5
 --- !u!114 &83627430
 MonoBehaviour:
@@ -448,8 +449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db99b52af92974d409c6d18ab9823ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialHealth: 323893438
-  initialEnergy: 2147483647
+  initialHealth: 100
+  initialEnergy: 100
 --- !u!4 &320206268
 Transform:
   m_ObjectHideFlags: 0

@@ -50,7 +50,7 @@ public class BalaEnemiga : MonoBehaviour {
 
     public void InvertSpeed()
     {
-        int velY = Random.Range(2, 5);
+        int velY = Random.Range(-5, 5);
 
         if (player.localPosition.x < transform.localPosition.x)
         {
