@@ -1,0 +1,82 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+
+public class GameManager : MonoBehaviour {
+
+    public static GameManager instance = null;
+
+    GameObject player;
+
+    public int initialHealth = 100; //Vida al iniciar el juego
+    int currentHealth; //Vida a lo largo del nivel
+
+    public int initialEnergy = 100;
+    int currentEnergy;
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            // Almacenamos la instancia actual
+            instance = this;
+            // Nos aseguramos de no destruir el objeto, es decir, 
+            // de que persista, si cambiamos de escena
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            // Si ya existe un objeto GameManager, no necesitamos uno nuevo
+            Destroy(this.gameObject);
+        }
+
+        currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
+        currentEnergy = initialEnergy;
+        player = GameObject.FindWithTag("Player").gameObject;
+    }
+    
+    public int Health()
+    {
+        return currentHealth;
+    }
+
+    public int Energy()
+    {
+        return currentEnergy;
+    }
+
+    public void TakeDamage(int damage)
+    {       
+        currentHealth -= damage; //resta el daño a la vida actual
+
+        if (currentHealth <= 0) //si la vida es igual o menor a 0, llama al método Death
+        {
+            Death();
+        }
+    }
+
+    public void TakeEnergy(int gasto)
+    {
+        currentEnergy -= gasto;
+    }
+
+    public void Death()
+    {
+        Destroy(player);
+        Invoke("ReloadScene", 2);
+    }
+
+    public void ReloadScene()
+    {
+        currentHealth = initialHealth;
+        currentEnergy = initialEnergy;
+        int scene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+    }
+
+
+
+}
