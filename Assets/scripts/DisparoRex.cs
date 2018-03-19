@@ -53,7 +53,7 @@ public class DisparoRex : MonoBehaviour {
             }                              
         }
 
-        if (Input.GetMouseButtonUp(0) && !(automaticWeapon))
+        if (Input.GetMouseButtonUp(0) && !(automaticWeapon) && !canShoot)
         {
             Invoke("NewBullet", shotgunDelay);
         }
@@ -67,6 +67,8 @@ public class DisparoRex : MonoBehaviour {
 
     public void WeaponChange()
     {
+        canShoot = true;
+
         if (shotgunActive)
         {
             bullets = shotgunBullets;
