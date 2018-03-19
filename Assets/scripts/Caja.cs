@@ -10,7 +10,7 @@ public class Caja : MonoBehaviour {
     public GameObject PaqueteRifle;
 
 
-    public int select;
+    int select;
     GameObject paquete;
 
     public int initialHealth;
@@ -18,6 +18,8 @@ public class Caja : MonoBehaviour {
 
     void Awake()
     {
+        select = Random.Range(1, 4);
+
         if (select == 1)
             paquete = PaqueteEnergia;
         else if (select == 2)

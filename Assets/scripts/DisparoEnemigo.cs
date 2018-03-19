@@ -18,6 +18,7 @@ public class DisparoEnemigo : MonoBehaviour {
 	void Start () {
         shootingCount = shootingRate;
         mov = GetComponentInParent<MovimientoEnemigos>();
+        player = GameObject.FindWithTag("Player");
 	}
 	
 	// Update is called once per frame

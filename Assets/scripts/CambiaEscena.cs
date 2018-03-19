@@ -1,17 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class PaqueteEnergia : MonoBehaviour {
+public class CambiaEscena : MonoBehaviour {
 
-    public int energy;
+    public string escena;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
-        {
-            GameManager.instance.TakeDamage(-energy);
-            Destroy(gameObject);
-        }
+            SceneManager.LoadScene(escena);
     }
+
 }

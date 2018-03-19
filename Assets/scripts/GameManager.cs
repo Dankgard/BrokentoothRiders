@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour {
     public int initialEnergy = 100;
     int currentEnergy;
 
+    bool alive = true;
+
     void Awake()
     {
         if (instance == null)
@@ -65,6 +67,7 @@ public class GameManager : MonoBehaviour {
 
     public void Death()
     {
+        alive = false;
         Destroy(player);
         Invoke("ReloadScene", 2);
     }
@@ -73,8 +76,14 @@ public class GameManager : MonoBehaviour {
     {
         currentHealth = initialHealth;
         currentEnergy = initialEnergy;
+        alive = true;
         int scene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
+    }
+
+    public bool Alive()
+    {
+        return alive;
     }
 
 
