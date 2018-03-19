@@ -9,6 +9,9 @@ public class PaqueteEnergia : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
+        {
             GameManager.instance.TakeDamage(-energy);
+            Destroy(gameObject);
+        }
     }
 }

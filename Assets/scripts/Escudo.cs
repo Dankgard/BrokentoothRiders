@@ -24,7 +24,8 @@ public class Escudo : MonoBehaviour {
 
     private void Update()
     {
-        transform.position = player.position;
+        if(GameManager.instance.Alive())
+            transform.position = player.position;
     }
 
 
