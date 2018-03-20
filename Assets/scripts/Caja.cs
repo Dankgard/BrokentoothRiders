@@ -18,7 +18,7 @@ public class Caja : MonoBehaviour {
 
     void Awake()
     {
-        select = Random.Range(1, 4);
+        select = Random.Range(1, 5);
 
         if (select == 1)
             paquete = PaqueteEnergia;
