@@ -28,7 +28,7 @@ public class Habilidades : MonoBehaviour {
     void Update () {
         if (GameManager.instance.Energy() >= 0)
         {
-            if (Input.GetKeyDown("1"))
+            if (Input.GetKeyDown("1") && GameManager.instance.Energy()>=gastoGranada)
             {
                 GameManager.instance.TakeEnergy(gastoGranada);
                 Granada boom = Instantiate(granada, grenadePoint.position, Quaternion.Euler(new Vector3(0, 0, 0)));
@@ -41,7 +41,7 @@ public class Habilidades : MonoBehaviour {
 
             }
 
-            if (Input.GetKeyDown("2") && !activatedShield)
+            if (Input.GetKeyDown("2") && !activatedShield && GameManager.instance.Energy() >=gastoEscudo)
             {
                 GameManager.instance.TakeEnergy(gastoEscudo);
                 Escudo nokiaShield = Instantiate(escudo, gameObject.transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));

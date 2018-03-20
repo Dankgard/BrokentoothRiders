@@ -33,31 +33,34 @@ public class DisparoRex : MonoBehaviour {
     }
 	
 	void Update () {
-        if(Input.GetMouseButton(0) && canShoot)
+        if(Input.GetMouseButton(0) && canShoot && automaticWeapon)
         {
-            shootDirection = Input.mousePosition;
-            shootDirection = Camera.main.ScreenToWorldPoint(shootDirection);
-            shootDirection.z = 0.0f;
-            shootDirection = shootDirection - transform.position;
-            
-            GameObject bullet = Instantiate(bullets, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            Vector2 dir = shootDirection.normalized;
-
-            bullet.GetComponent<Rigidbody2D>().velocity = dir * bulletSpeed; //shootDirection.normalized * bulletSpeed;
-            Destroy(bullet, reach);
-            canShoot = false;
-
-            if (automaticWeapon)
-            {
-                Invoke("NewBullet", rifleDelay);
-            }                              
+            Disparo();            
+            Invoke("NewBullet", rifleDelay);
+                                          
         }
 
-        if (Input.GetMouseButtonUp(0) && !(automaticWeapon) && !canShoot)
+        if (Input.GetMouseButtonUp(0) && !(automaticWeapon) && canShoot)
         {
+            Disparo();
             Invoke("NewBullet", shotgunDelay);
         }
 
+    }
+
+    void Disparo()
+    {
+        shootDirection = Input.mousePosition;
+        shootDirection = Camera.main.ScreenToWorldPoint(shootDirection);
+        shootDirection.z = 0.0f;
+        shootDirection = shootDirection - transform.position;
+
+        GameObject bullet = Instantiate(bullets, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+        Vector2 dir = shootDirection.normalized;
+
+        bullet.GetComponent<Rigidbody2D>().velocity = dir * bulletSpeed; //shootDirection.normalized * bulletSpeed;
+        Destroy(bullet, reach);
+        canShoot = false;
     }
 
     private void NewBullet()

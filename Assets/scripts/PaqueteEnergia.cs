@@ -10,7 +10,7 @@ public class PaqueteEnergia : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            GameManager.instance.TakeDamage(-energy);
+            GameManager.instance.TakeEnergy(-energy);
             Destroy(gameObject);
         }
     }

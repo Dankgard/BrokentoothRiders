@@ -54,6 +54,11 @@ public class GameManager : MonoBehaviour {
     {       
         currentHealth -= damage; //resta el daño a la vida actual
 
+        if (currentHealth > initialHealth)
+        {
+            currentHealth = initialHealth;
+        }
+
         if (currentHealth <= 0) //si la vida es igual o menor a 0, llama al método Death
         {
             Death();
@@ -63,6 +68,11 @@ public class GameManager : MonoBehaviour {
     public void TakeEnergy(int gasto)
     {
         currentEnergy -= gasto;
+
+        if (currentEnergy > initialEnergy)
+        {
+            currentEnergy = initialEnergy;
+        }
     }
 
     public void Death()
