@@ -68,8 +68,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1548896005221430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.41, y: -7.63, z: 0}
-  m_LocalScale: {x: 0.72316736, y: 0.5959736, z: 1}
+  m_LocalPosition: {x: 152.6, y: -0.07, z: -2}
+  m_LocalScale: {x: 1.05, y: 0.95, z: 1}
   m_Children:
   - {fileID: 4539448708960592}
   m_Father: {fileID: 0}
@@ -181,8 +181,8 @@ MonoBehaviour:
     type: 2}
   rifleBullets: {fileID: 1587282477301944, guid: e05ad3b9bee2b654ebae3aafbad68008,
     type: 2}
-  rifleDelay: 0.1
-  shotgunDelay: 2
+  rifleDelay: 0.3
+  shotgunDelay: 1
   shotgunReach: 1
   rifleReach: 2
   shotgunActive: 0
