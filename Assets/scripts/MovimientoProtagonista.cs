@@ -28,16 +28,20 @@ public class MovimientoProtagonista : MonoBehaviour {
     }
     void Update()
     {
-        if (control)
+        if (GameManager.instance.Alive())
         {
-            Movimiento();
-        }
-        else {
-            Invoke("Booleano", tiempoSincont);
-        }
+            if (control)
+            {
+                Movimiento();
+            }
+            else
+            {
+                Invoke("Booleano", tiempoSincont);
+            }
 
-        if (canClimb)
-            Ladder();
+            if (canClimb)
+                Ladder();
+        }
         
     }
 

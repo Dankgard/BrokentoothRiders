@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour {
             currentHealth = initialHealth;
         }
 
-        if (currentHealth <= 0) //si la vida es igual o menor a 0, llama al método Death
+        if (currentHealth <= 0 && alive) //si la vida es igual o menor a 0, llama al método Death
         {
             Death();
         }
@@ -78,6 +78,7 @@ public class GameManager : MonoBehaviour {
     public void Death()
     {
         alive = false;
+        currentHealth = 0;
         Destroy(player);
         Invoke("ReloadScene", 2);
     }

@@ -19,13 +19,15 @@ public class SaltoHumano : MonoBehaviour {
         {
             NSaltos = 2;
         }
-
-        if (Input.GetButtonDown("Jump"))
+        if (GameManager.instance.Alive())
         {
-            if (NSaltos > 0)
+            if (Input.GetButtonDown("Jump"))
             {
-                rb.velocity = new Vector2(0, Fuerza);
-                NSaltos -= 1;
+                if (NSaltos > 0)
+                {
+                    rb.velocity = new Vector2(0, Fuerza);
+                    NSaltos -= 1;
+                }
             }
         }
     }  

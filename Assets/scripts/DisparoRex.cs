@@ -33,17 +33,20 @@ public class DisparoRex : MonoBehaviour {
     }
 	
 	void Update () {
-        if(Input.GetMouseButton(0) && canShoot && automaticWeapon)
+        if (GameManager.instance.Alive())
         {
-            Disparo();            
-            Invoke("NewBullet", rifleDelay);
-                                          
-        }
+            if (Input.GetMouseButton(0) && canShoot && automaticWeapon)
+            {
+                Disparo();
+                Invoke("NewBullet", rifleDelay);
 
-        if (Input.GetMouseButtonUp(0) && !(automaticWeapon) && canShoot)
-        {
-            Disparo();
-            Invoke("NewBullet", shotgunDelay);
+            }
+
+            if (Input.GetMouseButtonUp(0) && !(automaticWeapon) && canShoot)
+            {
+                Disparo();
+                Invoke("NewBullet", shotgunDelay);
+            }
         }
 
     }
