@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimientoProtagonista : MonoBehaviour {
+public class MovimientoProtagonista : MonoBehaviour
+{
 
-	public float speed;
+    public float speed;
     float moved = 0f;
 
-	Rigidbody2D rb;
+    Rigidbody2D rb;
 
     public float climbSpeed;
 
@@ -21,28 +22,26 @@ public class MovimientoProtagonista : MonoBehaviour {
 
     bool canClimb = false;
 
-    void Start(){
-		rb = GetComponent<Rigidbody2D> ();
-        
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+
         control = true;
     }
     void Update()
     {
-        if (GameManager.instance.Alive())
-        {
-            if (control)
-            {
-                Movimiento();
-            }
-            else
-            {
-                Invoke("Booleano", tiempoSincont);
-            }
 
-            if (canClimb)
-                Ladder();
+        if (control)
+        {
+            Movimiento();
         }
-        
+        else
+        {
+            Invoke("Booleano", tiempoSincont);
+        }
+
+        if (canClimb)
+            Ladder();
     }
 
     public void Movimiento()
@@ -87,19 +86,20 @@ public class MovimientoProtagonista : MonoBehaviour {
         {
             control = false;
 
-            if (GetComponent<SpriteRenderer>().flipX == false) {
-                rb.velocity = new Vector2(-RepeleX, RepeleY);                
-            }
-            
-
-            else if(GetComponent<SpriteRenderer>().flipX == true)
+            if (GetComponent<SpriteRenderer>().flipX == false)
             {
-                rb.velocity = new Vector2(RepeleX, RepeleY);               
-                
+                rb.velocity = new Vector2(-RepeleX, RepeleY);
+            }
+
+
+            else if (GetComponent<SpriteRenderer>().flipX == true)
+            {
+                rb.velocity = new Vector2(RepeleX, RepeleY);
+
             }
 
             GameManager.instance.TakeDamage(repelDamage);
-                
+
         }
     }
 

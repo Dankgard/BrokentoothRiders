@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DisparoRex : MonoBehaviour {
+public class DisparoRex : MonoBehaviour
+{
 
     public GameObject shotgunBullets;
     public GameObject rifleBullets;
@@ -16,7 +17,7 @@ public class DisparoRex : MonoBehaviour {
     public bool shotgunActive;
 
     public float bulletSpeed = 10;
-    
+
     public bool automaticWeapon;
 
     float reach;
@@ -25,30 +26,29 @@ public class DisparoRex : MonoBehaviour {
     GameObject bullets;
     bool canShoot;
 
-    void Start () {
+    void Start()
+    {
         canShoot = true;
 
         WeaponChange();
-       
+
     }
-	
-	void Update () {
-        if (GameManager.instance.Alive())
+
+    void Update()
+    {
+
+        if (Input.GetMouseButton(0) && canShoot && automaticWeapon)
         {
-            if (Input.GetMouseButton(0) && canShoot && automaticWeapon)
-            {
-                Disparo();
-                Invoke("NewBullet", rifleDelay);
+            Disparo();
+            Invoke("NewBullet", rifleDelay);
 
-            }
-
-            if (Input.GetMouseButtonUp(0) && !(automaticWeapon) && canShoot)
-            {
-                Disparo();
-                Invoke("NewBullet", shotgunDelay);
-            }
         }
 
+        if (Input.GetMouseButtonUp(0) && !(automaticWeapon) && canShoot)
+        {
+            Disparo();
+            Invoke("NewBullet", shotgunDelay);
+        }
     }
 
     void Disparo()

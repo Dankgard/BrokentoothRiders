@@ -5,17 +5,18 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
 
     public static GameManager instance = null;
 
     GameObject player;
 
     public int initialHealth = 100; //Vida al iniciar el juego
-    int currentHealth; //Vida a lo largo del nivel
+    public int currentHealth; //Vida a lo largo del nivel
 
     public int initialEnergy = 100;
-    int currentEnergy;
+    public int currentEnergy;
 
     bool alive = true;
 
@@ -39,7 +40,7 @@ public class GameManager : MonoBehaviour {
         currentEnergy = initialEnergy;
         player = GameObject.FindWithTag("Player").gameObject;
     }
-    
+
     public int Health()
     {
         return currentHealth;
@@ -51,7 +52,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void TakeDamage(int damage)
-    {       
+    {
         currentHealth -= damage; //resta el daño a la vida actual
 
         if (currentHealth > initialHealth)
@@ -77,9 +78,9 @@ public class GameManager : MonoBehaviour {
 
     public void Death()
     {
+        Destroy(player);
         alive = false;
         currentHealth = 0;
-        Destroy(player);
         Invoke("ReloadScene", 2);
     }
 
