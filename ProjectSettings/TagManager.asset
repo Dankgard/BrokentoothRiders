@@ -10,6 +10,8 @@ TagManager:
   - Bala
   - EnemyBullet
   - Caja
+  - DirCollision
+  - Boss
   layers:
   - Default
   - TransparentFX
