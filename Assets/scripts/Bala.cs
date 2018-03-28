@@ -24,6 +24,11 @@ public class Bala : MonoBehaviour {
             caja.TakeDamage(bulletDamage);
             Destroy(gameObject);
         }
+        else if(collider.gameObject.tag == "NPC")
+        {
+            Destroy(collider.gameObject);
+            Destroy(gameObject);
+        }
 
     }
 }
