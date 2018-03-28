@@ -33,6 +33,7 @@ public class DisparoBoss1 : MonoBehaviour {
         if (other.tag == "Player")
         {
             playerInRange = true;
+            mov.StartMoving();
         }
     }
     public void OnTriggerExit2D(Collider2D other)

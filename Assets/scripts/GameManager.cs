@@ -98,6 +98,19 @@ public class GameManager : MonoBehaviour
         return alive;
     }
 
+    public void StartLoadingScene(string escena)
+    {
+        StartCoroutine(LoadScene(escena));
+    }
+    
+    IEnumerator LoadScene(string escena)
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene(escena);
+    }
+
+
+
 
 
 }

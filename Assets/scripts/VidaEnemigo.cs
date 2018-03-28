@@ -11,6 +11,7 @@ public class VidaEnemigo : MonoBehaviour {
 
     public bool isBoss = false;
     public string escena;
+    bool cargando = false;
 
     private void Awake()
     {
@@ -21,10 +22,8 @@ public class VidaEnemigo : MonoBehaviour {
     {
         if (vida <= 0)
         {
+            GameManager.instance.StartLoadingScene(escena);
             Destroy(transform.parent.gameObject);
-
-            if(isBoss)
-                SceneManager.LoadScene(escena);
         }
     }
 
@@ -32,4 +31,5 @@ public class VidaEnemigo : MonoBehaviour {
     {
         vida -= damage;
     }
+
 }

@@ -12,6 +12,7 @@ TagManager:
   - Caja
   - DirCollision
   - Boss
+  - JumpLimit
   layers:
   - Default
   - TransparentFX
