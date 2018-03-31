@@ -192,7 +192,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4892655084146798, guid: 6e8c864657869e94fa3d2fac80ca9ecf, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -9.994755
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4892655084146798, guid: 6e8c864657869e94fa3d2fac80ca9ecf, type: 2}
       propertyPath: m_LocalRotation.x
@@ -214,30 +214,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
-    - target: {fileID: 61870962193384808, guid: 6e8c864657869e94fa3d2fac80ca9ecf,
+    - target: {fileID: 114797327029616492, guid: 6e8c864657869e94fa3d2fac80ca9ecf,
         type: 2}
-      propertyPath: m_Offset.x
-      value: -0.057227314
-      objectReference: {fileID: 0}
-    - target: {fileID: 61870962193384808, guid: 6e8c864657869e94fa3d2fac80ca9ecf,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1.7096194
-      objectReference: {fileID: 0}
-    - target: {fileID: 61870962193384808, guid: 6e8c864657869e94fa3d2fac80ca9ecf,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: -0.012016296
-      objectReference: {fileID: 0}
-    - target: {fileID: 61870962193384808, guid: 6e8c864657869e94fa3d2fac80ca9ecf,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 2.1295223
-      objectReference: {fileID: 0}
-    - target: {fileID: 212548381336308376, guid: 6e8c864657869e94fa3d2fac80ca9ecf,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 3
+      propertyPath: text
+      value: hola \n mundo \n adios
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e8c864657869e94fa3d2fac80ca9ecf, type: 2}

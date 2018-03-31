@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        text = text.Replace("\\n", "\n");
         textOffset = new Vector3(0, 4, 0);
 	}
 	

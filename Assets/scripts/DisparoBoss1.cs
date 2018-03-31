@@ -5,27 +5,13 @@ using UnityEngine;
 public class DisparoBoss1 : MonoBehaviour {
 
     public bool playerInRange = false;
-    public GameObject misilePrefab;
-    public GameObject missileSpawner;
-    GameObject player;
-    public Transform enemyTrans;
-
     public MovimientoBoss1 mov;
+    GameObject player;
 
-    public float shootingRate;
 
     // Use this for initialization
     void Start () {
         player = GameObject.FindWithTag("Player");
-    }
-	
-	// Update is called once per frame
-	void Update () {
-        if (playerInRange)
-        {
-
-        }
-
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -44,8 +30,4 @@ public class DisparoBoss1 : MonoBehaviour {
         }
     }
 
-    void Shoot()
-    {
-        Instantiate(misilePrefab, missileSpawner.transform.position, misilePrefab.transform.rotation);
-    }
 }
