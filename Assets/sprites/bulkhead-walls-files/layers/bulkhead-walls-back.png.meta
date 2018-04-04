@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 995ab7ab98009c44faade239c00214e7
+timeCreated: 1522859320
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bulkhead-walls-back_0
+    21300002: bulkhead-walls-back_1
+    21300004: bulkhead-walls-back_2
+    21300006: bulkhead-walls-back_3
+    21300008: bulkhead-walls-back_4
+    21300010: bulkhead-walls-back_5
+    21300012: bulkhead-walls-back_6
+    21300014: bulkhead-walls-back_7
+    21300016: bulkhead-walls-back_8
+    21300018: bulkhead-walls-back_9
+    21300020: bulkhead-walls-back_10
+    21300022: bulkhead-walls-back_11
+    21300024: bulkhead-walls-back_12
+    21300026: bulkhead-walls-back_13
+    21300028: bulkhead-walls-back_14
+    21300030: bulkhead-walls-back_15
+    21300032: bulkhead-walls-back_16
+    21300034: bulkhead-walls-back_17
+    21300036: bulkhead-walls-back_18
+    21300038: bulkhead-walls-back_19
+    21300040: bulkhead-walls-back_20
+    21300042: bulkhead-walls-back_21
+    21300044: bulkhead-walls-back_22
+    21300046: bulkhead-walls-back_23
+    21300048: bulkhead-walls-back_24
+    21300050: bulkhead-walls-back_25
+    21300052: bulkhead-walls-back_26
+    21300054: bulkhead-walls-back_27
+    21300056: bulkhead-walls-back_28
+    21300058: bulkhead-walls-back_29
+    21300060: bulkhead-walls-back_30
+    21300062: bulkhead-walls-back_31
+    21300064: bulkhead-walls-back_32
+    21300066: bulkhead-walls-back_33
+    21300068: bulkhead-walls-back_34
+    21300070: bulkhead-walls-back_35
+    21300072: bulkhead-walls-back_36
+    21300074: bulkhead-walls-back_37
+    21300076: bulkhead-walls-back_38
+    21300078: bulkhead-walls-back_39
+    21300080: bulkhead-walls-back_40
+    21300082: bulkhead-walls-back_41
+    21300084: bulkhead-walls-back_42
+    21300086: bulkhead-walls-back_43
+    21300088: bulkhead-walls-back_44
+    21300090: bulkhead-walls-back_45
+    21300092: bulkhead-walls-back_46
+    21300094: bulkhead-walls-back_47
+    21300096: bulkhead-walls-back_48
+    21300098: bulkhead-walls-back_49
+    21300100: bulkhead-walls-back_50
+    21300102: bulkhead-walls-back_51
+    21300104: bulkhead-walls-back_52
+    21300106: bulkhead-walls-back_53
+    21300108: bulkhead-walls-back_54
+    21300110: bulkhead-walls-back_55
+    21300112: bulkhead-walls-back_56
+    21300114: bulkhead-walls-back_57
+    21300116: bulkhead-walls-back_58
+    21300118: bulkhead-walls-back_59
+    21300120: bulkhead-walls-back_60
+    21300122: bulkhead-walls-back_61
+    21300124: bulkhead-walls-back_62
+    21300126: bulkhead-walls-back_63
+    21300128: bulkhead-walls-back_64
+    21300130: bulkhead-walls-back_65
+    21300132: bulkhead-walls-back_66
+    21300134: bulkhead-walls-back_67
+    21300136: bulkhead-walls-back_68
+    21300138: bulkhead-walls-back_69
+    21300140: bulkhead-walls-back_70
+    21300142: bulkhead-walls-back_71
+    21300144: bulkhead-walls-back_72
+    21300146: bulkhead-walls-back_73
+    21300148: bulkhead-walls-back_74
+    21300150: bulkhead-walls-back_75
+    21300152: bulkhead-walls-back_76
+    21300154: bulkhead-walls-back_77
+    21300156: bulkhead-walls-back_78
+    21300158: bulkhead-walls-back_79
+    21300160: bulkhead-walls-back_80
+    21300162: bulkhead-walls-back_81
+    21300164: bulkhead-walls-back_82
+    21300166: bulkhead-walls-back_83
+    21300168: bulkhead-walls-back_84
+    21300170: bulkhead-walls-back_85
+    21300172: bulkhead-walls-back_86
+    21300174: bulkhead-walls-back_87
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulkhead-walls-back_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 352
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
