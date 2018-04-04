@@ -20,3 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/level1_text.unity
     guid: 79fd0bc8c17877c45b9384b94e106667
+  - enabled: 1
+    path: Assets/scenes/level2_1.unity
+    guid: 8c2d0e9191d530d4e9c73096a8e3e7b0
+  - enabled: 1
+    path: Assets/scenes/level2_text.unity
+    guid: 04a009d00b300274d88660746484e59a
