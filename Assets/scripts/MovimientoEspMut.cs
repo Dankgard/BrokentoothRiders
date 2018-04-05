@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimientoMutante : MonoBehaviour
-{
+public class MovimientoEspMut : MonoBehaviour {
 
     public GameObject startPoint;
     public GameObject endPoint;
@@ -11,18 +10,16 @@ public class MovimientoMutante : MonoBehaviour
     public bool colisionPlayer = false;
 
     public float enemySpeed;
-    float triggeredSpeed;
 
     bool isGoingRight;
 
-    public AtaqueMutante rango;
+    public AtaqueEspMut rango;
 
     GameObject player;
 
     void Awake()
     {
-        rango = GetComponentInChildren<AtaqueMutante>();
-        triggeredSpeed = enemySpeed+3;
+        rango = GetComponentInChildren<AtaqueEspMut>();
     }
 
     void Start()
@@ -77,12 +74,10 @@ public class MovimientoMutante : MonoBehaviour
             if (player.transform.position.x <= transform.position.x)
             {
                 transform.localScale = new Vector3(1, 1, 1);
-                transform.position = Vector3.MoveTowards(transform.position, endPoint.transform.position, triggeredSpeed * Time.deltaTime);
             }
             else if (player.transform.position.x >= transform.position.x)
             {
                 transform.localScale = new Vector3(-1, 1, 1);
-                transform.position = Vector3.MoveTowards(transform.position, startPoint.transform.position, triggeredSpeed * Time.deltaTime);
             }
         }
     }
@@ -101,5 +96,5 @@ public class MovimientoMutante : MonoBehaviour
             colisionPlayer = false;
         }
     }
-}
 
+}
