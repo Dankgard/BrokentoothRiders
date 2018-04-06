@@ -9,11 +9,42 @@ public class AtaqueEspMut : MonoBehaviour
     public MovimientoEspMut mov;
     GameObject player;
 
+    public GameObject proyectil;
+
+    public float throwTime;
+    float throwCount;
+
+    public GameObject enemyTrans;
+
+    public float force;
+
 
     // Use this for initialization
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+    }
+
+    void Update()
+    {
+        if(playerInRange)
+        {
+            throwCount += Time.deltaTime;
+            if (throwCount >= throwTime && !mov.colisionPlayer)
+            {
+                GameObject proyectile = Instantiate(proyectil, enemyTrans.transform.position, Quaternion.identity);
+                Rigidbody2D rb = proyectile.GetComponent<Rigidbody2D>();
+                if (player.transform.position.x <= transform.position.x)
+                {
+                    rb.AddForce(new Vector2(-force, force));
+                }
+                else if (player.transform.position.x >= transform.position.x)
+                {
+                    rb.AddForce(new Vector2(force, force));
+                }
+                throwCount = 0;
+            }
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -30,5 +61,7 @@ public class AtaqueEspMut : MonoBehaviour
             playerInRange = false;
         }
     }
+
+
 
 }

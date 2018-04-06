@@ -11,6 +11,21 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1224364059186050}
   m_IsPrefabParent: 1
+--- !u!1 &1120558287125920
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4601559121489524}
+  m_Layer: 0
+  m_Name: shootPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5765324120231101433, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1224364059186050
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,8 +118,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4851427189859906}
+  - {fileID: 4601559121489524}
   m_Father: {fileID: 4842116734275500}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4601559121489524
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120558287125920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.21, y: 0.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4355782796145226}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4607407840488854
 Transform:
@@ -254,6 +283,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInRange: 0
   mov: {fileID: 114785927930855602}
+  proyectil: {fileID: 1244496950163594, guid: 498da9864a72c2f45858bb39f08ad1d0, type: 2}
+  throwTime: 2
+  enemyTrans: {fileID: 1120558287125920}
+  force: 3
 --- !u!212 &212271992590578904
 SpriteRenderer:
   m_ObjectHideFlags: 1
