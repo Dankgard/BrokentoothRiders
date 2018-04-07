@@ -268,9 +268,8 @@ MonoBehaviour:
   playerInRange: 0
   mov: {fileID: 114738200752163594}
   proyectil: {fileID: 1810560811909934, guid: 14201f751d256b54cab0513aa82e7429, type: 2}
-  throwTime: 2
+  throwTime: 1
   enemyTrans: {fileID: 1757779614976936}
-  force: 3
 --- !u!114 &114738200752163594
 MonoBehaviour:
   m_ObjectHideFlags: 1

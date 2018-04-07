@@ -18,7 +18,9 @@ public class Bala : MonoBehaviour {
         }
         else if (collider.gameObject.tag == "EnemyBullet")
             Destroy(gameObject);
-        else if(collider.gameObject.tag == "Caja")
+        else if(collider.gameObject.tag == "Proyectil")
+            Destroy(gameObject);
+        else if (collider.gameObject.tag == "Caja")
         {
             Caja caja = collider.GetComponent<Caja>();
             caja.TakeDamage(bulletDamage);

@@ -16,7 +16,7 @@ public class AtaqueEspMut : MonoBehaviour
 
     public GameObject enemyTrans;
 
-    public float force;
+    float force;
 
 
     // Use this for initialization
@@ -34,13 +34,14 @@ public class AtaqueEspMut : MonoBehaviour
             {
                 GameObject proyectile = Instantiate(proyectil, enemyTrans.transform.position, Quaternion.identity);
                 Rigidbody2D rb = proyectile.GetComponent<Rigidbody2D>();
+                force = Random.Range(4, 10);
                 if (player.transform.position.x <= transform.position.x)
                 {
-                    rb.AddForce(new Vector2(-force, force));
+                    rb.velocity = new Vector2(-force, force);
                 }
                 else if (player.transform.position.x >= transform.position.x)
                 {
-                    rb.AddForce(new Vector2(force, force));
+                    rb.velocity = new Vector2(force, force);
                 }
                 throwCount = 0;
             }
