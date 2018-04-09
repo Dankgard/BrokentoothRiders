@@ -7,6 +7,7 @@ public class CameraFollow : MonoBehaviour
 	[Header("Object to follow")]
 	// This is the object that the camera will follow
 	Transform target;
+    public float alejamiento = -10f;
 
 	private Vector3 lerpedPosition;
     void Start()
@@ -21,7 +22,7 @@ public class CameraFollow : MonoBehaviour
 		{
 			// Find the right position between the camera and the object
 			lerpedPosition = Vector3.Lerp(transform.position, target.position, Time.deltaTime * 10f);
-            lerpedPosition.z = -10f;
+            lerpedPosition.z = alejamiento;
 		}
 	}
 
