@@ -15,6 +15,7 @@ TagManager:
   - JumpLimit
   - NPC
   - Proyectil
+  - Aplastamiento
   layers:
   - Default
   - TransparentFX
