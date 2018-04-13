@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 7d009363eefc7e84683b485d70fd5122
-timeCreated: 1523545536
-licenseType: Free
+timeCreated: 1523612380
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: falconplatforms_0
@@ -143,12 +143,12 @@ TextureImporter:
       name: falconplatforms_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 21
         y: 480
-        width: 602
+        width: 189
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,26 +157,12 @@ TextureImporter:
       name: falconplatforms_1
       rect:
         serializedVersion: 2
-        x: 641
-        y: 321
-        width: 480
-        height: 319
+        x: 429
+        y: 480
+        width: 191
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: falconplatforms_2
-      rect:
-        serializedVersion: 2
-        x: 318
-        y: 321
-        width: 158
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,12 +171,12 @@ TextureImporter:
       name: falconplatforms_3
       rect:
         serializedVersion: 2
-        x: 68
-        y: 327
-        width: 181
-        height: 153
+        x: 69
+        y: 321
+        width: 180
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,12 +185,12 @@ TextureImporter:
       name: falconplatforms_4
       rect:
         serializedVersion: 2
-        x: 478
-        y: 321
-        width: 162
-        height: 159
+        x: 321
+        y: 319
+        width: 159
+        height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,12 +199,12 @@ TextureImporter:
       name: falconplatforms_6
       rect:
         serializedVersion: 2
-        x: 68
+        x: 71
         y: 159
-        width: 182
-        height: 168
+        width: 178
+        height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,10 +213,24 @@ TextureImporter:
       name: falconplatforms_7
       rect:
         serializedVersion: 2
-        x: 321
+        x: 319
         y: 160
         width: 481
-        height: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falconplatforms_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 481
+        width: 218
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

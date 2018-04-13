@@ -38,3 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/level3_text.unity
     guid: 661309ad326d75b45a77997bde8cc3fd
+  - enabled: 1
+    path: Assets/scenes/level4_1.unity
+    guid: 9b9ecca500fcc474aa0d037e87f4f5ba
+  - enabled: 1
+    path: Assets/scenes/level4_2.unity
+    guid: 3363c29365ea905478d5f09646c0683a
