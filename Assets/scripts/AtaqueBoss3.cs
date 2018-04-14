@@ -15,7 +15,7 @@ public class AtaqueBoss3 : MonoBehaviour {
 
     public GameObject enemyTrans;
 
-    float force;
+    public int maxShurikens;
 
 
     // Use this for initialization
@@ -31,17 +31,14 @@ public class AtaqueBoss3 : MonoBehaviour {
             throwCount += Time.deltaTime;
             if (throwCount >= throwTime && !mov.colisionPlayer)
             {
-                GameObject proyectile = Instantiate(proyectil, enemyTrans.transform.position, Quaternion.identity);
-                Rigidbody2D rb = proyectile.GetComponent<Rigidbody2D>();
-                force = Random.Range(4, 10);
-                if (player.transform.position.x <= transform.position.x)
+
+                for(int i=0;i<maxShurikens;i++)
                 {
-                    rb.velocity = new Vector2(-force, force);
+                    GameObject proyectile = Instantiate(proyectil, enemyTrans.transform.position, Quaternion.identity);
+                    Rigidbody2D rb = proyectile.GetComponent<Rigidbody2D>();
+                    rb.velocity = new Vector2(Random.Range(0,10), Random.Range(0, 10));
                 }
-                else if (player.transform.position.x >= transform.position.x)
-                {
-                    rb.velocity = new Vector2(force, force);
-                }
+
                 throwCount = 0;
             }
         }
