@@ -15,18 +15,26 @@ public class RotacionLaser : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
+        laser.localRotation = Quaternion.Euler(0f, 0f, degrees);
+                        
+
         if (direccion)
         {
-            laser.localRotation = Quaternion.Euler(0f, 0f, degrees);
+            degrees++;
         }
         else
-            laser.localRotation = Quaternion.Euler(0f, 0f, -degrees);
-
-        degrees++;
-        if (degrees >= 8)
-        {
             degrees--;
+
+
+        if (degrees >= 18)
+        {
+            direccion = false;
         }
-	}
+        else if (degrees <= -95)
+        {
+            direccion = true;
+        }
+    }
 }
-//-100 0 55
+//18 0 -95

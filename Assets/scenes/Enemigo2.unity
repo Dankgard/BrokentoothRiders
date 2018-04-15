@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laser: {fileID: 736987844}
   speed: 10
-  degrees: 1
+  degrees: -0.000000001
 --- !u!212 &736987843
 SpriteRenderer:
   m_ObjectHideFlags: 0

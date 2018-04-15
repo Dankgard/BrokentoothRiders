@@ -56,7 +56,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4156471976730562}
   m_Layer: 0
-  m_Name: JetpackEnemy
+  m_Name: jetpackEnemy
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
