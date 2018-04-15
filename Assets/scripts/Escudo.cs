@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Escudo : MonoBehaviour {
 
+    public int repulsionSpeed;
 	public int shieldLength;
     Transform player;
 
@@ -19,6 +20,26 @@ public class Escudo : MonoBehaviour {
         {
             BalaEnemiga bala = collision.GetComponent<BalaEnemiga>();
             bala.InvertSpeed();
+        }
+        else if(collision.gameObject.tag == "Proyectil")
+        {
+            Rigidbody2D rb = collision.GetComponent<Rigidbody2D>();
+            int velY = Random.Range(-5, 5);
+
+            if (player.localPosition.x < collision.transform.localPosition.x)
+            {
+                rb.velocity = new Vector2(repulsionSpeed, velY);
+                float angle = Mathf.Atan2(velY, -repulsionSpeed / 4) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+                GetComponent<SpriteRenderer>().flipY = true;
+            }
+            else
+            {
+                rb.velocity = new Vector2(-repulsionSpeed, velY);
+                float angle = Mathf.Atan2(velY, repulsionSpeed / 4) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+                GetComponent<SpriteRenderer>().flipY = false;
+            }
         }
     }
 
