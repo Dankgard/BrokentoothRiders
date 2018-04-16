@@ -16,6 +16,7 @@ TagManager:
   - NPC
   - Proyectil
   - Aplastamiento
+  - DireccLaser
   layers:
   - Default
   - TransparentFX

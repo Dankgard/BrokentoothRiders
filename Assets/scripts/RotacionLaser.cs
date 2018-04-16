@@ -8,6 +8,7 @@ public class RotacionLaser : MonoBehaviour {
     public float speed;
     public float degrees;
     bool direccion;
+    public int daño;
 	// Use this for initialization
 	void Start () {
         direccion = true;
@@ -15,26 +16,21 @@ public class RotacionLaser : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
-        laser.localRotation = Quaternion.Euler(0f, 0f, degrees);
+
+        degrees = degrees + (speed / 10);
+        laser.localRotation = Quaternion.Euler(0f, 0f, degrees);               
                         
-
-        if (direccion)
-        {
-            degrees++;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "DireccLaser")
+        {            
+            speed = -speed;
         }
-        else
-            degrees--;
 
-
-        if (degrees >= 18)
+        else if (collision.gameObject.tag == "Player")
         {
-            direccion = false;
-        }
-        else if (degrees <= -95)
-        {
-            direccion = true;
+            GameManager.instance.TakeDamage(daño);            
         }
     }
 }
-//18 0 -95
