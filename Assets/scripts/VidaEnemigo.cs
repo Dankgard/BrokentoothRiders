@@ -22,7 +22,8 @@ public class VidaEnemigo : MonoBehaviour {
     {
         if (vida <= 0)
         {
-            GameManager.instance.StartLoadingScene(escena);
+            if(isBoss)
+                GameManager.instance.StartLoadingScene(escena);
             Destroy(transform.parent.gameObject);
         }
     }
