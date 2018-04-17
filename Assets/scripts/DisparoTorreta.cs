@@ -16,7 +16,7 @@ public class DisparoTorreta : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        jugador = GameObject.FindWithTag("Player").GetComponent<Transform>();
 	}
 	
 	// Update is called once per frame
