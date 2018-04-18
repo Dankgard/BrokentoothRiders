@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class TextScene : MonoBehaviour {
     public string escena;
+    public int loadTime = 10;
 	// Use this for initialization
 	void Start () {
-        Invoke("LoadScene", 10);
+        Invoke("LoadScene", loadTime);
 	}
 	
 	void LoadScene()
