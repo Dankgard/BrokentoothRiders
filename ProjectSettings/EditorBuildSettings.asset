@@ -50,3 +50,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/level4_text.unity
     guid: a777142b8d9d61d40b7a34538913f7b0
+  - enabled: 1
+    path: Assets/scenes/level5_text.unity
+    guid: 27a98b2b45e1d664990f1aab4bce48b9
+  - enabled: 1
+    path: Assets/scenes/credits.unity
+    guid: 9bdb289f577a12247a6dcbff6689798c
+  - enabled: 1
+    path: Assets/scenes/level5_3.unity
+    guid: e20b65983ab5cc541ae51c9717b882f5
