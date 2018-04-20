@@ -5,6 +5,7 @@ using UnityEngine;
 public class DrakeMovimiento : MonoBehaviour {
 
     GameObject player;
+    public bool colisionPlayer = false;
 
     public float teleportTime;
     float throwCount;
@@ -12,16 +13,21 @@ public class DrakeMovimiento : MonoBehaviour {
     public GameObject teleporter;
     public float teleportDestroyTime;
 
+    public bool teleport = true;
+
     void Start () {
         player = GameObject.FindWithTag("Player");
 	}
 	
 	void Update () {
-        throwCount += Time.deltaTime;
-        if (throwCount >= teleportTime)
+        if (teleport)
         {
-            Teleport();
-            throwCount = 0;
+            throwCount += Time.deltaTime;
+            if (throwCount >= teleportTime)
+            {
+                Teleport();
+                throwCount = 0;
+            }
         }
 
         if (player.transform.position.x <= transform.position.x)
@@ -43,5 +49,20 @@ public class DrakeMovimiento : MonoBehaviour {
         int spawn = Random.Range(1, 9);
         spawnPoint = transform.parent.GetChild(1).GetChild(spawn);
         transform.position = new Vector2(spawnPoint.position.x, spawnPoint.position.y);       
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            colisionPlayer = true;
+        }
+    }
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            colisionPlayer = false;
+        }
     }
 }
