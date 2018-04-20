@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 343969527}
   - component: {fileID: 343969528}
   - component: {fileID: 343969529}
+  - component: {fileID: 343969530}
   m_Layer: 0
   m_Name: boss5
   m_TagString: Boss
@@ -363,9 +364,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7390abfd6b7eba14ba0016baa7b695f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  colisionPlayer: 0
   teleportTime: 5
   teleporter: {fileID: 1527033682567568, guid: 0975f5a927edc644aa23fc038db0e709, type: 2}
   teleportDestroyTime: 1
+  teleport: 1
+--- !u!114 &343969530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343969523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfdd2a13ef26cd4bbece5b819f5a8c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInRange: 0
+  proyectil: {fileID: 114661245900750702, guid: 1da2d33a9e1630f439faafda9e51ff79,
+    type: 2}
+  throwTime: 3
+  bulletTime: 0.3
+  bulletWaves: 5
+  bulletSpeed: 5
 --- !u!1 &398755552
 GameObject:
   m_ObjectHideFlags: 0
