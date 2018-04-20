@@ -16,6 +16,12 @@ public class Bala : MonoBehaviour {
             enemigo.TakeDamage(bulletDamage);
             Destroy(gameObject);
         }
+        else if(collider.gameObject.tag == "FinalBoss")
+        {
+            DrakeVida boss = collider.gameObject.GetComponent<DrakeVida>();
+            boss.TakeDamage(bulletDamage);
+            Destroy(gameObject);
+        }
         else if (collider.gameObject.tag == "Caja")
         {
             Caja caja = collider.GetComponent<Caja>();
@@ -27,6 +33,5 @@ public class Bala : MonoBehaviour {
             Destroy(collider.gameObject);
             Destroy(gameObject);
         }
-
     }
 }

@@ -31,6 +31,10 @@ public class DrakeBala : MonoBehaviour {
         }
         else if (collision.gameObject.tag == "Bala")
             Destroy(gameObject);
+        else if(collision.gameObject.tag == "BulletDestroyer")
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void InvertSpeed()

@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class DrakeVida : MonoBehaviour {
 
-    public float vidaInicial;
-    float vida;
-    float vidaFase;
+    public int vidaInicial;
+    public int vida;
+    int vidaFase2;
+    int vidaFase3;
 
     public bool isBoss = false;
     public string escena;
@@ -17,18 +18,21 @@ public class DrakeVida : MonoBehaviour {
     private void Awake()
     {
         vida = vidaInicial;
-        vidaFase = vidaInicial / 3;
+        vidaFase2 = vidaInicial / 3 * 2;
+        vidaFase3 = vidaInicial / 3;
     }
-    // Update is called once per frame
+
     void Update()
     {
-        if(vida<=1000 && fase == 1)
+        if(vida<=vidaFase2 && fase == 1)
         {
             fase = 2;
+            SpawnTurrets();
         }
-        else if (vida<=500 && fase == 2)
+        else if (vida<=vidaFase3 && fase == 2)
         {
             fase = 3;
+            SpawnLasers();
         }
 
         if (vida <= 0)
@@ -42,5 +46,15 @@ public class DrakeVida : MonoBehaviour {
     public void TakeDamage(int damage)
     {
         vida -= damage;
+    }
+
+    void SpawnTurrets()
+    {
+        transform.parent.GetChild(2).gameObject.SetActive(true);
+    }
+
+    void SpawnLasers()
+    {
+        transform.GetChild(0).gameObject.SetActive(true);
     }
 }

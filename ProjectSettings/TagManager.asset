@@ -17,6 +17,8 @@ TagManager:
   - Proyectil
   - Aplastamiento
   - DireccLaser
+  - FinalBoss
+  - BulletDestroyer
   layers:
   - Default
   - TransparentFX

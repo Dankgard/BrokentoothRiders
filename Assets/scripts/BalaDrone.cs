@@ -40,24 +40,4 @@ public class BalaDrone : MonoBehaviour {
         else if (collision.gameObject.tag == "Bala")
             Destroy(gameObject);
     }
-
-    public void InvertSpeed()
-    {
-        int velY = Random.Range(-5, 5);
-
-        if (player.localPosition.x < transform.localPosition.x)
-        {
-            missileRB.velocity = new Vector2(speed, velY);
-            float angle = Mathf.Atan2(velY, -speed / 4) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            GetComponent<SpriteRenderer>().flipY = true;
-        }
-        else
-        {
-            missileRB.velocity = new Vector2(-speed, velY);
-            float angle = Mathf.Atan2(velY, speed / 4) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            GetComponent<SpriteRenderer>().flipY = false;
-        }
-    }
 }

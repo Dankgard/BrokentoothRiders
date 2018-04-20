@@ -16,12 +16,7 @@ public class Escudo : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "EnemyBullet")
-        {
-            BalaEnemiga bala = collision.GetComponent<BalaEnemiga>();
-            bala.InvertSpeed();
-        }
-        else if(collision.gameObject.tag == "Proyectil")
+        if(collision.gameObject.tag == "Proyectil" || collision.gameObject.tag == "EnemyBullet")
         {
             Rigidbody2D rb = collision.GetComponent<Rigidbody2D>();
             int velY = Random.Range(-5, 5);
