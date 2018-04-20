@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23021df704520db40b2020a7fc59baf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionDamage: 500
+  explosionDamage: 50
   destroyTime: 1
 --- !u!212 &212123864494222118
 SpriteRenderer:

@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d7c528f7e0bb04986d811a6dc26a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletDamage: 25
+  bulletDamage: 10
 --- !u!212 &212113287015401720
 SpriteRenderer:
   m_ObjectHideFlags: 1
