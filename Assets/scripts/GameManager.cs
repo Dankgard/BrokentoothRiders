@@ -40,6 +40,13 @@ public class GameManager : MonoBehaviour
         currentEnergy = initialEnergy;
         player = GameObject.FindWithTag("Player").gameObject;
     }
+    public void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+    }
 
     public int Health()
     {
