@@ -18,7 +18,7 @@ public class DrakeBala : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         Destroy(gameObject, vidaBala);
         missileRB = GetComponent<Rigidbody2D>();
-        boss = GameObject.FindWithTag("Boss").GetComponent<Transform>();
+        boss = GameObject.FindWithTag("FinalBoss").GetComponent<Transform>();
 	}
 	
 	
