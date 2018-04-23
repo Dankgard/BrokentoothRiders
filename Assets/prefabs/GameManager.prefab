@@ -52,4 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialHealth: 100
-  initialEnergy: 20
+  currentHealth: 0
+  initialEnergy: 25
+  currentEnergy: 0

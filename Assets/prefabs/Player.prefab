@@ -186,7 +186,7 @@ MonoBehaviour:
   shotgunReach: 1
   rifleReach: 2
   shotgunActive: 0
-  bulletSpeed: 10
+  bulletSpeed: 15
   automaticWeapon: 0
 --- !u!212 &212171147118025832
 SpriteRenderer:
