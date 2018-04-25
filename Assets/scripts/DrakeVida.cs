@@ -55,6 +55,6 @@ public class DrakeVida : MonoBehaviour {
 
     void SpawnLasers()
     {
-        transform.GetChild(0).gameObject.SetActive(true);
+        transform.parent.GetChild(3).gameObject.SetActive(true);
     }
 }

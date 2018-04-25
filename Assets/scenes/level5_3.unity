@@ -242,6 +242,25 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 59995377}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &270760616 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1243064739464872, guid: 55110c663637ad040bf0901661ccd833,
+    type: 2}
+  m_PrefabInternal: {fileID: 1790143128}
+--- !u!114 &270760620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270760616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f002e738857e9344fa862c93ef4aa99d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaInicial: 200
+  isBoss: 0
+  escena: 
 --- !u!1001 &310071778
 Prefab:
   m_ObjectHideFlags: 0
@@ -285,6 +304,11 @@ Prefab:
         type: 2}
       propertyPath: initialHealth
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114323081480820060, guid: 54bf68457b787514da7bc57cdca902b7,
+        type: 2}
+      propertyPath: initialEnergy
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 54bf68457b787514da7bc57cdca902b7, type: 2}
@@ -385,8 +409,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.7, y: -3.3, z: 0.3203125}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 957353011}
+  m_Children: []
   m_Father: {fileID: 605188604}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -717,6 +740,7 @@ Transform:
   - {fileID: 343969526}
   - {fileID: 1547679345}
   - {fileID: 4370720}
+  - {fileID: 957353011}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -817,6 +841,25 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 747965604}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &833955848 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1243064739464872, guid: 55110c663637ad040bf0901661ccd833,
+    type: 2}
+  m_PrefabInternal: {fileID: 1986996147}
+--- !u!114 &833955852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 833955848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f002e738857e9344fa862c93ef4aa99d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaInicial: 200
+  isBoss: 0
+  escena: 
 --- !u!4 &924861178 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4812394894545090, guid: f4b1bd92f06051c498befa43bdf592db,
@@ -894,7 +937,7 @@ GameObject:
   m_Layer: 0
   m_Name: Lasers
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5765324120231101433, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
@@ -905,15 +948,15 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957353010}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.11, y: 0.32, z: -0.3203125}
+  m_LocalPosition: {x: -5.5899997, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 421948162}
   - {fileID: 2040622258}
   - {fileID: 933439239}
   - {fileID: 924861178}
-  m_Father: {fileID: 343969526}
-  m_RootOrder: 0
+  m_Father: {fileID: 605188604}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &990742651
 Prefab:
@@ -990,6 +1033,25 @@ Prefab:
     - {fileID: 114089660583060446, guid: 55110c663637ad040bf0901661ccd833, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 55110c663637ad040bf0901661ccd833, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1035714289 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1243064739464872, guid: 55110c663637ad040bf0901661ccd833,
+    type: 2}
+  m_PrefabInternal: {fileID: 990742651}
+--- !u!114 &1035714293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1035714289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f002e738857e9344fa862c93ef4aa99d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaInicial: 200
+  isBoss: 0
+  escena: 
 --- !u!1 &1175847384
 GameObject:
   m_ObjectHideFlags: 0
@@ -32299,6 +32361,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a104c4287875fd345a82e8c0c1b4d42f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1461486004 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1243064739464872, guid: 55110c663637ad040bf0901661ccd833,
+    type: 2}
+  m_PrefabInternal: {fileID: 599958639}
+--- !u!114 &1461486008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461486004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f002e738857e9344fa862c93ef4aa99d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaInicial: 200
+  isBoss: 0
+  escena: 
 --- !u!1 &1461539381
 GameObject:
   m_ObjectHideFlags: 0

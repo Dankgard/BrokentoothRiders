@@ -2482,7 +2482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e453d0e978010d8499c60b1d81c7916c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: finaldemo
+  escena: level1_3
 --- !u!61 &656109600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2918,6 +2918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d407968fb1d6e904cbcc8950916cec23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alejamiento: -10
 --- !u!4 &777476311 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4484799279525984, guid: 2897176b53be8f847ab82d806e9095d2,
