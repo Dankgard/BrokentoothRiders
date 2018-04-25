@@ -22,6 +22,7 @@ TagManager:
   - GameManager
   - healthbar
   - energybar
+  - actualweapon
   layers:
   - Default
   - TransparentFX

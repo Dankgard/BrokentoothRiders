@@ -26,10 +26,12 @@ public class DisparoRex : MonoBehaviour
     GameObject bullets;
     bool canShoot;
 
+    ArmaJugador spriteArma;
+
     void Start()
     {
         canShoot = true;
-
+        spriteArma = GameObject.FindWithTag("actualweapon").GetComponent<ArmaJugador>();
         WeaponChange();
 
     }
@@ -89,5 +91,6 @@ public class DisparoRex : MonoBehaviour
             delay = rifleDelay;
             automaticWeapon = true;
         }
+        spriteArma.LoadWeapon(shotgunActive);
     }
 }
