@@ -19,6 +19,7 @@ TagManager:
   - DireccLaser
   - FinalBoss
   - BulletDestroyer
+  - GameManager
   layers:
   - Default
   - TransparentFX

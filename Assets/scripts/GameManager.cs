@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public int initialEnergy = 100;
     public int currentEnergy;
 
+
     bool alive = true;
 
     void Awake()
@@ -46,6 +47,7 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene("Menu Principal");
         }
+
     }
 
     public int Health()

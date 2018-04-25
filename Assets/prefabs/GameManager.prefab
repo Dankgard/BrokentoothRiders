@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114323081480820060}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,3 +55,5 @@ MonoBehaviour:
   currentHealth: 0
   initialEnergy: 25
   currentEnergy: 0
+  healthBar: {fileID: 0}
+  energyBar: {fileID: 0}

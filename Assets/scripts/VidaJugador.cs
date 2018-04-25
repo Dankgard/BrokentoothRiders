@@ -6,15 +6,23 @@ using UnityEngine.UI;
 public class VidaJugador : MonoBehaviour {
 
     Text vida;
+    SimpleHealthBar healthBar;
+
+    GameManager manager;
 
     void Start()
     {
         vida = GetComponent<Text>();
+        manager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
+        healthBar = GetComponent<SimpleHealthBar>();
+
+
     }
 
     void Update()
     {
-        vida.text = "Health: " + GameManager.instance.Health();
+        healthBar.UpdateBar(manager.currentHealth, manager.initialHealth);
+
 
     }
 }
