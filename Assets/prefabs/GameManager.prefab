@@ -55,5 +55,3 @@ MonoBehaviour:
   currentHealth: 0
   initialEnergy: 25
   currentEnergy: 0
-  healthBar: {fileID: 0}
-  energyBar: {fileID: 0}
