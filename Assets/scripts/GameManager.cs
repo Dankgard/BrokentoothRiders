@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("Menu Principal");
         }
     }
 
