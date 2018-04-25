@@ -17,8 +17,8 @@ using UnityEngine.UI;
 	
 	void Update () {
         if (manager.currentEnergy < player.gasto)
-            habilidades.color = new Color(habilidades.color.r, habilidades.color.g, habilidades.color.b, 15);
+            habilidades.color = Color.grey;
         else
-            habilidades.color = new Color(habilidades.color.r, habilidades.color.g, habilidades.color.b, 255);
+            habilidades.color = Color.white;
     }
 }
