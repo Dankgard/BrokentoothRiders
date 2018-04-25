@@ -19,10 +19,8 @@ public class VidaJugador : MonoBehaviour {
 
     }
 
-    void Update()
+    public void LoadHealth()
     {
         healthBar.UpdateBar(manager.currentHealth, manager.initialHealth);
-
-
     }
 }

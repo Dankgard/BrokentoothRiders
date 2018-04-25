@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     public int initialEnergy = 100;
     public int currentEnergy;
 
+    VidaJugador vida;
+    EnergiaJugador energia;
+
 
     bool alive = true;
 
@@ -40,6 +43,9 @@ public class GameManager : MonoBehaviour
         currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
         currentEnergy = initialEnergy;
         player = GameObject.FindWithTag("Player").gameObject;
+        vida = GameObject.FindWithTag("healthbar").GetComponent<VidaJugador>();
+        energia = GameObject.FindWithTag("energybar").GetComponent<EnergiaJugador>();
+
     }
     void Update()
     {
@@ -69,6 +75,8 @@ public class GameManager : MonoBehaviour
             currentHealth = initialHealth;
         }
 
+        vida.LoadHealth();
+
         if (currentHealth <= 0 && alive) //si la vida es igual o menor a 0, llama al método Death
         {
             Death();
@@ -83,6 +91,8 @@ public class GameManager : MonoBehaviour
         {
             currentEnergy = initialEnergy;
         }
+
+        energia.LoadEnergy();
     }
 
     public void Death()

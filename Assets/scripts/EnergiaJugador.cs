@@ -19,9 +19,8 @@ public class EnergiaJugador : MonoBehaviour
 
     }
 
-    void Update()
+    public void LoadEnergy()
     {
         energyBar.UpdateBar(manager.currentEnergy, manager.initialEnergy);
-
     }
 }
