@@ -5,22 +5,36 @@ using UnityEngine.UI;
 
 public class VidaJugador : MonoBehaviour {
 
-    Text vida;
-    SimpleHealthBar healthBar;
 
     GameManager manager;
 
+    Image barImage;
+    public Color barColor = Color.white;
+
+
+    float currentFraction = 1.0f;
+    float imageFill = 0.0f;
+
     void Start()
     {
-        vida = GetComponent<Text>();
         manager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
-        healthBar = GetComponent<SimpleHealthBar>();
-
-
+        barImage = GetComponent<Image>();
     }
 
     public void LoadHealth()
     {
-        healthBar.UpdateBar(manager.currentHealth, manager.initialHealth);
+        UpdateBar(manager.currentHealth, manager.initialHealth);
+    }
+
+    void UpdateBar(float currentValue, float maxValue)
+    {
+        currentFraction = currentValue / maxValue;
+
+        if (currentFraction < 0 || currentFraction > 1)
+            currentFraction = currentFraction < 0 ? 0 : 1;
+
+        imageFill = currentFraction;
+
+        barImage.fillAmount = imageFill;
     }
 }

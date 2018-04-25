@@ -56,7 +56,6 @@ GameObject:
   - component: {fileID: 224618319421144338}
   - component: {fileID: 222937090993402346}
   - component: {fileID: 114707889586817568}
-  - component: {fileID: 114821121175248446}
   - component: {fileID: 114688170444889402}
   m_Layer: 5
   m_Name: healthbar
@@ -75,7 +74,6 @@ GameObject:
   - component: {fileID: 224860364037717532}
   - component: {fileID: 222366961620158382}
   - component: {fileID: 114016712404074348}
-  - component: {fileID: 114447357817115512}
   - component: {fileID: 114004341391641518}
   m_Layer: 5
   m_Name: energybar
@@ -95,6 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f363caf0f0cb524fb7d424ddfede431, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barColor: {r: 0.039215688, g: 0.83921576, b: 0.91372555, a: 1}
 --- !u!114 &114016712404074348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -170,52 +169,6 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &114447357817115512
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1947610753227286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1310e65397a274d44a776b51d6937f61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  barImage: {fileID: 114016712404074348}
-  colorMode: 0
-  barColor: {r: 0.040224895, g: 0.8396372, b: 0.9117647, a: 1}
-  barGradient:
-    serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  displayText: 0
-  barText: {fileID: 0}
-  additionalText: 
 --- !u!114 &114688170444889402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -227,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ccfc027e55d68d43b09de80a7362ed7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barColor: {r: 0.8470589, g: 0, b: 0, a: 1}
 --- !u!114 &114707889586817568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -270,52 +224,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &114821121175248446
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1856473427643502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1310e65397a274d44a776b51d6937f61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  barImage: {fileID: 114707889586817568}
-  colorMode: 0
-  barColor: {r: 0.8455882, g: 0, b: 0, a: 1}
-  barGradient:
-    serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  displayText: 3
-  barText: {fileID: 0}
-  additionalText: 
 --- !u!222 &222063655378653416
 CanvasRenderer:
   m_ObjectHideFlags: 1
