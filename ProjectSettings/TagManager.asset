@@ -19,6 +19,10 @@ TagManager:
   - DireccLaser
   - FinalBoss
   - BulletDestroyer
+  - GameManager
+  - healthbar
+  - energybar
+  - actualweapon
   layers:
   - Default
   - TransparentFX
