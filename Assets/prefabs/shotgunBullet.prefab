@@ -19,10 +19,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4589212933871674}
-  - component: {fileID: 61888280153467174}
   - component: {fileID: 50063610397781412}
   - component: {fileID: 114311527958217886}
   - component: {fileID: 212673042040476540}
+  - component: {fileID: 58295410604712242}
   m_Layer: 0
   m_Name: shotgunBullet
   m_TagString: Bala
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1081010363384196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.09, y: 1.49, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: 20.3579, y: 6.9259, z: 0}
+  m_LocalScale: {x: 0.05252944, y: 0.05154924, z: 0.94277}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -63,8 +63,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61888280153467174
-BoxCollider2D:
+--- !u!58 &58295410604712242
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -75,19 +75,9 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
-    newSize: {x: 20, y: 20}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: 0, y: 0.0000029811947}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Radius: 3.9945235
 --- !u!114 &114311527958217886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -99,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 249d48b6ea2ebd1458dfd45aeddff271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletDamage: 50
+  bulletDamage: 70
 --- !u!212 &212673042040476540
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -182,7 +182,7 @@ MonoBehaviour:
   rifleBullets: {fileID: 1587282477301944, guid: e05ad3b9bee2b654ebae3aafbad68008,
     type: 2}
   rifleDelay: 0.3
-  shotgunDelay: 1
+  shotgunDelay: 0.5
   shotgunReach: 1
   rifleReach: 2
   shotgunActive: 0

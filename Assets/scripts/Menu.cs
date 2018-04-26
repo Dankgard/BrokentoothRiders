@@ -14,6 +14,10 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene("level1_2");
     }
+    public void Leve1_3()
+    {
+        SceneManager.LoadScene("level1_3");
+    }
     public void Leve2_1()
     {
         SceneManager.LoadScene("level2_1");
@@ -21,7 +25,7 @@ public class Menu : MonoBehaviour {
     public void Leve2_2()
     {
         SceneManager.LoadScene("level2_2");
-    }
+    }    
     public void Leve3_1()
     {
         SceneManager.LoadScene("level3_1");
@@ -29,6 +33,10 @@ public class Menu : MonoBehaviour {
     public void Leve3_2()
     {
         SceneManager.LoadScene("level3_2");
+    }
+    public void Leve3_3()
+    {
+        SceneManager.LoadScene("level3_3");
     }
     public void Leve4_1()
     {
@@ -38,6 +46,10 @@ public class Menu : MonoBehaviour {
     {
         SceneManager.LoadScene("level4_2");
     }
+    public void Leve4_3()
+    {
+        SceneManager.LoadScene("level4_3");
+    }
     public void Leve5_1()
     {
         SceneManager.LoadScene("level5_1");
@@ -45,6 +57,10 @@ public class Menu : MonoBehaviour {
     public void Leve5_2()
     {
         SceneManager.LoadScene("level5_2");
+    }
+    public void Leve5_3()
+    {
+        SceneManager.LoadScene("level5_3");
     }
     public void Exit()
     {
