@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
 
 
     bool alive = true;
+    public bool interfaz = true;
 
     void Awake()
     {
@@ -39,12 +40,14 @@ public class GameManager : MonoBehaviour
             // Si ya existe un objeto GameManager, no necesitamos uno nuevo
             Destroy(this.gameObject);
         }
-
-        currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
-        currentEnergy = initialEnergy;
-        player = GameObject.FindWithTag("Player").gameObject;
-        vida = GameObject.FindWithTag("healthbar").GetComponent<VidaJugador>();
-        energia = GameObject.FindWithTag("energybar").GetComponent<EnergiaJugador>();
+        if (interfaz)
+        {
+            currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
+            currentEnergy = initialEnergy;
+            player = GameObject.FindWithTag("Player").gameObject;
+            vida = GameObject.FindWithTag("healthbar").GetComponent<VidaJugador>();
+            energia = GameObject.FindWithTag("energybar").GetComponent<EnergiaJugador>();
+        }       
 
     }
     void Update()
