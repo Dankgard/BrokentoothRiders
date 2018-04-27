@@ -38,4 +38,9 @@ public class EnergiaJugador : MonoBehaviour
 
         barImage.fillAmount = imageFill;
     }
+
+    public void Reload(float maxValue)
+    {
+        barImage.fillAmount = maxValue;
+    }
 }

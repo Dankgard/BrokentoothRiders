@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
     VidaJugador vida;
     EnergiaJugador energia;
 
-
     bool alive = true;
     public bool interfaz = true;
 
@@ -40,11 +39,11 @@ public class GameManager : MonoBehaviour
             // Si ya existe un objeto GameManager, no necesitamos uno nuevo
             Destroy(this.gameObject);
         }
-        if (interfaz)
+        currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
+        currentEnergy = initialEnergy;
+        player = GameObject.FindWithTag("Player").gameObject;
+        if (SceneManager.GetActiveScene().name != "level2_1")
         {
-            currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
-            currentEnergy = initialEnergy;
-            player = GameObject.FindWithTag("Player").gameObject;
             vida = GameObject.FindWithTag("healthbar").GetComponent<VidaJugador>();
             energia = GameObject.FindWithTag("energybar").GetComponent<EnergiaJugador>();
         }       
@@ -113,6 +112,8 @@ public class GameManager : MonoBehaviour
         alive = true;
         int scene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
+        vida.Reload(initialHealth);
+        energia.Reload(initialEnergy);
     }
 
     public bool Alive()

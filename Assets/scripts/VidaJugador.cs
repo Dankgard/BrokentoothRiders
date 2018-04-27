@@ -37,4 +37,9 @@ public class VidaJugador : MonoBehaviour {
 
         barImage.fillAmount = imageFill;
     }
+
+    public void Reload(float maxValue)
+    {
+        barImage.fillAmount = maxValue;
+    }
 }
