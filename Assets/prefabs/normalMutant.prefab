@@ -254,6 +254,7 @@ MonoBehaviour:
   vidaInicial: 100
   isBoss: 0
   escena: 
+  name: RUNNER
 --- !u!212 &212257596165256620
 SpriteRenderer:
   m_ObjectHideFlags: 1

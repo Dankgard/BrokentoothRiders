@@ -254,6 +254,7 @@ MonoBehaviour:
   vidaInicial: 100
   isBoss: 0
   escena: 
+  name: TORRIO
 --- !u!114 &114785927930855602
 MonoBehaviour:
   m_ObjectHideFlags: 1

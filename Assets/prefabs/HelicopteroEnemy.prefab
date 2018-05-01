@@ -329,6 +329,7 @@ MonoBehaviour:
   vidaInicial: 300
   isBoss: 0
   escena: 
+  name: HELICOPTERO
 --- !u!212 &212357788727339300
 SpriteRenderer:
   m_ObjectHideFlags: 1

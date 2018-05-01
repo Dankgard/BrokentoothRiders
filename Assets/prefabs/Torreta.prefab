@@ -277,6 +277,7 @@ MonoBehaviour:
   vidaInicial: 200
   isBoss: 0
   escena: 
+  name: TORRETA
 --- !u!114 &114716576786907648
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -254,6 +254,7 @@ MonoBehaviour:
   vidaInicial: 100
   isBoss: 0
   escena: 
+  name: TITAN
 --- !u!114 &114599601003132094
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -11,7 +11,6 @@ public class VidaJugador : MonoBehaviour {
     Image barImage;
     public Color barColor = Color.white;
 
-
     float currentFraction = 1.0f;
     float imageFill = 0.0f;
 

@@ -304,6 +304,7 @@ MonoBehaviour:
   vidaInicial: 500
   isBoss: 1
   escena: level3_text
+  name: VLAD
 --- !u!212 &212051987576157416
 SpriteRenderer:
   m_ObjectHideFlags: 1

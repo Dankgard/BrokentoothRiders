@@ -457,6 +457,7 @@ MonoBehaviour:
   vidaInicial: 400
   isBoss: 1
   escena: level1_text
+  name: ED
 --- !u!114 &114846329724882858
 MonoBehaviour:
   m_ObjectHideFlags: 1

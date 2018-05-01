@@ -389,6 +389,7 @@ MonoBehaviour:
   vidaInicial: 100
   isBoss: 0
   escena: 
+  name: DRON
 --- !u!114 &114823641918660026
 MonoBehaviour:
   m_ObjectHideFlags: 1

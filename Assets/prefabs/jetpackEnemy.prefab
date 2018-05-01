@@ -254,6 +254,7 @@ MonoBehaviour:
   vidaInicial: 50
   isBoss: 0
   escena: 
+  name: HOMBRE JETPACK
 --- !u!114 &114412959457855178
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -287,6 +287,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaInicial: 50
+  isBoss: 0
+  escena: 
+  name: HOMBRE ESCOPETA
 --- !u!212 &212237691442054020
 SpriteRenderer:
   m_ObjectHideFlags: 1

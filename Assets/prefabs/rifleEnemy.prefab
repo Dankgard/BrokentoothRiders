@@ -287,6 +287,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaInicial: 100
+  isBoss: 0
+  escena: 
+  name: HOMBRE RIFLE
 --- !u!212 &212919946751428692
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -261,6 +261,8 @@ MonoBehaviour:
   vidaInicial: 200
   isBoss: 0
   escena: 
+  name: 
+  imageFill: 0
 --- !u!1001 &310071778
 Prefab:
   m_ObjectHideFlags: 0
@@ -429,6 +431,8 @@ MonoBehaviour:
   isBoss: 1
   escena: level5_text
   fase: 1
+  name: DRAKE
+  imageFill: 0
 --- !u!60 &343969528
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -860,6 +864,8 @@ MonoBehaviour:
   vidaInicial: 200
   isBoss: 0
   escena: 
+  name: 
+  imageFill: 0
 --- !u!4 &924861178 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4812394894545090, guid: f4b1bd92f06051c498befa43bdf592db,
@@ -1052,6 +1058,8 @@ MonoBehaviour:
   vidaInicial: 200
   isBoss: 0
   escena: 
+  name: 
+  imageFill: 0
 --- !u!1 &1175847384
 GameObject:
   m_ObjectHideFlags: 0
@@ -27214,6 +27222,8 @@ MonoBehaviour:
   vidaInicial: 200
   isBoss: 0
   escena: 
+  name: 
+  imageFill: 0
 --- !u!1 &1461539381
 GameObject:
   m_ObjectHideFlags: 0
@@ -27455,42 +27465,6 @@ Prefab:
     - {fileID: 114089660583060446, guid: 55110c663637ad040bf0901661ccd833, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 55110c663637ad040bf0901661ccd833, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1800815892 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1683080938071934, guid: a104c4287875fd345a82e8c0c1b4d42f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1438896950}
---- !u!328 &1800815897
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1800815892}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: c1e9be2d62a8f1949a13850bf29bd82a, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 0}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 1
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
-  m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
 --- !u!1 &1912183483
 GameObject:
   m_ObjectHideFlags: 0

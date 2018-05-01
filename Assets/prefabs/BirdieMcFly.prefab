@@ -272,6 +272,7 @@ MonoBehaviour:
   vidaInicial: 500
   isBoss: 1
   escena: level4_text
+  name: BIRDIE
 --- !u!114 &114223033867445064
 MonoBehaviour:
   m_ObjectHideFlags: 1
