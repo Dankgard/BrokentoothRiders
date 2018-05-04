@@ -255,6 +255,9 @@ MonoBehaviour:
   isBoss: 0
   escena: 
   name: RUNNER
+  imageFill: 0
+  explosion: {fileID: 114946684198696308, guid: d4ead8b90963c704aad688bf0b98cf9d,
+    type: 2}
 --- !u!212 &212257596165256620
 SpriteRenderer:
   m_ObjectHideFlags: 1

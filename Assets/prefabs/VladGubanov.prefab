@@ -305,6 +305,9 @@ MonoBehaviour:
   isBoss: 1
   escena: level3_text
   name: VLAD
+  imageFill: 0
+  explosion: {fileID: 114946684198696308, guid: d4ead8b90963c704aad688bf0b98cf9d,
+    type: 2}
 --- !u!212 &212051987576157416
 SpriteRenderer:
   m_ObjectHideFlags: 1

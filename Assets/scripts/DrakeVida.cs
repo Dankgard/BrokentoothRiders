@@ -24,6 +24,8 @@ public class DrakeVida : MonoBehaviour {
     Text enemyName;
     Image barImage;
 
+    public ExplosionNoLetal explosion;
+
     private void Awake()
     {
         vida = vidaInicial;
@@ -52,6 +54,7 @@ public class DrakeVida : MonoBehaviour {
                 GameManager.instance.StartLoadingScene(escena);
             barImage.fillAmount = 0;
             enemyName.text = "";
+            ExplosionNoLetal boom = Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(transform.parent.gameObject);
         }
     }

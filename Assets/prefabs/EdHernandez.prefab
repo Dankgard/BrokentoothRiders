@@ -458,6 +458,9 @@ MonoBehaviour:
   isBoss: 1
   escena: level1_text
   name: ED
+  imageFill: 0
+  explosion: {fileID: 114946684198696308, guid: d4ead8b90963c704aad688bf0b98cf9d,
+    type: 2}
 --- !u!114 &114846329724882858
 MonoBehaviour:
   m_ObjectHideFlags: 1

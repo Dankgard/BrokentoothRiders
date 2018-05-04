@@ -22,6 +22,8 @@ public class VidaEnemigo : MonoBehaviour {
     Text enemyName;
     Image barImage;
 
+    public ExplosionNoLetal explosion;
+
     private void Awake()
     {
         enemyName = GameObject.FindWithTag("enemyName").GetComponent<Text>();
@@ -37,6 +39,7 @@ public class VidaEnemigo : MonoBehaviour {
                 GameManager.instance.StartLoadingScene(escena);
             barImage.fillAmount = 0;
             enemyName.text = "";
+            ExplosionNoLetal boom = Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(transform.parent.gameObject);
         }
     }

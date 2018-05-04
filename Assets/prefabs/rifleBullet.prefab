@@ -100,6 +100,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDamage: 15
+  blood1: {fileID: 1639302781336242, guid: e0bfa9b81ee5b934f8e56f07773603a5, type: 2}
+  blood2: {fileID: 1912764030246974, guid: 21247bca1bca87447bc022ca84b2ecc5, type: 2}
+  blood3: {fileID: 1772519992852720, guid: fdabc6948d24e8e44bd93354e1a722a4, type: 2}
+  blood4: {fileID: 1601305164023590, guid: cdf2c8a2a0afc1146b7e81142020ccfb, type: 2}
+  blood5: {fileID: 1313038923603664, guid: b4a26269cd8e36a43ba7e9c32961441c, type: 2}
+  blood6: {fileID: 1932388314640100, guid: 0212a59fd51b7d84da15def89b7e1cc1, type: 2}
+  blood7: {fileID: 1454847867551194, guid: 3ccd442ea955ad74486adb1e0c506405, type: 2}
+  bloodTime: 0.5
 --- !u!212 &212066227756133224
 SpriteRenderer:
   m_ObjectHideFlags: 1
