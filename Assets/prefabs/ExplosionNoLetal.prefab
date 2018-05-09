@@ -71,6 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTime: 1
+  explosionSound: {fileID: 8300000, guid: 3a57f99da03d37045a2c3a8600828eea, type: 3}
 --- !u!212 &212767728856370540
 SpriteRenderer:
   m_ObjectHideFlags: 1

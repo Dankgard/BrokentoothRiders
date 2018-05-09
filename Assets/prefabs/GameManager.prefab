@@ -55,3 +55,5 @@ MonoBehaviour:
   currentHealth: 0
   initialEnergy: 25
   currentEnergy: 0
+  interfaz: 1
+  hurtSound: {fileID: 8300000, guid: 89b366ddb61b62949a96865220360806, type: 3}

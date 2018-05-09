@@ -17,6 +17,7 @@ public class AtaqueBoss3 : MonoBehaviour {
 
     public int maxShurikens;
 
+    public AudioClip attackSound;
 
     // Use this for initialization
     void Start()
@@ -38,7 +39,7 @@ public class AtaqueBoss3 : MonoBehaviour {
                     Rigidbody2D rb = proyectile.GetComponent<Rigidbody2D>();
                     rb.velocity = new Vector2(Random.Range(0,10), Random.Range(0, 10));
                 }
-
+                SoundManager.instance.PlaySound(attackSound, 0.5f);
                 throwCount = 0;
             }
         }

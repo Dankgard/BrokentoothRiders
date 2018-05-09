@@ -15,6 +15,8 @@ public class DrakeMovimiento : MonoBehaviour {
 
     public bool teleport = true;
 
+    public AudioClip teleportSound;
+
     void Start () {
         player = GameObject.FindWithTag("Player");
 	}
@@ -26,6 +28,7 @@ public class DrakeMovimiento : MonoBehaviour {
             if (throwCount >= teleportTime)
             {
                 Teleport();
+                SoundManager.instance.PlaySound(teleportSound, 1.0f);
                 throwCount = 0;
             }
         }
