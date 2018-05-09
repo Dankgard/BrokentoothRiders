@@ -69,6 +69,7 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
         {
+            UnityEngine.Cursor.visible = true;
             SceneManager.LoadScene("Menu Principal");
         }
 
