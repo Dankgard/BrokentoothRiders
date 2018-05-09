@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     bool alive = true;
     public bool interfaz = true;
 
+    public AudioClip hurtSound;
+
     void Awake()
     {
         if (instance == null)
@@ -94,6 +96,7 @@ public class GameManager : MonoBehaviour
             currentHealth = initialHealth;
         }
 
+        SoundManager.instance.PlaySound(hurtSound, 1f);
         vida.LoadHealth();
 
         if (currentHealth <= 0 && alive) //si la vida es igual o menor a 0, llama al método Death

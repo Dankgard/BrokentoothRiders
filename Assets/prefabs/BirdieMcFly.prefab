@@ -293,6 +293,7 @@ MonoBehaviour:
   throwTime: 1
   enemyTrans: {fileID: 1350728160944260}
   maxShurikens: 10
+  attackSound: {fileID: 8300000, guid: 2079ae070501bff4a9bc5095fce40edc, type: 3}
 --- !u!114 &114380102668961996
 MonoBehaviour:
   m_ObjectHideFlags: 1

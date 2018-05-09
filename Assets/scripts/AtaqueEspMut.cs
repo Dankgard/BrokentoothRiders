@@ -18,6 +18,7 @@ public class AtaqueEspMut : MonoBehaviour
 
     float force;
 
+    public AudioClip attackSound;
 
     // Use this for initialization
     void Start()
@@ -43,6 +44,7 @@ public class AtaqueEspMut : MonoBehaviour
                 {
                     rb.velocity = new Vector2(force, force);
                 }
+                SoundManager.instance.PlaySound(attackSound, 0.25f);
                 throwCount = 0;
             }
         }

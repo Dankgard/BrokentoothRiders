@@ -3022,6 +3022,7 @@ MonoBehaviour:
   speed: 7
   alcance: 5
   delay: 2
+  shootSound: {fileID: 0}
 --- !u!114 &114130889464319150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3104,6 +3105,7 @@ MonoBehaviour:
   speed: 7
   alcance: 5
   delay: 2
+  shootSound: {fileID: 0}
 --- !u!114 &114472424545723028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3151,6 +3153,7 @@ MonoBehaviour:
   speed: 7
   alcance: 5
   delay: 2
+  shootSound: {fileID: 0}
 --- !u!114 &114862733683909404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3167,6 +3170,7 @@ MonoBehaviour:
   teleporter: {fileID: 1527033682567568, guid: 0975f5a927edc644aa23fc038db0e709, type: 2}
   teleportDestroyTime: 1
   teleport: 1
+  teleportSound: {fileID: 8300000, guid: 2370393998fa98d4eb45c08d865def4d, type: 3}
 --- !u!114 &114869451960560274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3184,6 +3188,7 @@ MonoBehaviour:
   speed: 7
   alcance: 5
   delay: 2
+  shootSound: {fileID: 0}
 --- !u!114 &114931506160284638
 MonoBehaviour:
   m_ObjectHideFlags: 1

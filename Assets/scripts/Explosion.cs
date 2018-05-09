@@ -7,8 +7,11 @@ public class Explosion : MonoBehaviour {
     public int explosionDamage;
     public int destroyTime;
 
+    public AudioClip explosionSound;
+
     private void Awake()
     {
+        SoundManager.instance.PlaySound(explosionSound, 0.4f);
         Destroy(gameObject, destroyTime);
     }
 

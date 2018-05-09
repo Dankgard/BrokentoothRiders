@@ -168,7 +168,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1224364059186050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.4971256, y: 11.526054, z: 0}
+  m_LocalPosition: {x: 3.236787, y: -0.19939518, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4355782796145226}
@@ -290,6 +290,7 @@ MonoBehaviour:
   proyectil: {fileID: 1244496950163594, guid: 498da9864a72c2f45858bb39f08ad1d0, type: 2}
   throwTime: 1
   enemyTrans: {fileID: 1120558287125920}
+  attackSound: {fileID: 8300000, guid: 88b2a198f9d7e4886952278c5fd992cd, type: 3}
 --- !u!212 &212271992590578904
 SpriteRenderer:
   m_ObjectHideFlags: 1

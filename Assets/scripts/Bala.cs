@@ -6,17 +6,14 @@ public class Bala : MonoBehaviour {
 
     public int bulletDamage;
 
-    public GameObject blood1;
-    public GameObject blood2;
-    public GameObject blood3;
-    public GameObject blood4;
-    public GameObject blood5;
-    public GameObject blood6;
-    public GameObject blood7;
-    GameObject blood;
-
+    public GameObject[] blood = new GameObject[7];
+    
     int bloodType;
     public float bloodTime;
+
+    public AudioClip[] bloodSound = new AudioClip[13];
+    int bloodSoundType;
+
 
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -54,33 +51,11 @@ public class Bala : MonoBehaviour {
 
     void Bleed()
     {
-        bloodType = Random.Range(1, 8);
-        switch(bloodType)
-        {
-            case 1:
-                blood = blood1;
-                break;
-            case 2:
-                blood = blood2;
-                break;
-            case 3:
-                blood = blood3;
-                break;
-            case 4:
-                blood = blood4;
-                break;
-            case 5:
-                blood = blood5;
-                break;
-            case 6:
-                blood = blood6;
-                break;
-            case 7:
-                blood = blood7;
-                break;
-        }
-
-        GameObject sangre = Instantiate(blood, transform.position, Quaternion.identity);
+        bloodSoundType = Random.Range(0, 13);
+        SoundManager.instance.PlaySound(bloodSound[bloodSoundType],1.0f);
+     
+        bloodType = Random.Range(0, 7);
+        GameObject sangre = Instantiate(blood[bloodType], transform.position, Quaternion.identity);
         Destroy(sangre, bloodTime);
     }
 }

@@ -14,6 +14,8 @@ public class DisparoTorreta : MonoBehaviour {
     public float delay;
     bool playerInRange = false;
 
+    public AudioClip shootSound;
+
 	// Use this for initialization
 	void Start () {
         jugador = GameObject.FindWithTag("Player").GetComponent<Transform>();
@@ -24,6 +26,7 @@ public class DisparoTorreta : MonoBehaviour {
         if (disparo && playerInRange)
         {
             Disparo();
+            SoundManager.instance.PlaySound(shootSound, 0.25f);
             Invoke("NewBullet", delay);
         }
 	}
