@@ -14,6 +14,9 @@ public class DisparoEnemigo : MonoBehaviour {
 
     public float shootingRate;
     float shootingCount;
+
+    public AudioClip shootSound;
+
 	// Use this for initialization
 	void Start () {
         shootingCount = shootingRate;
@@ -37,6 +40,7 @@ public class DisparoEnemigo : MonoBehaviour {
             if (shootingCount >= shootingRate && !mov.colisionPlayer)
             {
                 Instantiate(misilePrefab, missileSpawner.transform.position, misilePrefab.transform.rotation);
+                SoundManager.instance.PlaySound(shootSound, 0.25f);
                 shootingCount = 0;
             }
         }

@@ -12,6 +12,8 @@ public class DisparoDrone : MonoBehaviour {
 
     public float shootingRate;
     float shootingCount;
+
+    public AudioClip shootSound;
     // Use this for initialization
     void Start()
     {
@@ -29,6 +31,7 @@ public class DisparoDrone : MonoBehaviour {
             if (shootingCount >= shootingRate)
             {
                 Instantiate(misilePrefab, missileSpawner.transform.position, misilePrefab.transform.rotation);
+                SoundManager.instance.PlaySound(shootSound, 0.25f);
                 shootingCount = 0;
             }
         }

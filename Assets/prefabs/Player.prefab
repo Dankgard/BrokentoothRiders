@@ -187,6 +187,8 @@ MonoBehaviour:
   shotgunActive: 0
   bulletSpeed: 15
   automaticWeapon: 0
+  rifleSound: {fileID: 8300000, guid: 7b43a0ab12997ce4b8b0e0be6cb35007, type: 3}
+  shotgunSound: {fileID: 8300000, guid: f644087a28da014458c35e870b192f14, type: 3}
 --- !u!212 &212171147118025832
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 50917795259446900}
   - component: {fileID: 212066227756133224}
   - component: {fileID: 114802106735483248}
-  - component: {fileID: 82688592425455340}
   m_Layer: 0
   m_Name: rifleBullet
   m_TagString: Bala
@@ -89,86 +88,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9, y: 9}
   m_EdgeRadius: 0
---- !u!82 &82688592425455340
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1587282477301944}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!114 &114802106735483248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -181,27 +100,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDamage: 15
-  blood1: {fileID: 1639302781336242, guid: e0bfa9b81ee5b934f8e56f07773603a5, type: 2}
-  blood2: {fileID: 1912764030246974, guid: 21247bca1bca87447bc022ca84b2ecc5, type: 2}
-  blood3: {fileID: 1772519992852720, guid: fdabc6948d24e8e44bd93354e1a722a4, type: 2}
-  blood4: {fileID: 1601305164023590, guid: cdf2c8a2a0afc1146b7e81142020ccfb, type: 2}
-  blood5: {fileID: 1313038923603664, guid: b4a26269cd8e36a43ba7e9c32961441c, type: 2}
-  blood6: {fileID: 1932388314640100, guid: 0212a59fd51b7d84da15def89b7e1cc1, type: 2}
-  blood7: {fileID: 1454847867551194, guid: 3ccd442ea955ad74486adb1e0c506405, type: 2}
+  blood:
+  - {fileID: 1639302781336242, guid: e0bfa9b81ee5b934f8e56f07773603a5, type: 2}
+  - {fileID: 1912764030246974, guid: 21247bca1bca87447bc022ca84b2ecc5, type: 2}
+  - {fileID: 1772519992852720, guid: fdabc6948d24e8e44bd93354e1a722a4, type: 2}
+  - {fileID: 1601305164023590, guid: cdf2c8a2a0afc1146b7e81142020ccfb, type: 2}
+  - {fileID: 1313038923603664, guid: b4a26269cd8e36a43ba7e9c32961441c, type: 2}
+  - {fileID: 1932388314640100, guid: 0212a59fd51b7d84da15def89b7e1cc1, type: 2}
+  - {fileID: 1454847867551194, guid: 3ccd442ea955ad74486adb1e0c506405, type: 2}
   bloodTime: 0.5
-  bl1: {fileID: 8300000, guid: 2cca58c13e2954562933076c3fcfa15d, type: 3}
-  bl2: {fileID: 8300000, guid: e477208e612be49c28cad873700469b7, type: 3}
-  bl3: {fileID: 8300000, guid: a86851350f2b742cc8347528930088d1, type: 3}
-  bl4: {fileID: 8300000, guid: d21c96b20db2b4f8bbe3e10a367f525e, type: 3}
-  bl5: {fileID: 8300000, guid: d12c5b1e430164aca9203e4240596585, type: 3}
-  bl6: {fileID: 8300000, guid: 8b3a1a7baf89e4aa7ab0c775f81dc00b, type: 3}
-  bl7: {fileID: 8300000, guid: f1c5ab657d83a4b2f8f21c203697e657, type: 3}
-  bl8: {fileID: 8300000, guid: 77ff3fe7d45e64691bbc575db7858522, type: 3}
-  bl9: {fileID: 8300000, guid: 48fa3cd73db124c26adf8eaf76bba53e, type: 3}
-  bl10: {fileID: 8300000, guid: 8a378e68568524190bd7f80a5c77f1b6, type: 3}
-  bl11: {fileID: 8300000, guid: 7e5562f7875a24d01bcfdf63044f35d2, type: 3}
-  bl12: {fileID: 8300000, guid: 6c1060c6c16a54fd1b622f1ca718f4c4, type: 3}
-  bl13: {fileID: 8300000, guid: f775dc10833c9483dbd387fad3281e8e, type: 3}
+  bloodSound:
+  - {fileID: 8300000, guid: 2cca58c13e2954562933076c3fcfa15d, type: 3}
+  - {fileID: 8300000, guid: e477208e612be49c28cad873700469b7, type: 3}
+  - {fileID: 8300000, guid: a86851350f2b742cc8347528930088d1, type: 3}
+  - {fileID: 8300000, guid: d21c96b20db2b4f8bbe3e10a367f525e, type: 3}
+  - {fileID: 8300000, guid: d12c5b1e430164aca9203e4240596585, type: 3}
+  - {fileID: 8300000, guid: 8b3a1a7baf89e4aa7ab0c775f81dc00b, type: 3}
+  - {fileID: 8300000, guid: f1c5ab657d83a4b2f8f21c203697e657, type: 3}
+  - {fileID: 8300000, guid: 77ff3fe7d45e64691bbc575db7858522, type: 3}
+  - {fileID: 8300000, guid: 48fa3cd73db124c26adf8eaf76bba53e, type: 3}
+  - {fileID: 8300000, guid: 8a378e68568524190bd7f80a5c77f1b6, type: 3}
+  - {fileID: 8300000, guid: 7e5562f7875a24d01bcfdf63044f35d2, type: 3}
+  - {fileID: 8300000, guid: 6c1060c6c16a54fd1b622f1ca718f4c4, type: 3}
+  - {fileID: 8300000, guid: f775dc10833c9483dbd387fad3281e8e, type: 3}
 --- !u!212 &212066227756133224
 SpriteRenderer:
   m_ObjectHideFlags: 1

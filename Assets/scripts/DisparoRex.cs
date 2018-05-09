@@ -28,6 +28,9 @@ public class DisparoRex : MonoBehaviour
 
     ArmaJugador spriteArma;
 
+    public AudioClip rifleSound;
+    public AudioClip shotgunSound;
+
     void Start()
     {
         canShoot = true;
@@ -43,6 +46,7 @@ public class DisparoRex : MonoBehaviour
         {
             Disparo();
             Invoke("NewBullet", rifleDelay);
+            SoundManager.instance.PlaySound(rifleSound, 0.25f);
 
         }
 
@@ -50,6 +54,7 @@ public class DisparoRex : MonoBehaviour
         {
             Disparo();
             Invoke("NewBullet", shotgunDelay);
+            SoundManager.instance.PlaySound(shotgunSound, 0.25f);
         }
     }
 

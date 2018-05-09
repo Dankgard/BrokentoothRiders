@@ -9,6 +9,7 @@ public class AtaqueMutante : MonoBehaviour
     public MovimientoMutante mov;
     GameObject player;
 
+    public AudioClip attackSound;
 
     // Use this for initialization
     void Start()
@@ -21,6 +22,7 @@ public class AtaqueMutante : MonoBehaviour
         if (other.tag == "Player")
         {
             playerInRange = true;
+            SoundManager.instance.PlaySound(attackSound, 0.25f);
         }
     }
     public void OnTriggerExit2D(Collider2D other)
