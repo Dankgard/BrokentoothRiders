@@ -10,10 +10,12 @@ public class MovimientoMotoProta : MonoBehaviour {
     Rigidbody2D rb;
     public int NSaltos = 1;
     bool aumentar = true;
+    public GameObject humo;
     
     
 	void Start () {
-        rb = GetComponent<Rigidbody2D>();        
+        rb = GetComponent<Rigidbody2D>();
+        humo.active = true;        
 	}
 
     void FixedUpdate()
@@ -37,7 +39,12 @@ public class MovimientoMotoProta : MonoBehaviour {
         }*/
 
         if (rb.velocity.y == 0)
+        {
             NSaltos = 1;
+            humo.active = true;
+        }
+        else humo.active = false;
+            
 
         if (Input.GetButtonDown("Jump") && rb.velocity.y==0)
         {
@@ -45,7 +52,7 @@ public class MovimientoMotoProta : MonoBehaviour {
 
             if (NSaltos > 0)
             {                
-                Vector2 s = new Vector2(rb.velocity.x, fuerza);
+                Vector2 s = new Vector2(rb.velocity.x, fuerza);                
                 rb.velocity = s;
                 NSaltos -= 1;                
             }
