@@ -54,7 +54,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -132,3 +132,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30bc30bf62d9b8f49a9808cd5e61b12e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level1: {fileID: 8300000, guid: ef9319691c3c1c14a8859ff7aa1341b0, type: 3}
+  level2: {fileID: 0}
+  level3: {fileID: 0}
+  level4: {fileID: 0}
+  level5: {fileID: 0}
+  menu: {fileID: 0}
+  boss: {fileID: 8300000, guid: efcc315685576fd44ba80529c594823d, type: 3}

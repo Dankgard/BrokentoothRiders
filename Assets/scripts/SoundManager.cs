@@ -9,8 +9,18 @@ public class SoundManager : MonoBehaviour {
     public static SoundManager instance = null;
 
     public AudioClip level1;
+    public AudioClip level2;
+    public AudioClip level3;
+    public AudioClip level4;
+    public AudioClip level5;
+    public AudioClip menu;
     public AudioClip boss;
+    AudioClip nothing;
 
+    Scene lastScene;
+    bool primeraVez = true;
+
+    Dictionary<string,AudioClip> music;
     AudioSource source;
 
 	void Awake () {
@@ -28,7 +38,34 @@ public class SoundManager : MonoBehaviour {
             Destroy(this.gameObject);
         }
         source = GetComponent<AudioSource>();
-	}
+
+        music = new Dictionary<string, AudioClip>
+        {
+            { "credits", nothing },
+            { "level1_1", level1 },
+            { "level1_2", level1 },
+            { "level1_3", boss },
+            { "level1_text", nothing },
+            { "level2_1", level2 },
+            { "level2_text", level2 },
+            { "level3_1", level3 },
+            { "level3_2", level3 },
+            { "level3_3", boss },
+            { "level3_text", nothing },
+            { "level4_1", level4 },
+            { "level4_2", level4 },
+            { "level4_3", boss },
+            { "level4_text", nothing },
+            { "level5_1", level5 },
+            { "level5_2", level5 },
+            { "level5_beforeboss", nothing },
+            { "level5_3", boss },
+            { "level5_text", nothing },
+            { "Menu Principal", menu },
+            { "Menu", menu }
+        };
+
+    }
 
     void OnEnable()
     {
@@ -44,30 +81,19 @@ public class SoundManager : MonoBehaviour {
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
-        switch(scene.name)
+        Scene currentScene = scene;
+
+        if (primeraVez || music[lastScene.name] != music[currentScene.name])
         {
-            case "Menu Principal":
-                break;
-            case "level1_1":
-                source.clip = level1;
-                break;
-            case "level2_1":
-                break;
-            case "level3_1":
-                break;
-            case "level4_1":
-                break;
-            case "level5_1":
-                break;
-            case "level1_3":
-            case "level3_3":
-            case "level4_3":
-            case "level5_3":
-                break;
-            default:
-                break;
+            source.clip = music[currentScene.name];
+            primeraVez = false;
         }
-        source.Play();
+        if (source.clip != nothing)
+            source.Play();
+        else
+            source.Stop();
+
+        lastScene = currentScene;
     }
 
     public void PlaySound(AudioClip sound, float volume)
