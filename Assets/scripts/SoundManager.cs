@@ -15,6 +15,7 @@ public class SoundManager : MonoBehaviour {
     public AudioClip level5;
     public AudioClip menu;
     public AudioClip boss;
+    public AudioClip credits;
     AudioClip nothing;
 
     Scene lastScene;
@@ -41,7 +42,7 @@ public class SoundManager : MonoBehaviour {
 
         music = new Dictionary<string, AudioClip>
         {
-            { "credits", nothing },
+            { "credits", credits },
             { "level1_1", level1 },
             { "level1_2", level1 },
             { "level1_3", boss },
@@ -65,6 +66,7 @@ public class SoundManager : MonoBehaviour {
             { "Menu", menu }
         };
 
+        nothing = menu;
     }
 
     void OnEnable()
