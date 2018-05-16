@@ -115,7 +115,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1756315803919466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8, y: 0.07, z: -0.078125}
+  m_LocalPosition: {x: -0.765, y: 0.09, z: -0.078125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4948589072560612}
@@ -154,7 +154,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1260237963102452}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalPosition: {x: -0.031998634, y: 0.623, z: -0.046875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4928092972927894}
@@ -169,7 +169,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1635392549438896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.560853, y: 3.3780658, z: 0}
+  m_LocalPosition: {x: 98.927345, y: 6.5876875, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4948589072560612}
@@ -263,7 +263,8 @@ MonoBehaviour:
   endPoint: {fileID: 1998895546132144}
   colisionPlayer: 0
   enemySpeed: 0
-  rango: {fileID: 0}
+  rango: {fileID: 114819249409234494}
+  anim: {fileID: 95450574197394334}
 --- !u!114 &114819249409234494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -281,7 +282,7 @@ MonoBehaviour:
   missileSpawner: {fileID: 1756315803919466}
   player: {fileID: 0}
   enemyTrans: {fileID: 4948589072560612}
-  mov: {fileID: 0}
+  mov: {fileID: 114174975185960546}
   shootingRate: 1
   shootSound: {fileID: 8300000, guid: 0d7c62cdbb047984fa3096ab202748b4, type: 3}
 --- !u!114 &114831175058562440
@@ -336,7 +337,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2ad9dbed398c0e54281e26921de06534, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bdf80990b576f184eb4c3371d4fa94f8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0

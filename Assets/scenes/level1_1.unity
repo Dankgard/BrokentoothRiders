@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4613606580812184, guid: 69525bea438899240969623739eb81a7, type: 2}
       propertyPath: m_RootOrder
-      value: 39
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69525bea438899240969623739eb81a7, type: 2}
@@ -5494,19 +5494,6 @@ Prefab:
       propertyPath: m_Name
       value: rifleEnemy (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 114174975185960546, guid: 42f0e3c2796a79348a5c15fe78802ce8,
-        type: 2}
-      propertyPath: enemySpeed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4380780959735026, guid: 42f0e3c2796a79348a5c15fe78802ce8, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.765
-      objectReference: {fileID: 0}
-    - target: {fileID: 4380780959735026, guid: 42f0e3c2796a79348a5c15fe78802ce8, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.09
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 42f0e3c2796a79348a5c15fe78802ce8, type: 2}
   m_IsPrefabParent: 0
@@ -5765,7 +5752,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1584301185
 Prefab:
