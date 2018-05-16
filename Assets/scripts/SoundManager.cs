@@ -85,8 +85,8 @@ public class SoundManager : MonoBehaviour {
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
         Scene currentScene = scene;
-        Debug.Log("Current:"+currentScene.name);
-        Debug.Log("Last:" + lastScene.name);
+        Debug.Log("Current: "+ currentScene.name);
+        Debug.Log("Last: " + lastScene.name);
 
         if (lastScene.name == null)
         {
@@ -110,7 +110,7 @@ public class SoundManager : MonoBehaviour {
         }
 
         lastScene = scene;
-        Debug.Log("Last2:" + lastScene.name);
+        Debug.Log("Last2: " + lastScene.name);
     }
 
     public void PlaySound(AudioClip sound, float volume)
