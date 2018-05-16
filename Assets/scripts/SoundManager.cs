@@ -19,7 +19,7 @@ public class SoundManager : MonoBehaviour {
     AudioClip nothing;
 
     Scene lastScene;
-    bool primeraVez = true;
+    bool cambiaMusica;
 
     Dictionary<string,AudioClip> music;
     AudioSource source;
@@ -67,6 +67,7 @@ public class SoundManager : MonoBehaviour {
         };
 
         nothing = menu;
+       
     }
 
     void OnEnable()
@@ -84,18 +85,32 @@ public class SoundManager : MonoBehaviour {
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
         Scene currentScene = scene;
+        Debug.Log("Current:"+currentScene.name);
+        Debug.Log("Last:" + lastScene.name);
 
-        if (primeraVez || music[lastScene.name] != music[currentScene.name])
+        if (lastScene.name == null)
+        {
+            cambiaMusica = true;
+        }
+        else if (music[lastScene.name].Equals(music[currentScene.name]) == false)
+        {
+            cambiaMusica = true;
+        }
+        else
+            cambiaMusica = false;
+
+        if (cambiaMusica)
         {
             source.clip = music[currentScene.name];
-            primeraVez = false;
-        }
-        if (source.clip != nothing)
-            source.Play();
-        else
-            source.Stop();
 
-        lastScene = currentScene;
+            if (source.clip != nothing)
+                source.Play();
+            else
+                source.Stop();
+        }
+
+        lastScene = scene;
+        Debug.Log("Last2:" + lastScene.name);
     }
 
     public void PlaySound(AudioClip sound, float volume)
