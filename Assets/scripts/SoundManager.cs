@@ -48,7 +48,7 @@ public class SoundManager : MonoBehaviour {
             { "level1_3", boss },
             { "level1_text", nothing },
             { "level2_1", level2 },
-            { "level2_text", level2 },
+            { "level2_text", nothing },
             { "level3_1", level3 },
             { "level3_2", level3 },
             { "level3_3", boss },
@@ -64,10 +64,7 @@ public class SoundManager : MonoBehaviour {
             { "level5_text", nothing },
             { "Menu Principal", menu },
             { "Menu", menu }
-        };
-
-        nothing = menu;
-       
+        };   
     }
 
     void OnEnable()

@@ -11661,7 +11661,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1533540501}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1533540503
 Behaviour:
   m_ObjectHideFlags: 0
@@ -12278,6 +12278,11 @@ Prefab:
     - target: {fileID: 4397575609718780, guid: 19af3bb4e942e9e4f9192831074b1987, type: 2}
       propertyPath: m_LocalScale.z
       value: 54.052155
+      objectReference: {fileID: 0}
+    - target: {fileID: 81840421682522460, guid: 19af3bb4e942e9e4f9192831074b1987,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 19af3bb4e942e9e4f9192831074b1987, type: 2}
