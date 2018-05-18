@@ -51,7 +51,7 @@ public class DrakeVida : MonoBehaviour {
         if (vida <= 0)
         {
             if (isBoss)
-                GameManager.instance.StartLoadingScene(escena);
+                GameManager.instance.StartLoadingScene(escena,5);
             barImage.fillAmount = 0;
             enemyName.text = "";
             ExplosionNoLetal boom = Instantiate(explosion, transform.position, Quaternion.identity);

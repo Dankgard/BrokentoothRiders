@@ -121,21 +121,20 @@ public class GameManager : MonoBehaviour
 
     public void Death()
     {
-        Destroy(player);
-        alive = false;
-        currentHealth = 0;
-        Invoke("ReloadScene", 2);
+        if (alive)
+        {
+            Destroy(player);
+            alive = false;
+            currentHealth = 0;
+            ReloadScene();
+        }
     }
 
     public void ReloadScene()
     {
-        currentHealth = initialHealth;
-        currentEnergy = initialEnergy;
         alive = true;
-        int scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(scene, LoadSceneMode.Single);
-        vida.Reload(initialHealth);
-        energia.Reload(initialEnergy);
+        string scene = SceneManager.GetActiveScene().name;
+        StartLoadingScene(scene, 2);
     }
 
     public bool Alive()
@@ -143,14 +142,18 @@ public class GameManager : MonoBehaviour
         return alive;
     }
 
-    public void StartLoadingScene(string escena)
+    public void StartLoadingScene(string escena, int time)
     {
-        StartCoroutine(LoadScene(escena));
+        StartCoroutine(LoadScene(escena,time));
     }
     
-    IEnumerator LoadScene(string escena)
+    IEnumerator LoadScene(string escena, int time)
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(time);
+        currentHealth = initialHealth;
+        currentEnergy = initialEnergy;
+        vida.Reload(initialHealth);
+        energia.Reload(initialEnergy);
         SceneManager.LoadScene(escena);
     }
 
