@@ -6,12 +6,16 @@ public class Explosion : MonoBehaviour {
 
     public int explosionDamage;
     public int destroyTime;
+    public float colliderDestroyTime;
 
     public AudioClip explosionSound;
+    BoxCollider2D collider;
 
     private void Awake()
     {
+        collider = GetComponent<BoxCollider2D>();
         SoundManager.instance.PlaySound(explosionSound, 0.4f);
+        Destroy(collider, colliderDestroyTime);
         Destroy(gameObject, destroyTime);
     }
 

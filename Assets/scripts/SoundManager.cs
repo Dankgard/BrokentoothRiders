@@ -17,8 +17,9 @@ public class SoundManager : MonoBehaviour {
     public AudioClip boss;
     public AudioClip credits;
     AudioClip nothing;
+ 
+    string lastScene ="";
 
-    Scene lastScene;
     bool cambiaMusica;
 
     Dictionary<string,AudioClip> music;
@@ -82,14 +83,12 @@ public class SoundManager : MonoBehaviour {
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
         Scene currentScene = scene;
-        Debug.Log("Current: "+ currentScene.name);
-        Debug.Log("Last: " + lastScene.name);
 
-        if (lastScene.name == null)
+        if (lastScene == "")
         {
             cambiaMusica = true;
         }
-        else if (music[lastScene.name].Equals(music[currentScene.name]) == false)
+        else if (music[lastScene].Equals(music[currentScene.name]) == false)
         {
             cambiaMusica = true;
         }
@@ -106,8 +105,7 @@ public class SoundManager : MonoBehaviour {
                 source.Stop();
         }
 
-        lastScene = scene;
-        Debug.Log("Last2: " + lastScene.name);
+        lastScene = scene.name;
     }
 
     public void PlaySound(AudioClip sound, float volume)
