@@ -22,15 +22,29 @@ public class MovimientoProtagonista : MonoBehaviour
 
     bool canClimb = false;
 
+    public Animator anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
 
         control = true;
     }
     void Update()
     {
+        anim.SetBool("Idle", false);
+        anim.SetBool("Run", false);
 
+        if (rb.velocity.x == 0)
+        {            
+            anim.SetBool("Idle", true);
+        }
+        else
+        {
+            anim.SetBool("Run", true);            
+        }
+            
         if (control)
         {
             Movimiento();
@@ -55,7 +69,7 @@ public class MovimientoProtagonista : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().flipX = false;
         }
-
+        
         rb.velocity = new Vector2(moved * speed, rb.velocity.y);
     }
 
