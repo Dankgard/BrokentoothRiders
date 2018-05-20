@@ -82,10 +82,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4349172362937116}
   - component: {fileID: 212237691442054020}
-  - component: {fileID: 61070578162202212}
   - component: {fileID: 114659061995280128}
   - component: {fileID: 114733066373499512}
   - component: {fileID: 95039188903332476}
+  - component: {fileID: 70099640040052538}
   m_Layer: 0
   m_Name: Enemigo_Verde_Shoot_1
   m_TagString: Enemigo
@@ -115,7 +115,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1846333624101904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4415694011348894}
@@ -143,7 +143,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1579928829862938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.28, y: 0.718, z: -0.046875}
+  m_LocalPosition: {x: 4.7, y: 0.718, z: -0.046875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4870001617455288}
@@ -156,7 +156,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1156334669016866}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 0.718, z: -0.046875}
+  m_LocalPosition: {x: -9.38, y: 0.718, z: -0.046875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4870001617455288}
@@ -169,7 +169,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1044668874254836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.58, y: -0.15, z: 0.5}
+  m_LocalPosition: {x: 91.60976, y: -1.4150457, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4349172362937116}
@@ -185,37 +185,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1924433246082502}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.754, y: 0.064, z: -0.078125}
+  m_LocalPosition: {x: -0.85, y: 0.11, z: -0.078125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4349172362937116}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61070578162202212
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1846333624101904}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.012123108, y: -0.04496944}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 3.3333333}
-    newSize: {x: 16, y: 15.47}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.589035, y: 1.4741561}
-  m_EdgeRadius: 0
 --- !u!61 &61252325628592608
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -228,7 +203,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.11153388, y: 0.3953066}
+  m_Offset: {x: 0.13137436, y: -0.19995213}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -239,8 +214,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 17.06, y: 3.552412}
+  m_Size: {x: 11.305843, y: 2.3618946}
   m_EdgeRadius: 0
+--- !u!70 &70099640040052538
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1846333624101904}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.25888062, y: 0.13470578}
+  m_Size: {x: 1.0458374, y: 2.6964698}
+  m_Direction: 0
 --- !u!95 &95039188903332476
 Animator:
   serializedVersion: 3
@@ -272,7 +262,7 @@ MonoBehaviour:
   startPoint: {fileID: 1579928829862938}
   endPoint: {fileID: 1156334669016866}
   colisionPlayer: 0
-  enemySpeed: 2
+  enemySpeed: 0
   rango: {fileID: 0}
   anim: {fileID: 0}
 --- !u!114 &114659884269595634
