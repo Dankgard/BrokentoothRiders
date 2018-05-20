@@ -25,6 +25,8 @@ TagManager:
   - actualweapon
   - enemyHealth
   - enemyName
+  - BalaSpawner
+  - Limite
   layers:
   - Default
   - TransparentFX

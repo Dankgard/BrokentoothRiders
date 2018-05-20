@@ -46,8 +46,7 @@ public class DisparoRex : MonoBehaviour
     }
 
     void Update()
-    {
-
+    {        
         if (Input.GetMouseButton(0) && canShoot && automaticWeapon)
         {
             Disparo();
