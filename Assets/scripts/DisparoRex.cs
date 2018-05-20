@@ -41,7 +41,7 @@ public class DisparoRex : MonoBehaviour
         spriteArma = GameObject.FindWithTag("actualweapon").GetComponent<ArmaJugador>();
         WeaponChange();
 
-		cursor = transform.GetChild(1).GetChild(0).GetChild(8).GetComponent<SpriteRenderer>();
+		cursor = transform.GetChild(1).GetChild(0).GetComponent<SpriteRenderer>();
 
     }
 

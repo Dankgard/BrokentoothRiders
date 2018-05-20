@@ -22,7 +22,7 @@ public class MovimientoProtagonista : MonoBehaviour
 
     bool canClimb = false;
 
-    public Animator anim;
+    public Animator anim;    
 
     void Start()
     {
@@ -32,18 +32,26 @@ public class MovimientoProtagonista : MonoBehaviour
         control = true;
     }
     void Update()
-    {
+    {        
         anim.SetBool("Idle", false);
         anim.SetBool("Run", false);
+        anim.SetBool("Caida", false);
+        anim.SetBool("Salto", false);
 
-        if (rb.velocity.x == 0)
-        {            
+        if (rb.velocity.x == 0 && rb.velocity.y == 0)        
             anim.SetBool("Idle", true);
-        }
-        else
-        {
-            anim.SetBool("Run", true);            
-        }
+        
+        else if (rb.velocity.x != 0 && rb.velocity.y == 0)        
+            anim.SetBool("Run", true);
+        
+        else if (rb.velocity.y > 0)        
+            anim.SetBool("Salto", true);
+        
+
+        else if (rb.velocity.y < 0)        
+            anim.SetBool("Caida", true);        
+        
+            
             
         if (control)
         {
@@ -63,11 +71,11 @@ public class MovimientoProtagonista : MonoBehaviour
         moved = Input.GetAxis("Horizontal");
         if (moved < 0)
         {
-            GetComponent<SpriteRenderer>().flipX = true;
+            GetComponent<SpriteRenderer>().flipX = true;            
         }
         else if (moved > 0)
         {
-            GetComponent<SpriteRenderer>().flipX = false;
+            GetComponent<SpriteRenderer>().flipX = false;            
         }
         
         rb.velocity = new Vector2(moved * speed, rb.velocity.y);

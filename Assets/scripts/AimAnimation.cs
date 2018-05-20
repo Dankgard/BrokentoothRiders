@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AimAnimation : MonoBehaviour
-{
+{   
     public float offset = 0.0f;
-
-	void Update ()
+    
+    void Update ()
     {
 		Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
 		difference.Normalize();

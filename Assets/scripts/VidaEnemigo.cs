@@ -14,6 +14,7 @@ public class VidaEnemigo : MonoBehaviour {
     public string escena;
     bool cargando = false;
 
+
     public string name;
 
     float currentFraction = 1.0f;
