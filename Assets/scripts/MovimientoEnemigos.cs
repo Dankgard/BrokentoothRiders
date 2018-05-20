@@ -13,11 +13,15 @@ public class MovimientoEnemigos : MonoBehaviour {
 
     bool isGoingRight;
 
-    public DisparoEnemigo rango;    
+    public DisparoEnemigo rango;
+
+    public Animator anim;
+    
 
     void Awake()
     {
-        rango = GetComponentInChildren<DisparoEnemigo>();        
+        rango = GetComponentInChildren<DisparoEnemigo>();
+        anim = GetComponent<Animator>();        
     }
 
     void Start () {        
@@ -33,12 +37,20 @@ public class MovimientoEnemigos : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () {        
+
+
         if (rango.playerInRange == false)
         {
+            if (enemySpeed != 0)
+            {
+                anim.SetBool("Run", true);
+                anim.SetBool("Idle", false);
+            }
+
             if (!isGoingRight)
             {
-                
+
                 transform.localScale = new Vector3(1, 1, 1);
 
 
@@ -51,7 +63,7 @@ public class MovimientoEnemigos : MonoBehaviour {
 
             }
             if (isGoingRight)
-            {                
+            {
                 transform.localScale = new Vector3(-1, 1, 1);
 
                 transform.position = Vector3.MoveTowards(transform.position, startPoint.transform.position, enemySpeed * Time.deltaTime);
@@ -63,8 +75,15 @@ public class MovimientoEnemigos : MonoBehaviour {
                 }
 
             }
-        }        
-	}
+        }
+        else
+        {
+            anim.SetBool("Run", false);
+            anim.SetBool("Idle", true);
+        }
+        
+
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {

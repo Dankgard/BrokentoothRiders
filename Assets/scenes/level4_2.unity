@@ -72122,6 +72122,28 @@ Tilemap:
     m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 0
+--- !u!1 &470180830 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1683080938071934, guid: a104c4287875fd345a82e8c0c1b4d42f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726852531}
+--- !u!95 &470180837
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 470180830}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d234bb82a509bf64d9a045486f2d5958, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &491016228
 Prefab:
   m_ObjectHideFlags: 0

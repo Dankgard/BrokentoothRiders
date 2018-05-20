@@ -9,6 +9,7 @@ public class DisparoRex : MonoBehaviour
     public GameObject rifleBullets;
     public float rifleDelay = 0.1f;
     public float shotgunDelay = 0.5f;
+	public Transform SpawnBala;
 
     public float shotgunReach = 1;
     public float rifleReach = 2;
@@ -31,17 +32,21 @@ public class DisparoRex : MonoBehaviour
     public AudioClip rifleSound;
     public AudioClip shotgunSound;
 
+	public SpriteRenderer cursor;
+	public Sprite[] armas;
+
     void Start()
     {
         canShoot = true;
         spriteArma = GameObject.FindWithTag("actualweapon").GetComponent<ArmaJugador>();
         WeaponChange();
 
+		cursor = transform.GetChild(1).GetChild(0).GetChild(8).GetComponent<SpriteRenderer>();
+
     }
 
     void Update()
-    {
-
+    {        
         if (Input.GetMouseButton(0) && canShoot && automaticWeapon)
         {
             Disparo();
@@ -65,7 +70,7 @@ public class DisparoRex : MonoBehaviour
         shootDirection.z = 0.0f;
         shootDirection = shootDirection - transform.position;
 
-        GameObject bullet = Instantiate(bullets, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+		GameObject bullet = Instantiate(bullets, SpawnBala.position, Quaternion.Euler(new Vector3(0, 0, 0)));
         Vector2 dir = shootDirection.normalized;
 
         bullet.GetComponent<Rigidbody2D>().velocity = dir * bulletSpeed; //shootDirection.normalized * bulletSpeed;
@@ -84,6 +89,7 @@ public class DisparoRex : MonoBehaviour
 
         if (shotgunActive)
         {
+			cursor.sprite = armas[1];
             bullets = shotgunBullets;
             reach = shotgunReach;
             delay = shotgunDelay;
@@ -91,6 +97,7 @@ public class DisparoRex : MonoBehaviour
         }
         else
         {
+			cursor.sprite = armas[0];
             bullets = rifleBullets;
             reach = rifleReach;
             delay = rifleDelay;
