@@ -27,6 +27,7 @@ TagManager:
   - enemyName
   - BalaSpawner
   - Limite
+  - Rebote
   layers:
   - Default
   - TransparentFX
