@@ -3,45 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Suelo
-  - Enemigo
-  - Aggro
-  - Bala
-  - EnemyBullet
-  - Caja
-  - DirCollision
-  - Boss
-  - JumpLimit
-  - NPC
-  - Proyectil
-  - Aplastamiento
-  - DireccLaser
-  - FinalBoss
-  - BulletDestroyer
-  - GameManager
-  - healthbar
-  - energybar
-  - actualweapon
-  - enemyHealth
-  - enemyName
-  - BalaSpawner
-  - Limite
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  - Rebote
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
-  - Rebote
-  - Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
+  tags: []
   layers:
   - Default
   - TransparentFX
