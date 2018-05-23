@@ -3,7 +3,32 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Suelo
+  - Enemigo
+  - Aggro
+  - Bala
+  - EnemyBullet
+  - Caja
+  - DirCollision
+  - Boss
+  - JumpLimit
+  - NPC
+  - Proyectil
+  - Aplastamiento
+  - DireccLaser
+  - FinalBoss
+  - BulletDestroyer
+  - GameManager
+  - healthbar
+  - energybar
+  - actualweapon
+  - enemyHealth
+  - enemyName
+  - BalaSpawner
+  - Limite
+  - Rebote
+  - Suelo1
   layers:
   - Default
   - TransparentFX

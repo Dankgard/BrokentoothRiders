@@ -186,12 +186,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!1 &300063
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,11 +213,7 @@ Transform:
   m_LocalScale: {x: 0.98898995, y: 0.7829, z: 1}
   m_Children: []
   m_Father: {fileID: 2023175992}
-<<<<<<< HEAD
-  m_RootOrder: 53
-=======
   m_RootOrder: 51
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &300065
 SpriteRenderer:
@@ -269,12 +259,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &2006277
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,21 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &2006281
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -560,21 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &2650797
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -777,21 +733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &12134604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1181,21 +1123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &44633074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,17 +1481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!61 &77260196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1589,471 +1507,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
-<<<<<<< HEAD
---- !u!1 &79623980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 79623981}
-  - component: {fileID: 79623982}
-  - component: {fileID: 79623983}
-  - component: {fileID: 79623984}
-  m_Layer: 0
-  m_Name: FloorTile01 (74)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &79623981
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 79623980}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.91, y: -33.14, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 1481025738}
-  m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &79623982
-=======
-  m_Father: {fileID: 107207206}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.614}
---- !u!95 &92087308
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92087306}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6c6480d5a2147da4d8c527dda941d348, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!212 &92087309
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-=======
-  m_GameObject: {fileID: 70085527}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &70085530
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 70085527}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!114 &70085531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 70085527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!1 &74969943
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 74969944}
-  - component: {fileID: 74969945}
-  - component: {fileID: 74969946}
-  m_Layer: 0
-  m_Name: FloorTile01 (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &74969944
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 74969943}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 11.249998, y: -135.54, z: -2}
-  m_LocalScale: {x: 1.4625014, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1263024980}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &74969945
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 74969943}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &74969946
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 74969943}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &77260192
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 77260193}
-  - component: {fileID: 77260194}
-  - component: {fileID: 77260196}
-  - component: {fileID: 77260195}
-  m_Layer: 0
-  m_Name: FloorTile01 (40)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &77260193
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 77260192}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.9699993, y: -112.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 604220314}
-  m_RootOrder: 34
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &77260194
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 77260192}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!114 &77260195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 77260192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!61 &77260196
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 77260192}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &79623980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 79623981}
-  - component: {fileID: 79623982}
-  - component: {fileID: 79623983}
-  - component: {fileID: 79623984}
-  m_Layer: 0
-  m_Name: FloorTile01 (74)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &79623981
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 79623980}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.91, y: -33.14, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1481025738}
-  m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &79623982
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_GameObject: {fileID: 79623980}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &79623983
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 79623980}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!114 &79623984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 79623980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!1 &92087306
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,19 +1535,7 @@ Transform:
   m_LocalScale: {x: 2.30795, y: 2.30795, z: 2.30795}
   m_Children: []
   m_Father: {fileID: 107207206}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 11
-=======
-  m_RootOrder: 8
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   m_RootOrder: 7
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  m_RootOrder: 11
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.614}
 --- !u!95 &92087308
 Animator:
@@ -2568,17 +2009,6 @@ Transform:
   - {fileID: 1169663540}
   - {fileID: 1001819025}
   - {fileID: 546183261}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  - {fileID: 207810789}
-  - {fileID: 1616102801}
-  - {fileID: 944012522}
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   - {fileID: 1254936974}
   - {fileID: 92087307}
   - {fileID: 1128489361}
@@ -2597,21 +2027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &110437145
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,21 +2114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &110437149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3204,21 +2606,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
---- !u!1 &133122826 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1548896005221430, guid: 661a93f208c69144eb742a30f6155364,
-    type: 2}
-  m_PrefabInternal: {fileID: 2108342925}
---- !u!4 &133122834 stripped
-=======
 --- !u!4 &133122834
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364,
@@ -3394,21 +2782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &138918558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3791,21 +3165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &158955430
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3942,21 +3302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &161418403
 GameObject:
   m_ObjectHideFlags: 0
@@ -4306,21 +3652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &214537748
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4822,17 +4154,8 @@ GameObject:
   - component: {fileID: 241064986}
   - component: {fileID: 241064987}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: FloorTile01 (64)
-  m_TagString: Untagged
-=======
   m_Name: FloorTile01 (14)
   m_TagString: Suelo
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4935,89 +4258,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!4 &241064985
-=======
 --- !u!4 &243209000
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 243208999}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.89, y: -4.78, z: -1}
-  m_LocalScale: {x: 0.12856755, y: 0.12856755, z: 0.12856755}
-  m_Children: []
-  m_Father: {fileID: 2023175992}
-  m_RootOrder: 43
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &243209001
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 243208999}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c51ee14882daaa549a8ce1e38a4797fe, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.95, y: 1.45}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &244563236
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 244563237}
-  - component: {fileID: 244563238}
-  - component: {fileID: 244563239}
-  m_Layer: 0
-  m_Name: FloorTile01 (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &244563237
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
---- !u!4 &243209000
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -6306,21 +5547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &349242828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6534,21 +5761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &372162611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7489,21 +6702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &423117221
 GameObject:
   m_ObjectHideFlags: 0
@@ -7603,16 +6802,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
---- !u!1 &425188282
-=======
 --- !u!1 &423813273
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1258982775329988, guid: 661a93f208c69144eb742a30f6155364,
@@ -7639,86 +6829,10 @@ Transform:
   m_LocalPosition: {x: 2.18, y: -0.107750155, z: 0.91324216}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD
-  m_Father: {fileID: 1481025738}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &425188284
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 425188282}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &425188285
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 425188282}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &427199446
-=======
   m_Father: {fileID: 1595148078}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &428925929
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -7877,11 +6991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   edificio: 0
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &433401317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7941,125 +7051,6 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 433401313}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!114 &433401316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 433401313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
---- !u!61 &433401317
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 433401313}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &438284691
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 438284692}
-  - component: {fileID: 438284693}
-  m_Layer: 0
-  m_Name: blood1_sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &438284692
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 438284691}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.66, y: -1.92, z: -1}
-  m_LocalScale: {x: 0.5012543, y: 0.5012543, z: 0.5012543}
-  m_Children: []
-  m_Father: {fileID: 2023175992}
-  m_RootOrder: 39
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &438284693
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_GameObject: {fileID: 438284691}
   m_Enabled: 1
   m_CastShadows: 0
@@ -8210,135 +7201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  jugador: {fileID: 133122826}
---- !u!1 &457472290
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 457472291}
-  - component: {fileID: 457472292}
-  - component: {fileID: 457472293}
-  - component: {fileID: 457472294}
-  m_Layer: 0
-  m_Name: FloorTile01 (72)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &457472291
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 457472290}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1481025738}
-  m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &457472292
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 457472290}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &457472293
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 457472290}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!114 &457472294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 457472290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
-<<<<<<< HEAD
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &469476505
 GameObject:
   m_ObjectHideFlags: 0
@@ -9054,21 +7917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &532474409
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9435,21 +8284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &559783251
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9866,21 +8701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &592660162
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10278,21 +9099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &619114956
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10602,21 +9409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &627988764
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11042,21 +9835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &662133900
 GameObject:
   m_ObjectHideFlags: 0
@@ -48954,15 +47733,6 @@ SpriteRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 670783051}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
---- !u!1 &683772351
-=======
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -49000,62 +47770,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
 --- !u!1 &677353329
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
---- !u!4 &677353331
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 677353329}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.210001, y: -153.48, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 233662249}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &677353332
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 677353329}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!114 &677353333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 677353329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!1 &683772351
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -49068,17 +47783,8 @@ GameObject:
   - component: {fileID: 677353333}
   - component: {fileID: 677353334}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: FloorTile01 (16)
-  m_TagString: Untagged
-=======
   m_Name: 2
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49165,13 +47871,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &688200655
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!114 &677353333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49183,12 +47882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!50 &677353334
 Rigidbody2D:
   serializedVersion: 4
@@ -49210,13 +47904,6 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!1 &683772351
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
---- !u!1 &688200655
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -49227,18 +47914,8 @@ GameObject:
   - component: {fileID: 683772352}
   - component: {fileID: 683772354}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: plataforma_alcantarilla (1)
-  m_TagString: Untagged
-=======
   m_Name: 
   m_TagString: Suelo
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49297,15 +47974,6 @@ Transform:
   m_LocalPosition: {x: -1.9500008, y: -117.84, z: -2}
   m_LocalScale: {x: 1.4625014, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Father: {fileID: 2023175992}
-  m_RootOrder: 32
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_Father: {fileID: 233662249}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
@@ -49334,7 +48002,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!1 &694378227
 GameObject:
   m_ObjectHideFlags: 0
@@ -49598,21 +48265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &700051514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49793,21 +48446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &710405937
 GameObject:
   m_ObjectHideFlags: 0
@@ -49883,16 +48522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   edif: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
---- !u!1 &717960424
-=======
 --- !u!1 &711262265
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1481094486202340, guid: 661a93f208c69144eb742a30f6155364,
@@ -49960,33 +48590,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4333563636149862, guid: 661a93f208c69144eb742a30f6155364,
     type: 2}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 717960424}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
-<<<<<<< HEAD
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   m_GameObject: {fileID: 711262265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.13, y: -0.52, z: -1.0799999}
@@ -49995,9 +48598,6 @@ Transform:
   m_Father: {fileID: 1595148078}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &720663687
 GameObject:
   m_ObjectHideFlags: 0
@@ -50175,21 +48775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &721009881
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50301,21 +48887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &724213044
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50598,21 +49170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &739972980
 GameObject:
   m_ObjectHideFlags: 0
@@ -50756,22 +49314,8 @@ Transform:
   m_LocalPosition: {x: 63.628918, y: -1.448286, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Father: {fileID: 1539866450}
-  m_RootOrder: 37
-=======
-  m_Father: {fileID: 2023175992}
-  m_RootOrder: 47
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   m_Father: {fileID: 2023175992}
   m_RootOrder: 45
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  m_Father: {fileID: 2023175992}
-  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &753145854
 GameObject:
@@ -50785,7 +49329,7 @@ GameObject:
   - component: {fileID: 753145857}
   m_Layer: 0
   m_Name: FloorTile01 (49)
-  m_TagString: Untagged
+  m_TagString: Suelo1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50958,250 +49502,7 @@ GameObject:
   - component: {fileID: 762575021}
   m_Layer: 0
   m_Name: FloorTile01 (19)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &762575020
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 762575019}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3, y: -147.66, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1539866450}
-  m_RootOrder: 37
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &753145854
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_GameObject: {fileID: 762575019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!61 &762575022
-BoxCollider2D:
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 753145855}
-  - component: {fileID: 753145856}
-  - component: {fileID: 753145857}
-  m_Layer: 0
-  m_Name: FloorTile01 (49)
-<<<<<<< HEAD
-  m_TagString: Untagged
-=======
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &753145855
-Transform:
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 753145854}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1, y: -112.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1539866450}
-  m_RootOrder: 44
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &753145856
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 753145854}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &753145857
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 753145854}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &754051723
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 754051724}
-  - component: {fileID: 754051725}
-  m_Layer: 0
-  m_Name: vidrio_roto_png_by_omgitslittlejavi-d5fmxks (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &754051724
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 754051723}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.3399963, y: -141.95, z: 0}
-  m_LocalScale: {x: 0.27772, y: 0.27772, z: 0.27772}
-  m_Children: []
-  m_Father: {fileID: 1263024980}
-  m_RootOrder: 65
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &754051725
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 754051723}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7b5b4762299e3a74cbce66f1d775f4fa, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3, y: 3}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!61 &770594331
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
---- !u!1 &762575019
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 762575020}
-  - component: {fileID: 762575023}
-  - component: {fileID: 762575022}
-  - component: {fileID: 762575021}
-  m_Layer: 0
-  m_Name: FloorTile01 (19)
-<<<<<<< HEAD
-  m_TagString: Untagged
-=======
-  m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51230,16 +49531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
---- !u!61 &762575022
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
 --- !u!61 &762575022
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
---- !u!61 &770594331
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -51467,21 +49760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &784903923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51784,21 +50063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &801434066
 GameObject:
   m_ObjectHideFlags: 0
@@ -51958,372 +50223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!61 &807255897
-=======
-  jugador: {fileID: 133122826}
---- !u!61 &807255897
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 807255893}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &812995521
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 812995522}
-  - component: {fileID: 812995523}
-  - component: {fileID: 812995524}
-  m_Layer: 0
-  m_Name: FloorTile01 (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &812995522
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812995521}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -1.9500008, y: -130.95999, z: -2}
-  m_LocalScale: {x: 1.4625014, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1539866450}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &812995523
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812995521}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &812995524
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812995521}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!4 &819755565 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4761763019412758, guid: 5c366f60b5015da42b88735a448defa0,
-    type: 2}
-  m_PrefabInternal: {fileID: 2105572923}
---- !u!1 &822462762
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 822462764}
-  - component: {fileID: 822462763}
-  m_Layer: 0
-  m_Name: skeleton-hanging_1 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &822462763
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 822462762}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 97547bb466692d146afcd9a6047a22c6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.36, y: 3.4}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!4 &822462764
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 822462762}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -32.351967, y: -2.6350405, z: 1.33125}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 124840666}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &824400213
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 824400215}
-  - component: {fileID: 824400214}
-  m_Layer: 0
-  m_Name: bloodsplats_0003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &824400214
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 824400213}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 75b07b023af7c2649b33c3963129fd88, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.28, y: 1.28}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!4 &824400215
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 824400213}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 92.98, y: -0.97, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2023175992}
-  m_RootOrder: 50
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &830384506
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 830384507}
-  - component: {fileID: 830384508}
-  - component: {fileID: 830384509}
-  m_Layer: 0
-  m_Name: FloorTile01 (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &830384507
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 830384506}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -1.9500008, y: -143.83, z: -2}
-  m_LocalScale: {x: 1.4625014, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1539866450}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &830384508
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 830384506}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &830384509
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -53156,7 +51057,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 --- !u!114 &876474648
-<<<<<<< HEAD
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -53167,255 +51067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!61 &876474649
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 876474645}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &879354048
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 879354049}
-  - component: {fileID: 879354050}
-  - component: {fileID: 879354051}
-  m_Layer: 0
-  m_Name: FloorTile01 (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &879354049
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 879354048}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -1.9500008, y: -117.84, z: -2}
-  m_LocalScale: {x: 1.4625014, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1263024980}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &879354050
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 879354048}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &879354051
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 879354048}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &883686429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 883686430}
-  - component: {fileID: 883686432}
-  - component: {fileID: 883686431}
-  - component: {fileID: 883686433}
-  m_Layer: 0
-  m_Name: FloorTile01 (81)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &883686430
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 883686429}
-  m_LocalRotation: {x: -0, y: -0, z: 0.8856845, w: 0.4642877}
-  m_LocalPosition: {x: 16.23, y: -46.63, z: -2}
-  m_LocalScale: {x: 1.4625005, y: 1.0000005, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1481025738}
-  m_RootOrder: 37
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 124.672005}
---- !u!61 &883686431
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 883686429}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!212 &883686432
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 883686429}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!114 &883686433
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 876474645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!61 &876474649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53453,11 +51105,7 @@ GameObject:
   - component: {fileID: 879354051}
   m_Layer: 0
   m_Name: FloorTile01 (16)
-<<<<<<< HEAD
-  m_TagString: Untagged
-=======
   m_TagString: Suelo
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53544,13 +51192,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &884583313
 GameObject:
   m_ObjectHideFlags: 0
@@ -53783,21 +51424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &887491898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54165,21 +51792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &900269788
 GameObject:
   m_ObjectHideFlags: 0
@@ -54249,7 +51862,6 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 40b1b31f89c3a634db1bf343b76ae725, type: 3}
-<<<<<<< HEAD
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -54284,144 +51896,8 @@ GameObject:
   - component: {fileID: 907381959}
   - component: {fileID: 907381958}
   m_Layer: 0
-  m_Name: FloorTile01 (21)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &907381957
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 907381956}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.3, y: -142.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1539866450}
-  m_RootOrder: 39
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &907381958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 907381956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!61 &907381959
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 907381956}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!212 &907381960
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 907381956}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.56, y: 2.56}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!4 &900269791
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 900269788}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.05019, y: -0.19128266, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 214834896}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &907381956
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 907381957}
-  - component: {fileID: 907381960}
-  - component: {fileID: 907381959}
-  - component: {fileID: 907381958}
-  m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: FloorTile01 (83)
-  m_TagString: Untagged
-=======
   m_Name: FloorTile01 (21)
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54438,14 +51914,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1539866450}
   m_RootOrder: 39
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 124.672005}
---- !u!61 &913629334
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &907381958
 MonoBehaviour:
@@ -54458,17 +51926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
---- !u!61 &907381959
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
 --- !u!61 &907381959
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 124.672005}
---- !u!61 &913629334
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -54623,21 +52082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &916437522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54749,21 +52194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &917554869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -55018,7 +52449,6 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-<<<<<<< HEAD
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -55065,247 +52495,8 @@ GameObject:
   - component: {fileID: 943661223}
   - component: {fileID: 943661222}
   m_Layer: 0
-  m_Name: FloorTile01 (41)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &943661220
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 943661219}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.069998, y: -112.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1539866450}
-  m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &943661221
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 943661219}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!114 &943661222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 943661219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!61 &943661223
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 943661219}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &944012521
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 944012522}
-  - component: {fileID: 944012524}
-  - component: {fileID: 944012523}
-  m_Layer: 0
-  m_Name: Fuego (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &944012522
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 944012521}
-  m_LocalRotation: {x: -0, y: -0, z: 0.22166659, w: 0.9751226}
-  m_LocalPosition: {x: -6.959999, y: -18.319992, z: -2.01375}
-  m_LocalScale: {x: 2.3079486, y: 2.3079486, z: 2.3079486}
-  m_Children: []
-  m_Father: {fileID: 107207206}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 25.614}
---- !u!95 &944012523
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 944012521}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6c6480d5a2147da4d8c527dda941d348, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!212 &944012524
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 944012521}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 841708bc7f7ed6b488af3219801a7f6c, type: 3}
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &941277623
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 941277620}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &943661219
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 943661220}
-  - component: {fileID: 943661221}
-  - component: {fileID: 943661223}
-  - component: {fileID: 943661222}
-  m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: FloorTile01 (56)
-  m_TagString: Untagged
-=======
   m_Name: FloorTile01 (41)
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55367,13 +52558,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!61 &948468565
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!114 &943661222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55385,18 +52569,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
---- !u!61 &943661223
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
 --- !u!61 &943661223
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
---- !u!61 &948468565
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -56726,21 +53900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1009035301
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56794,23 +53954,7 @@ Transform:
   m_LocalScale: {x: 2.30795, y: 2.30795, z: 2.30795}
   m_Children: []
   m_Father: {fileID: 107207206}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 13
-=======
-  m_RootOrder: 10
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
-  m_RootOrder: 10
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   m_RootOrder: 9
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  m_RootOrder: 13
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.614}
 --- !u!95 &1011471989
 Animator:
@@ -57300,21 +54444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1027262046
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57671,21 +54801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1050647225
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58568,21 +55684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1106252382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58694,21 +55796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1120771900
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58861,23 +55949,7 @@ Transform:
   m_LocalScale: {x: 2.30795, y: 2.30795, z: 2.30795}
   m_Children: []
   m_Father: {fileID: 107207206}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 12
-=======
-  m_RootOrder: 9
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
-  m_RootOrder: 9
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   m_RootOrder: 8
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  m_RootOrder: 12
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.614}
 --- !u!95 &1128489362
 Animator:
@@ -59051,21 +56123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1140900480
 GameObject:
   m_ObjectHideFlags: 0
@@ -59957,21 +57015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1176863401
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60862,21 +57906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1227725924
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61017,21 +58047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1232508524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61384,23 +58400,7 @@ Transform:
   m_LocalScale: {x: 2.3079505, y: 2.3079505, z: 2.30795}
   m_Children: []
   m_Father: {fileID: 107207206}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 10
-=======
-  m_RootOrder: 7
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
-  m_RootOrder: 7
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   m_RootOrder: 6
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  m_RootOrder: 10
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.614}
 --- !u!95 &1254936975
 Animator:
@@ -61505,21 +58505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1261277620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62217,21 +59203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1309318188
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62515,21 +59487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1322206412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -62666,21 +59624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1335355757
 GameObject:
   m_ObjectHideFlags: 0
@@ -64222,21 +61166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1398882809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64373,21 +61303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1407037643
 GameObject:
   m_ObjectHideFlags: 0
@@ -64549,21 +61465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1407518056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64675,21 +61577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1413702623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65385,21 +62273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1474033549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65920,21 +62794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1485883623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66265,21 +63125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1493286208
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66416,21 +63262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1497641558
 GameObject:
   m_ObjectHideFlags: 0
@@ -66870,21 +63702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1523868331
 GameObject:
   m_ObjectHideFlags: 0
@@ -66971,21 +63789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1523868335
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67097,21 +63901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1530785337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67839,15 +64629,7 @@ Transform:
   m_Father: {fileID: 233662249}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!1 &1598803409
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 --- !u!1 &1595148077
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1907959219320682, guid: 661a93f208c69144eb742a30f6155364,
@@ -67888,58 +64670,12 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1595148077}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c4fee1a89d869444690e64583c13b1ef, type: 3}
-  m_Color: {r: 0.5294118, g: 0.51316386, b: 0.46712804, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.03, y: 3.85}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &1608081376
-<<<<<<< HEAD
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15aeae79faf7bb549a40e95b41ddc534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   offset: 0
 --- !u!1 &1598803409
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -67950,17 +64686,8 @@ GameObject:
   - component: {fileID: 1598803410}
   - component: {fileID: 1598803412}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: FloorTile01 (21)
-  m_TagString: Untagged
-=======
   m_Name: 
   m_TagString: Suelo
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68132,17 +64859,8 @@ GameObject:
   - component: {fileID: 1608081380}
   - component: {fileID: 1608081379}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: FloorTile01 (80)
-  m_TagString: Untagged
-=======
   m_Name: FloorTile01 (21)
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68204,12 +64922,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!114 &1608081379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68221,10 +64933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!61 &1608081380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68250,12 +64959,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1621108051
 GameObject:
   m_ObjectHideFlags: 0
@@ -68810,18 +65513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1655062983
 GameObject:
   m_ObjectHideFlags: 0
@@ -68908,12 +65600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
+  edificio: 0
 --- !u!61 &1655062987
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68939,116 +65626,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
---- !u!1 &1656764597
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1656764598}
-  - component: {fileID: 1656764599}
-  - component: {fileID: 1656764600}
-  m_Layer: 0
-  m_Name: FloorTile01 (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1656764598
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1656764597}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 11.249998, y: -129.04, z: -2}
-  m_LocalScale: {x: 1.4625014, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1263024980}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &1656764599
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1656764597}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &1656764600
-=======
-  edificio: 0
---- !u!61 &1655062987
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1656764597}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1661687660
-=======
---- !u!114 &1654399200
-MonoBehaviour:
-=======
 --- !u!1 &1656764597
 GameObject:
   m_ObjectHideFlags: 0
@@ -69062,111 +65639,6 @@ GameObject:
   m_Layer: 0
   m_Name: FloorTile01 (10)
   m_TagString: Suelo
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1656764598
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1656764597}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 11.249998, y: -129.04, z: -2}
-  m_LocalScale: {x: 1.4625014, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1263024980}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &1656764599
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1656764597}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!61 &1656764600
-BoxCollider2D:
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
---- !u!61 &1655062987
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1655062983}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &1656764597
-GameObject:
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1656764598}
-  - component: {fileID: 1656764599}
-  - component: {fileID: 1656764600}
-  m_Layer: 0
-  m_Name: FloorTile01 (10)
-  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69266,17 +65738,7 @@ GameObject:
   - component: {fileID: 1661687663}
   m_Layer: 0
   m_Name: FloorTile01 (25)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Name: FloorTile01 (46)
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_TagString: Untagged
-=======
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69349,19 +65811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1661687664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -69399,17 +65849,7 @@ GameObject:
   - component: {fileID: 1665145705}
   m_Layer: 0
   m_Name: FloorTile01 (28)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Name: FloorTile01 (10)
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_TagString: Untagged
-=======
   m_TagString: Suelo
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69509,17 +65949,7 @@ GameObject:
   - component: {fileID: 1672627470}
   m_Layer: 0
   m_Name: FloorTile01 (44)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_Name: FloorTile01 (25)
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_TagString: Untagged
-=======
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69572,7 +66002,6 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-<<<<<<< HEAD
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -69593,146 +66022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!61 &1672627471
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1672627467}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &1672841862
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1672841863}
-  - component: {fileID: 1672841865}
-  - component: {fileID: 1672841864}
-  m_Layer: 0
-  m_Name: Fuego (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1672841863
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1672841862}
-  m_LocalRotation: {x: -0, y: -0, z: -0.22166763, w: 0.97512233}
-  m_LocalPosition: {x: 7.77, y: -33.27, z: -2.01375}
-  m_LocalScale: {x: 2.30795, y: 2.30795, z: 2.30795}
-  m_Children: []
-  m_Father: {fileID: 107207206}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.614}
---- !u!95 &1672841864
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1672841862}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6c6480d5a2147da4d8c527dda941d348, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!212 &1672841865
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1672841862}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 841708bc7f7ed6b488af3219801a7f6c, type: 3}
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
---- !u!114 &1672627470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1672627467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!61 &1672627471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -69758,12 +66048,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1674697704
 GameObject:
   m_ObjectHideFlags: 0
@@ -70311,21 +66595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1707994283
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70437,21 +66707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1716819552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70636,21 +66892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1724961604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70853,21 +67095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1750561159
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -71004,18 +67232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &1753481223
 GameObject:
   m_ObjectHideFlags: 0
@@ -71261,30 +67478,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1765566343
-=======
---- !u!114 &1753421409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1753421405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1753481223
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
 --- !u!1 &1785334627
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
---- !u!1 &1765566343
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -71417,53 +67611,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
---- !u!61 &1767049109
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1767049106}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &1784823808
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1784823809}
-  - component: {fileID: 1784823810}
-  - component: {fileID: 1784823811}
-  m_Layer: 0
-  m_Name: FloorTile01 (65)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1784823809
-=======
 --- !u!4 &1786196873
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -71634,17 +67782,8 @@ GameObject:
   - component: {fileID: 1799471331}
   - component: {fileID: 1799471330}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: pack_png_grietas__pixlr__by_omgitslittlejavi-d5h4vxn (37)
-  m_TagString: Untagged
-=======
   m_Name: FloorTile01 (48)
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71706,42 +67845,8 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
---- !u!1 &1794557154
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1794557155}
-  - component: {fileID: 1794557156}
-  m_Layer: 0
-  m_Name: rascacielos_pp 2 (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1794557155
-Transform:
-<<<<<<< HEAD
-=======
-  m_GameObject: {fileID: 1799471327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &1799471331
-BoxCollider2D:
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
 --- !u!114 &1799471330
 MonoBehaviour:
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -71759,50 +67864,6 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1799471327}
   m_Enabled: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c4fee1a89d869444690e64583c13b1ef, type: 3}
-  m_Color: {r: 0.5294118, g: 0.51316386, b: 0.46712804, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.03, y: 3.85}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &1799471327
-=======
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
   m_IsTrigger: 0
@@ -71822,7 +67883,6 @@ BoxCollider2D:
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
 --- !u!1 &1802874026
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1548896005221430, guid: 661a93f208c69144eb742a30f6155364,
@@ -71964,50 +68024,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e2c7065ebd53a468e31d5ee6749553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  jugador: {fileID: 133122826}
---- !u!61 &1799471331
-BoxCollider2D:
-=======
   Fuerza: 8
 --- !u!114 &1802874032
 MonoBehaviour:
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114008961280873144, guid: 661a93f208c69144eb742a30f6155364,
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1802874026}
   m_Enabled: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
-=======
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70e0c5914d12f3b4ca8f2c88c5e5e915, type: 3}
   m_Name: 
@@ -72070,7 +68095,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!1 &1820012405
 GameObject:
   m_ObjectHideFlags: 0
@@ -72736,21 +68760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1840655529
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73051,12 +69061,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1866300260
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!114 &1851081800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73068,10 +69072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!61 &1851081801
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73098,10 +69099,6 @@ BoxCollider2D:
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
 --- !u!1 &1862782002
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -73111,21 +69108,9 @@ GameObject:
   - component: {fileID: 1862782004}
   - component: {fileID: 1862782003}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Name: pack_png_grietas__pixlr__by_omgitslittlejavi-d5h4vxn (26)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-=======
-  m_Name: EndPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   m_Name: EndPoint
   m_TagString: Suelo1
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -73173,49 +69158,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1869815342
-=======
---- !u!114 &1851081800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1851081797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &1851081801
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1851081797}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &1862782002
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
 --- !u!4 &1862782004
 Transform:
   m_ObjectHideFlags: 0
@@ -73230,7 +69172,6 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1863920532
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -73240,19 +69181,9 @@ GameObject:
   - component: {fileID: 1863920533}
   - component: {fileID: 1863920534}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Name: city_backgroundSprite 3 (2)
-=======
   m_Name: city_backgroundSprite 2 (9)
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-=======
-  m_Name: EndPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -73863,21 +69794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1914172701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -74453,21 +70370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1945256151
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -74864,18 +70767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &1970367516
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -74977,7 +70869,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 --- !u!114 &1970674426
-<<<<<<< HEAD
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -74988,269 +70879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!61 &1970674427
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1970674423}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &1981598033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1981598034}
-  - component: {fileID: 1981598035}
-  - component: {fileID: 1981598037}
-  - component: {fileID: 1981598036}
-  m_Layer: 0
-  m_Name: FloorTile01 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1981598034
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1981598033}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.24, y: -158.17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1539866450}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1981598035
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1981598033}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!114 &1981598036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1981598033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
---- !u!61 &1981598037
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1981598033}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!1 &1982781646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1982781647}
-  - component: {fileID: 1982781649}
-  - component: {fileID: 1982781648}
-  - component: {fileID: 1982781650}
-  m_Layer: 0
-  m_Name: FloorTile01 (88)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1982781647
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1982781646}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.27, y: -44.71, z: -2}
-  m_LocalScale: {x: 1.4625, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1481025738}
-  m_RootOrder: 44
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1982781648
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1982781646}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!212 &1982781649
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1982781646}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!114 &1982781650
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1970674423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
---- !u!1 &1982906078
-=======
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!61 &1970674427
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -75277,14 +70906,6 @@ BoxCollider2D:
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
 --- !u!1 &1981598033
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
---- !u!1 &1982906078
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -75296,17 +70917,8 @@ GameObject:
   - component: {fileID: 1981598037}
   - component: {fileID: 1981598036}
   m_Layer: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Name: FloorTile01 (69)
-  m_TagString: Untagged
-=======
   m_Name: FloorTile01 (2)
   m_TagString: Suelo1
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75368,13 +70980,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!61 &1982906081
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!114 &1981598036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75386,16 +70991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
---- !u!61 &1981598037
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
 --- !u!61 &1981598037
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
---- !u!61 &1982906081
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -75754,7 +71351,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 --- !u!4 &2007597678
-<<<<<<< HEAD
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -75803,10 +71399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
+  edificio: 0
 --- !u!1 &2016410043
 GameObject:
   m_ObjectHideFlags: 0
@@ -75823,207 +71416,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2016410044
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2016410043}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 233.9, y: 63.4, z: 22}
-  m_LocalScale: {x: 4.2156425, y: 4.298304, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2023175992}
-  m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2016410045
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2016410043}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ac7ff0d62378642b03313bd7980b1f, type: 3}
-  m_Color: {r: 0.72156864, g: 0.7019608, b: 0.61960787, a: 1}
-  m_FlipX: 1
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 14.54, y: 4.79}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &2017707345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2017707347}
-  - component: {fileID: 2017707346}
-  - component: {fileID: 2017707348}
-  - component: {fileID: 2017707349}
-  m_Layer: 0
-  m_Name: FloorTile01 (25)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &2017707346
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2017707345}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!4 &2017707347
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2017707345}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.52000046, y: -126.979996, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 233662249}
-  m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2017707348
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2017707345}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!114 &2017707349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2017707345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
---- !u!1 &2018084942
-=======
-=======
-  edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
---- !u!1 &2016410043
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2018084944}
-  - component: {fileID: 2018084943}
-  - component: {fileID: 2018084945}
-  - component: {fileID: 2018084946}
-  m_Layer: 0
-  m_Name: FloorTile01 (34)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-<<<<<<< HEAD
---- !u!212 &2018084943
-=======
 --- !u!4 &2016410044
 Transform:
   m_ObjectHideFlags: 0
@@ -76100,210 +71492,6 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!212 &2017707346
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2017707345}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!4 &2017707347
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2007597676}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4300003, y: -147.66, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 233662249}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2007597679
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2007597676}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!114 &2007597680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2007597676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  edificio: 0
---- !u!1 &2018084942
-=======
-  jugador: {fileID: 133122826}
---- !u!1 &2016410043
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2016410044}
-  - component: {fileID: 2016410045}
-  m_Layer: 0
-<<<<<<< HEAD
-  m_Name: 
-  m_TagString: Suelo
-=======
-  m_Name: city_backgroundSprite 3 (13)
-  m_TagString: Untagged
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-<<<<<<< HEAD
---- !u!212 &2018084943
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
---- !u!4 &2016410044
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2016410043}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 233.9, y: 63.4, z: 22}
-  m_LocalScale: {x: 4.2156425, y: 4.298304, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2023175992}
-  m_RootOrder: 27
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2016410045
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2016410043}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ac7ff0d62378642b03313bd7980b1f, type: 3}
-  m_Color: {r: 0.72156864, g: 0.7019608, b: 0.61960787, a: 1}
-  m_FlipX: 1
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 14.54, y: 4.79}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &2017707345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2017707347}
-  - component: {fileID: 2017707346}
-  - component: {fileID: 2017707348}
-  - component: {fileID: 2017707349}
-  m_Layer: 0
-  m_Name: FloorTile01 (25)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &2017707346
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -76396,7 +71584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: {fileID: 133122826}
+  edificio: 0
 --- !u!1 &2018084942
 GameObject:
   m_ObjectHideFlags: 0
@@ -76409,14 +71597,13 @@ GameObject:
   - component: {fileID: 2018084945}
   - component: {fileID: 2018084946}
   m_Layer: 0
-  m_Name: FloorTile01 (34)
-  m_TagString: Untagged
+  m_Name: 
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!212 &2018084943
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -76509,172 +71696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
-  jugador: {fileID: 0}
---- !u!1 &2019425013
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2019425014}
-  - component: {fileID: 2019425016}
-  - component: {fileID: 2019425015}
-  m_Layer: 0
-  m_Name: FloorTile01 (57)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2019425014
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2019425013}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.1, y: -69.4, z: -2}
-  m_LocalScale: {x: 1.4625005, y: 1.0000005, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1481025738}
-  m_RootOrder: 32
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2019425015
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2019425013}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!212 &2019425016
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2019425013}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300052, guid: 8cdd847ab4f914d4cb3d23e9eb98958d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.94, y: 0.95}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
---- !u!4 &2018084944
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2018084942}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 11.270002, y: -116.47, z: -2}
-  m_LocalScale: {x: 1.4625014, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 233662249}
-  m_RootOrder: 31
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!61 &2018084945
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2018084942}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 476ed4f25b2f62d40b707a2c8ee49d7f, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.94, y: 0.95}
-    newSize: {x: 4.94, y: 0.95}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.94, y: 0.95}
-  m_EdgeRadius: 0
---- !u!114 &2018084946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2018084942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &2023175990
 GameObject:
   m_ObjectHideFlags: 0
@@ -77096,21 +72118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &2050443110
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -77136,12 +72144,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.94, y: 0.95}
   m_EdgeRadius: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!1 &2054441868
 GameObject:
   m_ObjectHideFlags: 0
@@ -77169,11 +72171,7 @@ Transform:
   m_LocalScale: {x: 4.21564, y: 5.20967, z: 1}
   m_Children: []
   m_Father: {fileID: 2023175992}
-<<<<<<< HEAD
-  m_RootOrder: 54
-=======
   m_RootOrder: 52
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2054441870
 SpriteRenderer:
@@ -77219,12 +72217,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-<<<<<<< HEAD
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &2055395981
 GameObject:
   m_ObjectHideFlags: 0
@@ -77785,21 +72777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!1 &2101128283
 GameObject:
   m_ObjectHideFlags: 0
@@ -77985,21 +72963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47cb7efa1cb83484a9c4b63e8070d643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  jugador: {fileID: 133122826}
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
->>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
-=======
   edificio: 0
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
-=======
-  jugador: {fileID: 133122826}
->>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 --- !u!61 &2105226561
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -78071,56 +73035,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c366f60b5015da42b88735a448defa0, type: 2}
   m_IsPrefabParent: 0
-<<<<<<< HEAD
---- !u!1001 &2108342925
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -27.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114200693138751760, guid: 661a93f208c69144eb742a30f6155364,
-        type: 2}
-      propertyPath: Fuerza
-      value: 8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 661a93f208c69144eb742a30f6155364, type: 2}
-  m_IsPrefabParent: 0
-=======
->>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
 --- !u!1 &2116492851
 GameObject:
   m_ObjectHideFlags: 0
