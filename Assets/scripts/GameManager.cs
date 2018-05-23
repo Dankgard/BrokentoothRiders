@@ -150,10 +150,13 @@ public class GameManager : MonoBehaviour
     IEnumerator LoadScene(string escena, int time)
     {
         yield return new WaitForSeconds(time);
-        currentHealth = initialHealth;
-        currentEnergy = initialEnergy;
-        vida.Reload(initialHealth);
-        energia.Reload(initialEnergy);
+        if (escena != "level2_1")
+        {
+            currentHealth = initialHealth;
+            currentEnergy = initialEnergy;
+            vida.Reload(initialHealth);
+            energia.Reload(initialEnergy);
+        }
         SceneManager.LoadScene(escena);
     }
 
