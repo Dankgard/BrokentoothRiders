@@ -7,37 +7,44 @@ public class SaltoHumano : MonoBehaviour
 
     int NSaltos = 2;
     public int Fuerza;
-    Rigidbody2D rb;    
-    bool salto = false;
+    public GameObject jugador;
+   // public Rigidbody2D rb;    
+    
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();       
+       // rb = GetComponent<Rigidbody2D>();       
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    /*public void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Suelo1")
         {
             salto = true;
         }
+    }*/
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Suelo" || collision.gameObject.tag == "Suelo1")
+        {
+            NSaltos = 2;
+        }
     }
 
     public void Update()
     {
-        if (rb.velocity.y == 0 || salto)
+       /* if (rb.velocity.y == 0)
         {
             NSaltos = 2;
-        }
+        }*/
 
         if (Input.GetButtonDown("Jump"))
         {
             if (NSaltos > 0)
             {
-                rb.velocity = new Vector2(0, Fuerza);
+                jugador.GetComponent<Rigidbody2D>().velocity= new Vector2(0, Fuerza);
                 NSaltos -= 1;
             }
-        }
-        salto = false;
+        }        
 
     }
 
