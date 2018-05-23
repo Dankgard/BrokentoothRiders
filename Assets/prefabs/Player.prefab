@@ -185,7 +185,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1548896005221430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.65, y: 0.159, z: -2}
+  m_LocalPosition: {x: -32.946, y: 0.13, z: -2}
   m_LocalScale: {x: 1.05, y: 0.95, z: 1}
   m_Children:
   - {fileID: 4539448708960592}
@@ -335,7 +335,7 @@ MonoBehaviour:
   shotgunReach: 1
   rifleReach: 2
   shotgunActive: 0
-  bulletSpeed: 15
+  bulletSpeed: 20
   automaticWeapon: 0
   rifleSound: {fileID: 8300000, guid: 7b43a0ab12997ce4b8b0e0be6cb35007, type: 3}
   shotgunSound: {fileID: 8300000, guid: f644087a28da014458c35e870b192f14, type: 3}
