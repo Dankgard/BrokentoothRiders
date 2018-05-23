@@ -2,9 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Aplastamiento : MonoBehaviour {   
+public class Aplastamiento : MonoBehaviour {
 
-    
+    public bool edificio = false;
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            edificio = true;
+            Debug.Log("funciona");
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
