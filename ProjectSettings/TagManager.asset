@@ -27,6 +27,13 @@ TagManager:
   - enemyName
   - BalaSpawner
   - Limite
+<<<<<<< HEAD
+=======
+  - Rebote
+<<<<<<< HEAD
+>>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
+=======
+>>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
   layers:
   - Default
   - TransparentFX
