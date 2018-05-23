@@ -216,7 +216,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1548896005221430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.946, y: 0.13, z: -2}
+  m_LocalPosition: {x: -8.3, y: -2.2, z: -2.5}
   m_LocalScale: {x: 1.05, y: 0.95, z: 1}
   m_Children:
   - {fileID: 4539448708960592}
@@ -399,7 +399,7 @@ MonoBehaviour:
   granada: {fileID: 114896407680497948, guid: 23aff71927042e541b21130652b6e2db, type: 2}
   escudo: {fileID: 114582025265781078, guid: 4a933b0e45313874ebef31fa0ee31044, type: 2}
   gasto: 5
-  velGranada: 5
+  velGranada: 6
   grenadePoint: {fileID: 4539448708960592}
 --- !u!114 &114158828519504538
 MonoBehaviour:
