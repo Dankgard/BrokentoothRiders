@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class Aplastamiento : MonoBehaviour {
 
-    public bool edificio = false;
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            edificio = true;
-            Debug.Log("funciona");
-        }
-    }
+    public GameObject jugador;	
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,7 +13,6 @@ public class Aplastamiento : MonoBehaviour {
             Debug.Log("Muerte");
             GameManager.instance.Death();
         }
-        
     }   
 
 }

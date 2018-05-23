@@ -38,29 +38,18 @@ public class MovimientoProtagonista : MonoBehaviour
         anim.SetBool("Caida", false);
         anim.SetBool("Salto", false);
 
-        if (rb.velocity.x == 0 && rb.velocity.y == 0)
-        {
-            anim.SetBool("Idle", true);            
-        }      
-           
+        if (rb.velocity.x == 0 && rb.velocity.y == 0)        
+            anim.SetBool("Idle", true);
         
-        else if (rb.velocity.x != 0 && rb.velocity.y == 0)
-        {
-            anim.SetBool("Run", true);            
-        }        
-            
+        else if (rb.velocity.x != 0 && rb.velocity.y == 0)        
+            anim.SetBool("Run", true);
         
-        else if (rb.velocity.y > 0)
-        {
-            anim.SetBool("Salto", true);            
-        }        
-            
+        else if (rb.velocity.y > 0)        
+            anim.SetBool("Salto", true);
         
 
-        else if (rb.velocity.y < 0) {
-            anim.SetBool("Caida", true);            
-        }        
-                   
+        else if (rb.velocity.y < 0)        
+            anim.SetBool("Caida", true);        
         
             
             
