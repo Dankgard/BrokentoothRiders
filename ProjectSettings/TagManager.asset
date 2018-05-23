@@ -28,12 +28,17 @@ TagManager:
   - BalaSpawner
   - Limite
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - Rebote
 <<<<<<< HEAD
 >>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
 =======
 >>>>>>> parent of 3dc7854... Arreglando algunos errores de salto y de nivel
+=======
+  - Rebote
+  - Suelo1
+>>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
   layers:
   - Default
   - TransparentFX
