@@ -29,6 +29,7 @@ TagManager:
   - Limite
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - Rebote
 <<<<<<< HEAD
@@ -39,6 +40,8 @@ TagManager:
   - Rebote
   - Suelo1
 >>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
+=======
+>>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
   layers:
   - Default
   - TransparentFX

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Aplastamiento : MonoBehaviour {   
+public class Aplastamiento : MonoBehaviour {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25,6 +26,9 @@ public class Aplastamiento : MonoBehaviour {
         }
     }
 >>>>>>> parent of d176b78... Revert "Merge remote-tracking branch 'origin/Gonzalo-Alejandro'"
+=======
+    public GameObject jugador;	
+>>>>>>> parent of 663c7ff... Revert "Arreglando algunos errores de salto y de nivel"
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
