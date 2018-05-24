@@ -11,7 +11,7 @@ public class PaqueteArmas : MonoBehaviour {
         if(other.gameObject.tag == "Player")
         {
             DisparoRex arma  = other.GetComponent<DisparoRex>();
-            arma.shotgunActive = isShotgun;
+            GameManager.instance.shotgunActive = isShotgun;
             arma.WeaponChange();
             Destroy(gameObject);
         }
