@@ -242,8 +242,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "tras escupir en el cad\xE1ver de ed hern\xE1ndez, rex tom\xF3 prestada
-    su moto y sali\xF3 a la carretera, camino a skull town..."
+  m_Text: "tras escupir en el cad\xE1ver de ed hern\xE1ndez, rex toma prestada su
+    moto y sale a la carretera, camino a skull town..."
 --- !u!222 &568237354
 CanvasRenderer:
   m_ObjectHideFlags: 0

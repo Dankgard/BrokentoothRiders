@@ -114619,11 +114619,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.65
+      value: -3.8
       objectReference: {fileID: 0}
     - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.94
+      value: -3.53
       objectReference: {fileID: 0}
     - target: {fileID: 4755500220109176, guid: 661a93f208c69144eb742a30f6155364, type: 2}
       propertyPath: m_LocalPosition.z
@@ -114891,7 +114891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e453d0e978010d8499c60b1d81c7916c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: level5_3
+  escena: level5_beforeboss
 --- !u!61 &1462413149
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -115668,6 +115668,60 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14736943261eaba44923d7a8e6d03959, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2099571358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2099571360}
+  - component: {fileID: 2099571359}
+  m_Layer: 0
+  m_Name: Bloque1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &2099571359
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2099571358}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.80799, y: -12.904848}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.216494, y: 12.254719}
+  m_EdgeRadius: 0
+--- !u!4 &2099571360
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2099571358}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10, y: 14, z: -0.2421875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2119766945
 Prefab:
   m_ObjectHideFlags: 0
