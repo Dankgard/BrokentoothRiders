@@ -50724,6 +50724,10 @@ Prefab:
       value: "\xA1todo iba tan bien hasta que \\n aparecieron esos bichos tan raros!
         \\n \xBFsabes tu de d\xF3nde han salido?"
       objectReference: {fileID: 0}
+    - target: {fileID: 4803924845123026, guid: 6e8c864657869e94fa3d2fac80ca9ecf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.56
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e8c864657869e94fa3d2fac80ca9ecf, type: 2}
   m_IsPrefabParent: 0

@@ -38467,12 +38467,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114797327029616492, guid: 6e8c864657869e94fa3d2fac80ca9ecf,
-        type: 2}
-      propertyPath: text
-      value: si, hace poco vi pasar \n a un hombre muy imponente \n montado en una
-        moto
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e8c864657869e94fa3d2fac80ca9ecf, type: 2}
   m_IsPrefabParent: 0
