@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance = null;
 
-    GameObject player;
+    public GameObject player;
 
     public int initialHealth = 100; //Vida al iniciar el juego
     public int currentHealth; //Vida a lo largo del nivel
@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
     public bool interfaz = true;
 
     public AudioClip hurtSound;
+
+    // true escopeta, false fusil
+    public bool shotgunActive;
 
     void Awake()
     {
@@ -43,7 +46,6 @@ public class GameManager : MonoBehaviour
         }
         currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
         currentEnergy = initialEnergy;
-        player = GameObject.FindWithTag("Player").gameObject;
     }
 
     void OnEnable()
@@ -58,10 +60,14 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnLevelFinishedLoading;
     }
 
+
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
+        player = GameObject.FindWithTag("Player").gameObject;
+
         if (SceneManager.GetActiveScene().name != "level2_1")
         {
+            
             vida = GameObject.FindWithTag("healthbar").GetComponent<VidaJugador>();
             energia = GameObject.FindWithTag("energybar").GetComponent<EnergiaJugador>();
         }
@@ -85,6 +91,11 @@ public class GameManager : MonoBehaviour
     public int Energy()
     {
         return currentEnergy;
+    }
+
+    public bool ShotgunActive()
+    {
+        return shotgunActive;
     }
 
     public void TakeDamage(int damage)
@@ -123,7 +134,9 @@ public class GameManager : MonoBehaviour
     {
         if (alive)
         {
+            //Destroy(player);
             Destroy(player);
+            Debug.Log("muerto");
             alive = false;
             currentHealth = 0;
             ReloadScene();

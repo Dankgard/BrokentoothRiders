@@ -14,9 +14,6 @@ public class DisparoRex : MonoBehaviour
     public float shotgunReach = 1;
     public float rifleReach = 2;
 
-    // true escopeta, false fusil
-    public bool shotgunActive;
-
     public float bulletSpeed = 10;
 
     public bool automaticWeapon;
@@ -87,7 +84,7 @@ public class DisparoRex : MonoBehaviour
     {
         canShoot = true;
 
-        if (shotgunActive)
+        if (GameManager.instance.ShotgunActive())
         {
 			cursor.sprite = armas[1];
             bullets = shotgunBullets;
@@ -103,6 +100,6 @@ public class DisparoRex : MonoBehaviour
             delay = rifleDelay;
             automaticWeapon = true;
         }
-        spriteArma.LoadWeapon(shotgunActive);
+        spriteArma.LoadWeapon(GameManager.instance.ShotgunActive());
     }
 }

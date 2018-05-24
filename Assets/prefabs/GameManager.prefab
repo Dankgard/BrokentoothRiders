@@ -51,9 +51,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db99b52af92974d409c6d18ab9823ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   initialHealth: 100
   currentHealth: 0
   initialEnergy: 25
   currentEnergy: 0
-  interfaz: 1
+  interfaz: 0
   hurtSound: {fileID: 8300000, guid: 89b366ddb61b62949a96865220360806, type: 3}
