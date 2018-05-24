@@ -28,7 +28,7 @@ public class Explosion : MonoBehaviour {
             VidaEnemigo enemigo = collision.gameObject.GetComponent<VidaEnemigo>();
             enemigo.TakeDamage(explosionDamage);
         }
-        if (collision.gameObject.tag == "Caja")
+        if (collision.gameObject.tag == "Caja" || collision.gameObject.tag == "NPC")
         {
             Destroy(collision.gameObject);
         }
