@@ -145,7 +145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.89, y: -57.475}
+  m_AnchoredPosition: {x: 2.8900156, y: 4}
   m_SizeDelta: {x: 420.28, y: 290.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &721840671
@@ -181,7 +181,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "en su misi\xF3n grupal para encontrar informaci\xF3n y ser capaces de acabar
-    con new world order, rex consigue hacer un gran descubrimiento a cerca de su enemigo;
+    con new world order, rex consigue hacer un gran descubrimiento acerca de su enemigo;
     ha encontrado la localizacion de su base secreta"
 --- !u!222 &721840672
 CanvasRenderer:

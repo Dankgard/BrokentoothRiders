@@ -140,3 +140,4 @@ MonoBehaviour:
   menu: {fileID: 8300000, guid: 190209b35899be643bc961bffb42e342, type: 3}
   boss: {fileID: 8300000, guid: efcc315685576fd44ba80529c594823d, type: 3}
   credits: {fileID: 8300000, guid: 1951571d3780f184b94513199b180b41, type: 3}
+  nothing: {fileID: 8300000, guid: 58624b985f6691147912bd07b615a148, type: 3}

@@ -16,7 +16,7 @@ public class SoundManager : MonoBehaviour {
     public AudioClip menu;
     public AudioClip boss;
     public AudioClip credits;
-    AudioClip nothing;
+    public AudioClip nothing;
  
     string lastScene ="";
 
@@ -43,6 +43,12 @@ public class SoundManager : MonoBehaviour {
 
         music = new Dictionary<string, AudioClip>
         {
+            { "level0_1", nothing},
+            { "level0_2", nothing},
+            { "level0_3", nothing},
+            { "level0_4", nothing},
+            { "level0_5", nothing},
+            { "level0_6", nothing},
             { "credits", credits },
             { "level1_1", level1 },
             { "level1_2", level1 },
@@ -98,11 +104,7 @@ public class SoundManager : MonoBehaviour {
         if (cambiaMusica)
         {
             source.clip = music[currentScene.name];
-
-            if (source.clip != nothing)
-                source.Play();
-            else
-                source.Stop();
+            source.Play();
         }
 
         lastScene = scene.name;
