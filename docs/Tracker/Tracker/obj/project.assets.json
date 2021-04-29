@@ -48,25 +48,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario_local\\.nuget\\packages\\": {},
-    "c:\\software\\programacion\\MSVStudio2017\\Shared\\NuGetPackages": {},
+    "C:\\Users\\Miguel Zhefan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "U:\\hlocal\\Tracker\\Tracker\\Tracker.csproj",
+      "projectUniqueName": "C:\\Users\\Miguel Zhefan\\Desktop\\4\\UA\\BrokentoothRiders\\docs\\Tracker\\Tracker\\Tracker.csproj",
       "projectName": "Tracker",
-      "projectPath": "U:\\hlocal\\Tracker\\Tracker\\Tracker.csproj",
-      "packagesPath": "C:\\Users\\usuario_local\\.nuget\\packages\\",
-      "outputPath": "U:\\hlocal\\Tracker\\Tracker\\obj\\",
+      "projectPath": "C:\\Users\\Miguel Zhefan\\Desktop\\4\\UA\\BrokentoothRiders\\docs\\Tracker\\Tracker\\Tracker.csproj",
+      "packagesPath": "C:\\Users\\Miguel Zhefan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Miguel Zhefan\\Desktop\\4\\UA\\BrokentoothRiders\\docs\\Tracker\\Tracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "c:\\software\\programacion\\MSVStudio2017\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\usuario_local\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Miguel Zhefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -74,7 +74,7 @@
         "net5.0"
       ],
       "sources": {
-        "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -113,7 +113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

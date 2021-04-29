@@ -1,7 +1,10 @@
-/*
-/*/
+
 
 !.gitignore
 !/Assets/
 !/ProjectSettings/
 !/docs/
+
+*.dll
+
+bin/Debug/

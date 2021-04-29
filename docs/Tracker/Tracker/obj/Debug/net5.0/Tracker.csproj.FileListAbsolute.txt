@@ -16,3 +16,21 @@ U:\hlocal\Tracker\Tracker\obj\Debug\net5.0\Tracker.dll
 U:\hlocal\Tracker\Tracker\obj\Debug\net5.0\ref\Tracker.dll
 U:\hlocal\Tracker\Tracker\obj\Debug\net5.0\Tracker.pdb
 U:\hlocal\Tracker\Tracker\obj\Debug\net5.0\Tracker.genruntimeconfig.cache
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\bin\Debug\net5.0\Tracker.exe
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\bin\Debug\net5.0\Tracker.deps.json
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\bin\Debug\net5.0\Tracker.runtimeconfig.json
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\bin\Debug\net5.0\Tracker.runtimeconfig.dev.json
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\bin\Debug\net5.0\Tracker.dll
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\bin\Debug\net5.0\ref\Tracker.dll
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\bin\Debug\net5.0\Tracker.pdb
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.csprojAssemblyReference.cache
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.AssemblyInfoInputs.cache
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.AssemblyInfo.cs
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.csproj.CopyComplete
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.dll
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\ref\Tracker.dll
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.pdb
+C:\Users\Miguel Zhefan\Desktop\4\UA\BrokentoothRiders\docs\Tracker\Tracker\obj\Debug\net5.0\Tracker.genruntimeconfig.cache

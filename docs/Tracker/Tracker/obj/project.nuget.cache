@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m3abygzlSek1iXqN+5DUKqPhYSx3IQ3GpYnI8CIr6gClVvRRRQbEGS8nwbb3EoEY4nGEnSnQxxkWnKEF4Zuwpg==",
+  "dgSpecHash": "jk8QuPQwxBHW/UceGYwUqrcUkMwgxU0t87KyTIqYdAHHlLFU/r/KcDaDr9galApJ1OcP63fJROHQueKjiPi/8A==",
   "success": true,
-  "projectFilePath": "U:\\hlocal\\Tracker\\Tracker\\Tracker.csproj",
+  "projectFilePath": "C:\\Users\\Miguel Zhefan\\Desktop\\4\\UA\\BrokentoothRiders\\docs\\Tracker\\Tracker\\Tracker.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\usuario_local\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Miguel Zhefan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
