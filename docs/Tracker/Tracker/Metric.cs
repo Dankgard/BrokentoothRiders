@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace Tracker
 {
@@ -7,13 +9,39 @@ namespace Tracker
         public float X { get; set; }
         public float Y { get; set; }
     }
+    /*public class Session
+    {
+        float startTime = 0.0f;
+        Session sesion;
+        string startMessage = "Inicio de sesion: ";
 
+        public Session()
+        {
+            sesion = new();
+        }
+
+        public void Start()
+        {
+            string jsonFile = JsonConvert.SerializeObject(startTime, Formatting.Indented);
+            File.WriteAllText("../Files/Session.json", jsonFile);
+        }
+
+        public void End()
+        {
+
+        }
+    }
+    public class Level {
+            
+    }*/
     public class DamageFrequency
     {
+        DamageFrequency damageFrequency;
         public DamageFrequency()
         {
-            Metric = "Damage Frequency";
-            Positions = new List<Vector2>();
+            damageFrequency = new();
+            damageFrequency.Metric = "Damage Frequency";
+            damageFrequency.Positions = new List<Vector2>();
         }
         public string Metric { get; set; }
         public int Level { get; set; }
@@ -21,50 +49,76 @@ namespace Tracker
 
         public void AddPosition(float posX, float posY)
         {
-            Positions.Add(new Vector2 { X = posX, Y = posY });
+            damageFrequency.Positions.Add(new Vector2 { X = posX, Y = posY });
+        }
+        public void ToJson()
+        {
+            string jsonFile = JsonConvert.SerializeObject(damageFrequency, Formatting.Indented);
+            File.WriteAllText("../Files/DamageFrequency.json", jsonFile);
         }
     }
     public class HitFrequency
     {
+        HitFrequency hitFrequency;
         public HitFrequency()
         {
-            Metric = "Hit Frequency";
-            HitPerEnemy = new();
+            hitFrequency = new();
+            hitFrequency.Metric = "Hit Frequency";
+            hitFrequency.HitPerEnemy = new();
         }
         public string Metric { get; set; }
         public int Level { get; set; }
         public Dictionary<string, int> HitPerEnemy;
         public void AddEntry(string enemyType)
         {
-            if (HitPerEnemy.ContainsKey(enemyType))
+            if (hitFrequency.HitPerEnemy.ContainsKey(enemyType))
             {
-                HitPerEnemy[enemyType]++;
+                hitFrequency.HitPerEnemy[enemyType]++;
             }
             else
             {
-                HitPerEnemy.Add(enemyType, 1);
+                hitFrequency.HitPerEnemy.Add(enemyType, 1);
             }
+        }
+        public void ToJson()
+        {
+            string jsonFile = JsonConvert.SerializeObject(hitFrequency, Formatting.Indented);
+            File.WriteAllText("../Files/HitFrequency.json", jsonFile);
         }
     }
     public class LevelTime
     {
-        public LevelTime(float InitialTimer)
+        LevelTime levelTime;
+        public LevelTime()
         {
-            Metric = "Level Time";
-            Time = InitialTimer;
+            levelTime = new();
+            levelTime.Metric = "Level Time";
+            levelTime.Time = 0;
         }
         public string Metric { get; set; }
         public float Time { get; set; }
 
+        public void StartTimer(float startTimer)
+        {
+            levelTime.Time = startTimer;
+        }
+
         public void StopTimer(float FinalTimer)
         {
-            Time = FinalTimer - Time;
+            levelTime.Time = FinalTimer - levelTime.Time;
+        }
+        public void ToJson()
+        {
+            string jsonFile = JsonConvert.SerializeObject(levelTime, Formatting.Indented);
+            File.WriteAllText("../Files/LevelTime.json", jsonFile);
         }
     }
     public class WeaponUsageFrequency
     {
+        WeaponUsageFrequency weaponUsageFrequency;
         public WeaponUsageFrequency()
         {
+            weaponUsageFrequency = new();
             Metric = "Weapon Usage Frequency";
             WeaponUsage = new();
         }
@@ -75,20 +129,28 @@ namespace Tracker
         //el tiempo que recibe en el parametro timeUsed se controla desde unity
         public void AddEntry(string gunType, float timeUsed)
         {
-            if (WeaponUsage.ContainsKey(gunType))
+            if (weaponUsageFrequency.WeaponUsage.ContainsKey(gunType))
             {
-                WeaponUsage[gunType] += timeUsed;
+                weaponUsageFrequency.WeaponUsage[gunType] += timeUsed;
             }
             else
             {
-                WeaponUsage.Add(gunType, timeUsed);
+                weaponUsageFrequency.WeaponUsage.Add(gunType, timeUsed);
             }
+        }
+        public void ToJson()
+        {
+            string jsonFile = JsonConvert.SerializeObject(weaponUsageFrequency, Formatting.Indented);
+            File.WriteAllText("../Files/WeaponUsageFrequency.json", jsonFile);
         }
     }
     public class WeaponAccuracy
     {
+        WeaponAccuracy weaponAccuracy;
+
         public WeaponAccuracy()
         {
+            weaponAccuracy = new();
             Metric = "Weapon Accuracy";
             WeaponHit = new();
             WeaponMiss = new();
@@ -104,26 +166,33 @@ namespace Tracker
         {
             if (hit)
             {
-                if (WeaponHit.ContainsKey(gunType))
-                    WeaponHit[gunType]++;
-                else WeaponHit.Add(gunType, 1);
+                if (weaponAccuracy.WeaponHit.ContainsKey(gunType))
+                    weaponAccuracy.WeaponHit[gunType]++;
+                else weaponAccuracy.WeaponHit.Add(gunType, 1);
             }
             else
             {
-                if (WeaponMiss.ContainsKey(gunType))
+                if (weaponAccuracy.WeaponMiss.ContainsKey(gunType))
                     WeaponMiss[gunType]++;
-                else WeaponMiss.Add(gunType, 1);
+                else weaponAccuracy.WeaponMiss.Add(gunType, 1);
             }
         }
         public void CalculateAccuracy()
         {
             foreach (KeyValuePair<string, float> entry in WeaponHit)
             {
-                if (WeaponAccuracyPercentage.ContainsKey(entry.Key))
-                    WeaponAccuracyPercentage[entry.Key] = WeaponHit[entry.Key] / (WeaponHit[entry.Key] + WeaponMiss[entry.Key]);
-                else WeaponAccuracyPercentage.Add(entry.Key, WeaponHit[entry.Key] / (WeaponHit[entry.Key] + WeaponMiss[entry.Key]));
+                if (weaponAccuracy.WeaponAccuracyPercentage.ContainsKey(entry.Key))
+                    weaponAccuracy.WeaponAccuracyPercentage[entry.Key] = 
+                        weaponAccuracy.WeaponHit[entry.Key] / (weaponAccuracy.WeaponHit[entry.Key] + weaponAccuracy.WeaponMiss[entry.Key]);
+                else 
+                    weaponAccuracy.WeaponAccuracyPercentage.Add(entry.Key, 
+                        weaponAccuracy.WeaponHit[entry.Key] / (weaponAccuracy.WeaponHit[entry.Key] + weaponAccuracy.WeaponMiss[entry.Key]));
             }
         }
+        public void ToJson()
+        {
+            string jsonFile = JsonConvert.SerializeObject(weaponAccuracy, Formatting.Indented);
+            File.WriteAllText("../Files/WeaponAcuracy.json", jsonFile);
+        }
     }
-
 }
