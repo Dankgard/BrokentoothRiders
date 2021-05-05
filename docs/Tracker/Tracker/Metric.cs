@@ -39,9 +39,11 @@ namespace Tracker
         DamageFrequency damageFrequency;
         public DamageFrequency()
         {
-            damageFrequency = new();
-            damageFrequency.Metric = "Damage Frequency";
-            damageFrequency.Positions = new List<Vector2>();
+            damageFrequency = new DamageFrequency
+            {
+                Metric = "Damage Frequency",
+                Positions = new List<Vector2>()
+            };
         }
         public string Metric { get; set; }
         public int Level { get; set; }
@@ -62,9 +64,11 @@ namespace Tracker
         HitFrequency hitFrequency;
         public HitFrequency()
         {
-            hitFrequency = new();
-            hitFrequency.Metric = "Hit Frequency";
-            hitFrequency.HitPerEnemy = new();
+            hitFrequency = new HitFrequency
+            {
+                Metric = "Hit Frequency",
+                HitPerEnemy = new Dictionary<string, int>()
+            };
         }
         public string Metric { get; set; }
         public int Level { get; set; }
@@ -91,9 +95,11 @@ namespace Tracker
         LevelTime levelTime;
         public LevelTime()
         {
-            levelTime = new();
-            levelTime.Metric = "Level Time";
-            levelTime.Time = 0;
+            levelTime = new LevelTime
+            {
+                Metric = "Level Time",
+                Time = 0
+            };
         }
         public string Metric { get; set; }
         public float Time { get; set; }
@@ -118,9 +124,9 @@ namespace Tracker
         WeaponUsageFrequency weaponUsageFrequency;
         public WeaponUsageFrequency()
         {
-            weaponUsageFrequency = new();
+            weaponUsageFrequency = new WeaponUsageFrequency();
             Metric = "Weapon Usage Frequency";
-            WeaponUsage = new();
+            WeaponUsage = new Dictionary<string, float>();
         }
         public string Metric { get; set; }
         public int Level { get; set; }
@@ -150,14 +156,14 @@ namespace Tracker
 
         public WeaponAccuracy()
         {
-            weaponAccuracy = new();
+            weaponAccuracy = new WeaponAccuracy();
             Metric = "Weapon Accuracy";
-            WeaponHit = new();
-            WeaponMiss = new();
-            WeaponAccuracyPercentage = new();
+            WeaponHit = new Dictionary<string, float>();
+            WeaponMiss = new Dictionary<string, float>();
+            WeaponAccuracyPercentage = new Dictionary<string, float>();
         }
         public string Metric { get; set; }
-        public int Level { get; set; }        
+        public int Level { get; set; }
         public Dictionary<string, float> WeaponHit;
         public Dictionary<string, float> WeaponMiss;
         public Dictionary<string, float> WeaponAccuracyPercentage;
@@ -182,10 +188,10 @@ namespace Tracker
             foreach (KeyValuePair<string, float> entry in WeaponHit)
             {
                 if (weaponAccuracy.WeaponAccuracyPercentage.ContainsKey(entry.Key))
-                    weaponAccuracy.WeaponAccuracyPercentage[entry.Key] = 
+                    weaponAccuracy.WeaponAccuracyPercentage[entry.Key] =
                         weaponAccuracy.WeaponHit[entry.Key] / (weaponAccuracy.WeaponHit[entry.Key] + weaponAccuracy.WeaponMiss[entry.Key]);
-                else 
-                    weaponAccuracy.WeaponAccuracyPercentage.Add(entry.Key, 
+                else
+                    weaponAccuracy.WeaponAccuracyPercentage.Add(entry.Key,
                         weaponAccuracy.WeaponHit[entry.Key] / (weaponAccuracy.WeaponHit[entry.Key] + weaponAccuracy.WeaponMiss[entry.Key]));
             }
         }
