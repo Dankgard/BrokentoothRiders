@@ -12,10 +12,10 @@ public class soundtest : MonoBehaviour {
     DamageFrequency d = new DamageFrequency();
     void Start () {
         d.AddPosition(1, 1);
-        //d.ToJson();
-        string json = JsonUtility.ToJson(d);
+        d.ToJson("Files/DamageFrequency.json");
+        /*string json = JsonUtility.ToJson(d);
         d = JsonUtility.FromJson<DamageFrequency>(json);
-        File.WriteAllText("Files/DamageFrequency.json", json);
+        File.WriteAllText("Files/DamageFrequency.json", json);*/
         /*string jsonFile = JsonConvert.SerializeObject(d, Formatting.Indented);
         File.WriteAllText("../Files/DamageFrequency.json", jsonFile);*/
     }

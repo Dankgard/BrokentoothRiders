@@ -7,7 +7,7 @@ namespace Tracker
 {    
     class Tracker
     {
-        string ID;
+        /*string ID;
 
         void init()
         {
@@ -17,7 +17,6 @@ namespace Tracker
         string createID()
         {
             return null;
-        }
-
+        }*/
     }
 }

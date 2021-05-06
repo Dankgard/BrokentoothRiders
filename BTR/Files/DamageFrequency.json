@@ -1,1 +1,10 @@
-{}
+{
+  "Positions": [
+    {
+      "X": 1.0,
+      "Y": 1.0
+    }
+  ],
+  "Metric": "Damage Frequency",
+  "Level": 0
+}
