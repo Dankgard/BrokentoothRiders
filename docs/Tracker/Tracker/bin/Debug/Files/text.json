@@ -1,9 +1,0 @@
-{
-  "Email": "lope@example.com",
-  "Active": true,
-  "CreatedDate": "2013-01-20T00:00:00Z",
-  "Roles": [
-    "User 121321",
-    "Admin"
-  ]
-}
