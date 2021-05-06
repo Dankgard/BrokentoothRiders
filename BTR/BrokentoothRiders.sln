@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokentoothRiders", "BrokentoothRiders.csproj", "{86B6F4C5-F75A-4CF8-8D27-B75E30684EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokentoothRiders.Editor", "BrokentoothRiders.Editor.csproj", "{D8284791-DED0-AD93-9BC2-3CFF52615180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B6F4C5-F75A-4CF8-8D27-B75E30684EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B6F4C5-F75A-4CF8-8D27-B75E30684EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B6F4C5-F75A-4CF8-8D27-B75E30684EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B6F4C5-F75A-4CF8-8D27-B75E30684EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8284791-DED0-AD93-9BC2-3CFF52615180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8284791-DED0-AD93-9BC2-3CFF52615180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8284791-DED0-AD93-9BC2-3CFF52615180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8284791-DED0-AD93-9BC2-3CFF52615180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
