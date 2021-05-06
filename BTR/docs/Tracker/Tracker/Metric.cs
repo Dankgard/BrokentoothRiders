@@ -9,6 +9,11 @@ namespace Tracker
         public float X { get; set; }
         public float Y { get; set; }
     }
+
+    enum EventTracker
+    {
+        DAMAGE_FREQUENCY, HIT_FREQUENCY, LEVEL_TIME, WEAPON_USAGE_FREQUENCY, WEAPON_ACCURACY
+    }
     /*public class Session
     {
         float startTime = 0.0f;
@@ -34,16 +39,15 @@ namespace Tracker
     public class Level {
             
     }*/
+
+
+    
     public class DamageFrequency
     {
-        DamageFrequency damageFrequency;
         public DamageFrequency()
         {
-            damageFrequency = new DamageFrequency
-            {
-                Metric = "Damage Frequency",
-                Positions = new List<Vector2>()
-            };
+            Metric = "Damage Frequency";
+            Positions = new List<Vector2>();
         }
         public string Metric { get; set; }
         public int Level { get; set; }
@@ -51,11 +55,11 @@ namespace Tracker
 
         public void AddPosition(float posX, float posY)
         {
-            damageFrequency.Positions.Add(new Vector2 { X = posX, Y = posY });
+            Positions.Add(new Vector2 { X = posX, Y = posY });
         }
         public void ToJson()
         {
-            string jsonFile = JsonConvert.SerializeObject(damageFrequency, Formatting.Indented);
+            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             File.WriteAllText("../Files/DamageFrequency.json", jsonFile);
         }
     }
