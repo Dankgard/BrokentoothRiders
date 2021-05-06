@@ -57,10 +57,10 @@ namespace Tracker
         {
             Positions.Add(new Vector2 { X = posX, Y = posY });
         }
-        public void ToJson()
+        public void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            File.WriteAllText("../Files/DamageFrequency.json", jsonFile);
+            File.WriteAllText(path, jsonFile);
         }
     }
     public class HitFrequency
@@ -148,10 +148,10 @@ namespace Tracker
                 weaponUsageFrequency.WeaponUsage.Add(gunType, timeUsed);
             }
         }
-        public void ToJson()
+        public void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(weaponUsageFrequency, Formatting.Indented);
-            File.WriteAllText("../Files/WeaponUsageFrequency.json", jsonFile);
+            File.WriteAllText(path, jsonFile);
         }
     }
     public class WeaponAccuracy
@@ -199,10 +199,10 @@ namespace Tracker
                         weaponAccuracy.WeaponHit[entry.Key] / (weaponAccuracy.WeaponHit[entry.Key] + weaponAccuracy.WeaponMiss[entry.Key]));
             }
         }
-        public void ToJson()
+        public void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(weaponAccuracy, Formatting.Indented);
-            File.WriteAllText("../Files/WeaponAcuracy.json", jsonFile);
+            File.WriteAllText(path, jsonFile);
         }
     }
 }
