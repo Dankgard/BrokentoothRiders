@@ -1,12 +1,18 @@
-"Start_Session""2.91674E+08""5/7/2021 5:52:41 PM"
 {
-  "jsonFileData": null,
+  "session_id": "{d6f12d54-1a6a-458a-af63-7df0add2be3c}",
+  "sessionStartTime": "5/7/2021 6:18:33 PM",
+  "event_type": "Start_Session"
+}
+{
+  "level_id": "0.5",
+  "levelStartTime": "5/7/2021 6:18:33 PM",
   "event_type": "Start_Level"
-}{
-  "jsonFileData": null,
+}
+{
+  "endLevelTime": "5/7/2021 6:18:35 PM",
   "event_type": "End_Level"
-}{
-  "sessionEndTime": "5/7/2021 5:52:44 PM",
-  "jsonFileData": null,
+}
+{
+  "sessionEndTime": "5/7/2021 6:18:35 PM",
   "event_type": "End_Session"
 }
