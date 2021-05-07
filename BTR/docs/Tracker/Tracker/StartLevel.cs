@@ -9,13 +9,13 @@ namespace Tracker
 {
     class StartLevel : Event
     {
-        private int level_id;
+        private float level_id;
         private string levelStartTime;
 
-        public StartLevel(string level)
+        public StartLevel(float level)
         {
             event_type = "Start_Level";
-            level_id = int.Parse(level);
+            level_id = level;
 
             // Momento en el que empieza el nivel
             DateTime startTime = DateTime.Now;

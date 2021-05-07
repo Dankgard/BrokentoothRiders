@@ -4,28 +4,24 @@ using UnityEngine;
 using System.IO;
 using Tracker;
 
-public class soundtest : MonoBehaviour {
+public class soundtest : MonoBehaviour
+{
+    private string path = "Files/BTR_SESSIONS.json";
+    private string[] parametros;
+    private BTR_Tracker tracker;
 
-    //public AudioClip c;
-    // Use this for initialization
-
-    DamageFrequency d = new DamageFrequency();
     void Start () {
-        d.AddPosition(1, 1);
-        d.ToJson("Files/DamageFrequency.json");
-        /*string json = JsonUtility.ToJson(d);
-        d = JsonUtility.FromJson<DamageFrequency>(json);
-        File.WriteAllText("Files/DamageFrequency.json", json);*/
-        /*string jsonFile = JsonConvert.SerializeObject(d, Formatting.Indented);
-        File.WriteAllText("../Files/DamageFrequency.json", jsonFile);*/
+        tracker = new BTR_Tracker();
+        parametros = new string[10];
+        tracker.SetFilePath(path);
+        tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START, parametros);
+        parametros[0] = "Prueba";
+        tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_START, parametros);
     }
-	
-	// Update is called once per frame
-	void Update () {
-        /*if (Input.anyKeyDown)
-        {
-            AudioSource s = gameObject.GetComponent<AudioSource>();
-            s.PlayOneShot(c,1.0f);
-        }*/
-	}
+
+    void OnApplicationQuit()
+    {
+        tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END, parametros);
+        tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END, parametros);
+    }
 }
