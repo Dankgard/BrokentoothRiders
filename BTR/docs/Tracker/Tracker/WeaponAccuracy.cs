@@ -11,7 +11,7 @@ namespace Tracker
     {
         public WeaponAccuracy()
         {
-            Metric = "Weapon_Accuracy";
+            event_type = "Weapon_Accuracy";
             WeaponHit = new Dictionary<string, float>();
             WeaponMiss = new Dictionary<string, float>();
             WeaponAccuracyPercentage = new Dictionary<string, float>();
@@ -55,6 +55,11 @@ namespace Tracker
         public override void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
+            if (File.Exists(path))
+            {
+                string temp = File.ReadAllText(path);
+                temp += jsonFile;
+            }
             File.WriteAllText(path, jsonFile);
         }
     }

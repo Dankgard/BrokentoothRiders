@@ -7,25 +7,19 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    public class Vector2
+    class EndLevel : Event
     {
-        public float X { get; set; }
-        public float Y { get; set; }
-    }
+        private string endLevelTime;
 
-    class DamageFrequency : Event
-    {
-        public DamageFrequency()
+        public EndLevel()
         {
-            event_type = "Damage_Frequency";
-            Positions = new List<Vector2>();
-        }
-        public List<Vector2> Positions;
+            event_type = "End_Level";
 
-        public void AddPosition(float posX, float posY)
-        {
-            Positions.Add(new Vector2 { X = posX, Y = posY });
+            // Momento en el que acaba el nivel
+            DateTime endTime = DateTime.Now;
+            endLevelTime = endTime.ToString();
         }
+
         public override void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);

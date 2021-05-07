@@ -11,22 +11,17 @@ namespace Tracker
     {
         public LevelTime()
         {
-            Metric = "Level Time";
-            Time = 0;
+            event_type = "Level Time";
         }
 
-        public void StartTimer(float startTimer)
-        {
-            Time = startTimer;
-        }
-
-        public void StopTimer(float FinalTimer)
-        {
-            Time = FinalTimer - Time;
-        }
         public override void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
+            if (File.Exists(path))
+            {
+                string temp = File.ReadAllText(path);
+                temp += jsonFile;
+            }
             File.WriteAllText(path, jsonFile);
         }
     }

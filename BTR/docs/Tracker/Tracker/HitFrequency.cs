@@ -11,7 +11,7 @@ namespace Tracker
     {
         public HitFrequency()
         {
-            Metric = "Hit_Frequency";
+            event_type = "Hit_Frequency";
             HitPerEnemy = new Dictionary<string, int>();
         }
 
@@ -31,6 +31,11 @@ namespace Tracker
         public override void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
+            if (File.Exists(path))
+            {
+                string temp = File.ReadAllText(path);
+                temp += jsonFile;
+            }
             File.WriteAllText(path, jsonFile);
         }
     }

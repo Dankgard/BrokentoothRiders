@@ -11,7 +11,7 @@ namespace Tracker
     {
         public WeaponUsageFrequency()
         {
-            Metric = "Weapon Usage Frequency";
+            event_type = "Weapon Usage Frequency";
             WeaponUsage = new Dictionary<string, float>();
         }
         public Dictionary<string, float> WeaponUsage;
@@ -31,6 +31,11 @@ namespace Tracker
         public override void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
+            if (File.Exists(path))
+            {
+                string temp = File.ReadAllText(path);
+                temp += jsonFile;
+            }
             File.WriteAllText(path, jsonFile);
         }
     }

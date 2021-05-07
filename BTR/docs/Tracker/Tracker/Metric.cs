@@ -10,10 +10,10 @@ namespace Tracker
         public float Y { get; set; }
     }*/
 
-    enum EventTracker
+    /*enum EventTracker
     {
         DAMAGE_FREQUENCY, HIT_FREQUENCY, LEVEL_TIME, WEAPON_USAGE_FREQUENCY, WEAPON_ACCURACY
-    }
+    }*/
     /*public class Session
     {
         float startTime = 0.0f;
