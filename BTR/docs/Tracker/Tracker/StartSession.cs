@@ -9,21 +9,27 @@ namespace Tracker
 {
     class StartSession : Event
     {
-        private string session_id;
-        private string sessionStartTime;
+        public string session_id;
+        public string sessionStartTime;
 
         public StartSession()
         {
             event_type = "Start_Session";
 
             // Genera una identidad unica para la sesion
-            Random rnd = new Random();
-            float id = rnd.Next(Int32.MinValue, Int32.MaxValue);
-            session_id = id.ToString();
+            session_id = generateID();
 
             // Registra la hora a la que se inicia la sesion
             DateTime startTime = DateTime.Now;
             sessionStartTime = startTime.ToString();
+        }
+
+        public string generateID()
+        {
+            char[] c = { 'B', 'b', 'D', 'd', 'N', 'n', 'P', 'p' };
+            int index = new Random().Next(0, c.Length - 1);
+            string s = c[index].ToString();
+            return Guid.NewGuid().ToString(s);
         }
 
         public override void ToJson(string path)

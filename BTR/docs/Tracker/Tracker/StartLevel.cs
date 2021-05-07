@@ -9,8 +9,8 @@ namespace Tracker
 {
     class StartLevel : Event
     {
-        private string level_id;
-        private string levelStartTime;
+        public string level_id;
+        public string levelStartTime;
 
         public StartLevel(string level)
         {
@@ -27,7 +27,7 @@ namespace Tracker
             if (File.Exists(path))
             {
                 string temp = File.ReadAllText(path);
-                temp += jsonFile;
+                temp += jsonFile + "\n";
                 File.WriteAllText(path, temp);
             }
             else

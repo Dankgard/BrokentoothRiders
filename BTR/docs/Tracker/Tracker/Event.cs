@@ -8,7 +8,6 @@ namespace Tracker
     public abstract class Event
     {
         public string event_type { get; set; }
-        public string jsonFileData;
         public abstract void ToJson(string path);
     }
 }

@@ -9,7 +9,7 @@ namespace Tracker
 {
     class EndLevel : Event
     {
-        private string endLevelTime;
+        public string endLevelTime;
 
         public EndLevel()
         {
@@ -26,7 +26,7 @@ namespace Tracker
             if (File.Exists(path))
             {
                 string temp = File.ReadAllText(path);
-                temp += jsonFile;
+                temp += jsonFile + "\n";
                 File.WriteAllText(path, temp);
             }
             else
