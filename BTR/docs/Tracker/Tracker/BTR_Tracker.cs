@@ -43,7 +43,7 @@ namespace Tracker
             filePath = path;
         }
 
-        public void RegisterEvent(EventType event_type, string[] args)
+        public void RegisterEvent(EventType event_type, string[] args = null)
         {
             switch (event_type)
             {
