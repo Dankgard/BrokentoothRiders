@@ -4,11 +4,11 @@ using System.IO;
 
 namespace Tracker
 {
-    public class Vector2
+    /*public class Vector2
     {
         public float X { get; set; }
         public float Y { get; set; }
-    }
+    }*/
 
     enum EventTracker
     {
@@ -42,7 +42,7 @@ namespace Tracker
 
 
     
-    public class DamageFrequency
+    /*public class DamageFrequency
     {
         public DamageFrequency()
         {
@@ -62,8 +62,8 @@ namespace Tracker
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             File.WriteAllText(path, jsonFile);
         }
-    }
-    public class HitFrequency
+    }*/
+    /*public class HitFrequency
     {
         HitFrequency hitFrequency;
         public HitFrequency()
@@ -93,8 +93,8 @@ namespace Tracker
             string jsonFile = JsonConvert.SerializeObject(hitFrequency, Formatting.Indented);
             File.WriteAllText("../Files/HitFrequency.json", jsonFile);
         }
-    }
-    public class LevelTime
+    }*/
+    /*public class LevelTime
     {
         LevelTime levelTime;
         public LevelTime()
@@ -122,8 +122,8 @@ namespace Tracker
             string jsonFile = JsonConvert.SerializeObject(levelTime, Formatting.Indented);
             File.WriteAllText("../Files/LevelTime.json", jsonFile);
         }
-    }
-    public class WeaponUsageFrequency
+    }*/
+    /*public class WeaponUsageFrequency
     {
         WeaponUsageFrequency weaponUsageFrequency;
         public WeaponUsageFrequency()
@@ -153,8 +153,8 @@ namespace Tracker
             string jsonFile = JsonConvert.SerializeObject(weaponUsageFrequency, Formatting.Indented);
             File.WriteAllText(path, jsonFile);
         }
-    }
-    public class WeaponAccuracy
+    }*/
+    /*public class WeaponAccuracy
     {
         WeaponAccuracy weaponAccuracy;
 
@@ -204,5 +204,5 @@ namespace Tracker
             string jsonFile = JsonConvert.SerializeObject(weaponAccuracy, Formatting.Indented);
             File.WriteAllText(path, jsonFile);
         }
-    }
+    }*/
 }
