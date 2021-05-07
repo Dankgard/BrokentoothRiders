@@ -14,14 +14,14 @@ public class soundtest : MonoBehaviour
         tracker = new BTR_Tracker();
         parametros = new string[10];
         tracker.SetFilePath(path);
-        tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START, parametros);
-        parametros[0] = "Prueba";
+        tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START);
+        parametros[0] = "0.5";
         tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_START, parametros);
     }
 
     void OnApplicationQuit()
     {
-        tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END, parametros);
-        tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END, parametros);
+        tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END);
+        tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
     }
 }

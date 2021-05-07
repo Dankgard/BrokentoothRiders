@@ -64,7 +64,7 @@ namespace Tracker
                 case EventType.LEVEL_START:
                     if (startLevel == null)
                     {
-                        startLevel = new StartLevel(float.Parse(args[0]));
+                        startLevel = new StartLevel(args[0]);
                     }
                     startLevel.ToJson(filePath);
                     break;

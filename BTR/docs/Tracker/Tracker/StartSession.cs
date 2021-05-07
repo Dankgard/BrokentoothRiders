@@ -17,8 +17,10 @@ namespace Tracker
             event_type = "Start_Session";
 
             // Genera una identidad unica para la sesion
-            Random id = new Random();
+            Random rnd = new Random();
+            float id = rnd.Next(Int32.MinValue, Int32.MaxValue);
             session_id = id.ToString();
+
             // Registra la hora a la que se inicia la sesion
             DateTime startTime = DateTime.Now;
             sessionStartTime = startTime.ToString();
@@ -26,16 +28,16 @@ namespace Tracker
 
         public override void ToJson(string path)
         {
-            jsonFileData = JsonConvert.SerializeObject(this, Formatting.Indented);
+            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             // Si el fichero existe
             if (File.Exists(path))
             {
                 string temp = File.ReadAllText(path);
-                temp += jsonFileData;
+                temp += jsonFile + "\n";
                 File.WriteAllText(path, temp);
             }
             else
-                File.WriteAllText(path, jsonFileData);
+                File.WriteAllText(path, jsonFile);
         }
     }
 }

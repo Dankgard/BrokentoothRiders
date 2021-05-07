@@ -9,10 +9,10 @@ namespace Tracker
 {
     class StartLevel : Event
     {
-        private float level_id;
+        private string level_id;
         private string levelStartTime;
 
-        public StartLevel(float level)
+        public StartLevel(string level)
         {
             event_type = "Start_Level";
             level_id = level;
