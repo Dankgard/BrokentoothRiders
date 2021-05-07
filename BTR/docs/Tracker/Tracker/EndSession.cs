@@ -26,8 +26,10 @@ namespace Tracker
             {
                 string temp = File.ReadAllText(path);
                 temp += jsonFile;
+                File.WriteAllText(path, temp);
             }
-            File.WriteAllText(path, jsonFile);
+            else
+                File.WriteAllText(path, jsonFile);
         }
     }
 }

@@ -18,7 +18,7 @@ namespace Tracker
 
             // Genera una identidad unica para la sesion
             Random id = new Random();
-            sessionId = id.ToString();
+            session_id = id.ToString();
             // Registra la hora a la que se inicia la sesion
             DateTime startTime = DateTime.Now;
             sessionStartTime = startTime.ToString();
@@ -32,8 +32,10 @@ namespace Tracker
             {
                 string temp = File.ReadAllText(path);
                 temp += jsonFileData;
+                File.WriteAllText(path, temp);
             }
-            File.WriteAllText(path, jsonFileData);
+            else
+                File.WriteAllText(path, jsonFileData);
         }
     }
 }
