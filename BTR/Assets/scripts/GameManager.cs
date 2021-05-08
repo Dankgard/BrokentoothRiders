@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
     }
     void OnApplicationQuit()
     {
-        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END);
+        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
     }
     void OnEnable()
     {
