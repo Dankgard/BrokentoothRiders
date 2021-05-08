@@ -42,6 +42,11 @@ public class BalaEnemiga : MonoBehaviour {
         else if (collision.gameObject.tag == "Player")
         {
             GameManager.instance.TakeDamage(bulletDamage);
+            Debug.Log("disparo");
+            string[] param = {collision.transform.position.x.ToString(), collision.transform.position.y.ToString()};
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
+            Debug.Log(GameManager.instance_Tracker.damageFrequency.Positions[0].X);
+
             Destroy(gameObject);
         }
         else if (collision.gameObject.tag == "Bala")

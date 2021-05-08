@@ -12,7 +12,7 @@ namespace Tracker
         public string sessionEndTime;
         public EndSession()
         {
-            event_type = "End_Session";
+            Event_type = "End_Session";
 
             // Momento en que acaba la sesion
             DateTime endTime = DateTime.Now;

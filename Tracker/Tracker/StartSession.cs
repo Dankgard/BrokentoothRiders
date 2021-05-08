@@ -14,17 +14,17 @@ namespace Tracker
 
         public StartSession()
         {
-            event_type = "Start_Session";
+            Event_type = "Start_Session";
 
             // Genera una identidad unica para la sesion
-            session_id = generateID();
+            session_id = GenerateID();
 
             // Registra la hora a la que se inicia la sesion
             DateTime startTime = DateTime.Now;
             sessionStartTime = startTime.ToString();
         }
 
-        public string generateID()
+        public string GenerateID()
         {
             char[] c = { 'B', 'b', 'D', 'd', 'N', 'n', 'P', 'p' };
             int index = new Random().Next(0, c.Length - 1);

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
@@ -13,11 +10,11 @@ namespace Tracker
         public float Y { get; set; }
     }
 
-    class DamageFrequency : Event
+    public class DamageFrequency : Event
     {
         public DamageFrequency()
         {
-            event_type = "Damage_Frequency";
+            Event_type = "Damage_Frequency";
             Positions = new List<Vector2>();
         }
         public List<Vector2> Positions;

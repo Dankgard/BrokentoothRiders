@@ -1,0 +1,30 @@
+{
+  "session_id": "{1e1d3dc2-f9a3-4012-bf0e-747978b11ed8}",
+  "sessionStartTime": "5/8/2021 12:10:18 PM",
+  "Event_type": "Start_Session"
+}
+{
+  "endLevelTime": "5/8/2021 12:10:40 PM",
+  "Event_type": "End_Level"
+}
+{
+  "Positions": [
+    {
+      "X": 9.42153,
+      "Y": 7.008503
+    },
+    {
+      "X": 10.14728,
+      "Y": 7.824835
+    },
+    {
+      "X": 10.14728,
+      "Y": 8.246751
+    },
+    {
+      "X": 9.860176,
+      "Y": 6.181414
+    }
+  ],
+  "Event_type": "Damage_Frequency"
+}

@@ -71,3 +71,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 *.dll
+
+!Newtonsoft.Json.dll
+!Tracker.dll

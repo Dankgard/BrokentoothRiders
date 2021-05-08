@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
@@ -11,7 +8,7 @@ namespace Tracker
     {
         public WeaponUsageFrequency()
         {
-            event_type = "Weapon Usage Frequency";
+            Event_type = "Weapon Usage Frequency";
             WeaponUsage = new Dictionary<string, float>();
         }
         public Dictionary<string, float> WeaponUsage;

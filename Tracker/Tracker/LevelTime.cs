@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿
 using System.IO;
 using Newtonsoft.Json;
 
@@ -11,7 +8,7 @@ namespace Tracker
     {
         public LevelTime()
         {
-            event_type = "Level Time";
+            Event_type = "Level_Time";
         }
 
         public override void ToJson(string path)

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 using Newtonsoft.Json;
 
@@ -14,7 +11,7 @@ namespace Tracker
 
         public StartLevel(string level)
         {
-            event_type = "Start_Level";
+            Event_type = "Start_Level";
             level_id = level;
 
             // Momento en el que empieza el nivel

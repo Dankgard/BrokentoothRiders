@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 using Newtonsoft.Json;
 
@@ -13,7 +10,7 @@ namespace Tracker
 
         public EndLevel()
         {
-            event_type = "End_Level";
+            Event_type = "End_Level";
 
             // Momento en el que acaba el nivel
             DateTime endTime = DateTime.Now;

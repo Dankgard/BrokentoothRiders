@@ -11,7 +11,7 @@ namespace Tracker
     {
         public HitFrequency()
         {
-            event_type = "Hit_Frequency";
+            Event_type = "Hit_Frequency";
             HitPerEnemy = new Dictionary<string, int>();
         }
 

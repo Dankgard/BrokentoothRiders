@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Tracker;
 
 
 public class GameManager : MonoBehaviour
 {
+    public static BTR_Tracker instance_Tracker = null;
 
     public static GameManager instance = null;
-
     public GameObject player;
 
     public int initialHealth = 100; //Vida al iniciar el juego
@@ -35,6 +36,8 @@ public class GameManager : MonoBehaviour
         {
             // Almacenamos la instancia actual
             instance = this;
+            instance_Tracker = new BTR_Tracker();
+            instance_Tracker.SetFilePath("Files/BTR_SESSIONS_test.json");
             // Nos aseguramos de no destruir el objeto, es decir, 
             // de que persista, si cambiamos de escena
             DontDestroyOnLoad(this.gameObject);
@@ -47,7 +50,14 @@ public class GameManager : MonoBehaviour
         currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
         currentEnergy = initialEnergy;
     }
-
+    void Start()
+    {
+        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START);
+    }
+    void OnApplicationQuit()
+    {
+        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END);
+    }
     void OnEnable()
     {
         //Tell our 'OnLevelFinishedLoading' function to start listening for a scene change as soon as this script is enabled.
@@ -59,7 +69,6 @@ public class GameManager : MonoBehaviour
         //Tell our 'OnLevelFinishedLoading' function to stop listening for a scene change as soon as this script is disabled. Remember to always have an unsubscription for every delegate you subscribe to!
         SceneManager.sceneLoaded -= OnLevelFinishedLoading;
     }
-
 
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {

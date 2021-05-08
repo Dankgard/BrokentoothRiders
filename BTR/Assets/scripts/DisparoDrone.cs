@@ -32,7 +32,7 @@ public class DisparoDrone : MonoBehaviour {
             {
                 Instantiate(misilePrefab, missileSpawner.transform.position, misilePrefab.transform.rotation);
                 SoundManager.instance.PlaySound(shootSound, 0.25f);
-                shootingCount = 0;
+                shootingCount = 0;               
             }
         }
     }
