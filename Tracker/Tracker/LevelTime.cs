@@ -6,9 +6,21 @@ namespace Tracker
 {
     class LevelTime : Event
     {
+        public float iniTime;
+        public float totalTime;
         public LevelTime()
         {
             Event_type = "Level_Time";
+        }
+
+        public void StartTimer(float iniTime_)
+        {
+            iniTime = iniTime_;
+        }
+
+        public void TotalTime(float endTime)
+        {
+            totalTime = endTime - iniTime;
         }
 
         public override void ToJson(string path)

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Bala : MonoBehaviour {
@@ -14,14 +15,17 @@ public class Bala : MonoBehaviour {
     public AudioClip[] bloodSound = new AudioClip[13];
     int bloodSoundType;
 
-
-
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Suelo" || collider.gameObject.tag == "EnemyBullet" || collider.gameObject.tag == "Proyectil")
             Destroy(gameObject);
         else if (collider.gameObject.tag == "Enemigo" || collider.gameObject.tag == "Boss")
         {
+            // TRACKER EVENT
+            var prefabGameObject = PrefabUtility.GetPrefabParent(collider.gameObject);
+            string[] parameters = { prefabGameObject.name };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, parameters);
+            
             VidaEnemigo enemigo = collider.gameObject.GetComponent<VidaEnemigo>();
             enemigo.TakeDamage(bulletDamage);
             Bleed();

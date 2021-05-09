@@ -8,6 +8,7 @@ using Tracker;
 
 public class GameManager : MonoBehaviour
 {
+    // TRACKER ASSETS
     public static BTR_Tracker instance_Tracker = null;
 
     public static GameManager instance = null;
@@ -36,6 +37,8 @@ public class GameManager : MonoBehaviour
         {
             // Almacenamos la instancia actual
             instance = this;
+
+            // BTR TRACKER
             instance_Tracker = new BTR_Tracker();
             instance_Tracker.SetFilePath("Files/BTR_SESSIONS_test.json");
             // Nos aseguramos de no destruir el objeto, es decir, 
@@ -52,10 +55,12 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
+        // BTR TRACKER
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START);
     }
     void OnApplicationQuit()
     {
+        // BTR TRACKER
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
     }
     void OnEnable()
@@ -86,10 +91,10 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
         {
+            // Carga el menu principal
             UnityEngine.Cursor.visible = true;
-            SceneManager.LoadScene("Menu Principal");
+            SceneManager.LoadScene(0);
         }
-
     }
 
     public int Health()
@@ -116,8 +121,10 @@ public class GameManager : MonoBehaviour
             currentHealth = initialHealth;
         }
 
-        if(damage>0)
+        if (damage > 0)
+        {
             SoundManager.instance.PlaySound(hurtSound, 1f);
+        }
 
         vida.LoadHealth();
 
@@ -143,9 +150,7 @@ public class GameManager : MonoBehaviour
     {
         if (alive)
         {
-            //Destroy(player);
             Destroy(player);
-            Debug.Log("muerto");
             alive = false;
             currentHealth = 0;
             ReloadScene();
@@ -156,6 +161,13 @@ public class GameManager : MonoBehaviour
     {
         alive = true;
         string scene = SceneManager.GetActiveScene().name;
+
+        // ESTE DE AQUI PENDIENTE
+
+        // TRACKER EVENT
+        //string[] param = { scene };
+        //instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_START, param);
+
         StartLoadingScene(scene, 2);
     }
 
@@ -171,6 +183,14 @@ public class GameManager : MonoBehaviour
     
     IEnumerator LoadScene(string escena, int time)
     {
+        // TRACKER EVENT
+        string[] param = { escena };
+        instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_START, param);
+        
+        // TRACKER EVENT
+        param[0] = Time.deltaTime.ToString();
+        instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_TIME, param);
+
         yield return new WaitForSeconds(time);
         if (escena != "level2_1")
         {

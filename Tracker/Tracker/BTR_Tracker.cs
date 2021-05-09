@@ -73,29 +73,27 @@ namespace Tracker
                     {
                         endLevel = new EndLevel();
                     }
-                    endLevel.ToJson(filePath);
-                    damageFrequency.ToJson(filePath);
-                    hitFrequency.ToJson(filePath);
-                    weaponUsageFrequency.ToJson(filePath);
-                    weaponAccuracy.ToJson(filePath);
+                    // Level Time
+                    levelTime.TotalTime(float.Parse(args[0]));
                     levelTime.ToJson(filePath);
-                    /*string jsonFile = JsonConvert.SerializeObject(damageFrequency, Formatting.Indented);
-                    if (File.Exists(filePath))
-                    {
-                        string temp = File.ReadAllText(filePath);
-                        temp += jsonFile;
-                        File.WriteAllText(filePath, temp);
-                    }
-                    else
-                        File.WriteAllText(filePath, jsonFile);*/
-
+                    // Damage Frequency
+                    damageFrequency.ToJson(filePath);
+                    // Hit Frequency
+                    hitFrequency.ToJson(filePath);
+                    // Weapon Usage Frequency
+                    weaponUsageFrequency.ToJson(filePath);
+                    // Weapon Accuracy
+                    weaponAccuracy.CalculateAccuracy();
+                    weaponAccuracy.ToJson(filePath);
+                    // End Level
+                    endLevel.ToJson(filePath);
                     break;
                 case EventType.LEVEL_TIME:
                     if (levelTime == null)
                     {
                         levelTime = new LevelTime();
                     }
-                    //levelTime.ToJson(filePath);
+                    levelTime.StartTimer(float.Parse(args[0]));
                     break;
                 case EventType.DAMAGE_FREQUENCY:
                     if (damageFrequency == null)
@@ -103,7 +101,6 @@ namespace Tracker
                         damageFrequency = new DamageFrequency();
                     }
                     damageFrequency.AddPosition(float.Parse(args[0]), float.Parse(args[1]));
-                    //damageFrequency.ToJson(filePath);
                     break;
                 case EventType.HIT_FREQUENCY:
                     if (hitFrequency == null)
@@ -111,7 +108,6 @@ namespace Tracker
                         hitFrequency = new HitFrequency();
                     }
                     hitFrequency.AddEntry(args[0]);
-                    //hitFrequency.ToJson(filePath);
                     break;
                 case EventType.WEAPON_USAGE_FREQUENCY:
                     if (weaponUsageFrequency == null)
@@ -119,7 +115,6 @@ namespace Tracker
                         weaponUsageFrequency = new WeaponUsageFrequency();
                     }
                     weaponUsageFrequency.AddEntry(args[0], float.Parse(args[1]));
-                    //weaponUsageFrequency.ToJson(filePath);
                     break;
                 case EventType.WEAPON_ACCURACY:
                     if (weaponAccuracy == null)
@@ -127,8 +122,6 @@ namespace Tracker
                         weaponAccuracy = new WeaponAccuracy();
                     }
                     weaponAccuracy.AddHitEntry(args[0], bool.Parse(args[1]));
-                    weaponAccuracy.CalculateAccuracy();
-                    //weaponAccuracy.ToJson(filePath);
                     break;
                 default:
                     break;

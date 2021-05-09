@@ -22,7 +22,13 @@ public class Explosion : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
+        {
+            // TRACKER EVENT
+            string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString() };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
+            
             GameManager.instance.TakeDamage(explosionDamage);
+        }
         if(collision.gameObject.tag == "Enemigo")
         {
             VidaEnemigo enemigo = collision.gameObject.GetComponent<VidaEnemigo>();

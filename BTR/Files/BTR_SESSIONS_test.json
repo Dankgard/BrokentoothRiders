@@ -27,4 +27,48 @@
     }
   ],
   "Event_type": "Damage_Frequency"
+}{
+  "session_id": "0e97c7244e9e46fba9236cd1ef864d78",
+  "sessionStartTime": "5/8/2021 8:25:44 PM",
+  "Event_type": "Start_Session"
+}
+{
+  "sessionEndTime": "5/8/2021 8:25:48 PM",
+  "Event_type": "End_Session"
+}
+{
+  "session_id": "ee9cff18-09e9-4715-960d-e925bb9eb79a",
+  "sessionStartTime": "5/8/2021 8:27:52 PM",
+  "Event_type": "Start_Session"
+}
+{
+  "sessionEndTime": "5/8/2021 8:28:22 PM",
+  "Event_type": "End_Session"
+}
+{
+  "session_id": "{55f28460-9981-48ca-827f-af1ea2dc3152}",
+  "sessionStartTime": "5/9/2021 5:15:10 AM",
+  "Event_type": "Start_Session"
+}
+{
+  "sessionEndTime": "5/9/2021 5:15:24 AM",
+  "Event_type": "End_Session"
+}
+{
+  "session_id": "c95e5d90-ae40-440b-b72e-c614d1348a0a",
+  "sessionStartTime": "5/9/2021 5:19:12 AM",
+  "Event_type": "Start_Session"
+}
+{
+  "sessionEndTime": "5/9/2021 5:19:14 AM",
+  "Event_type": "End_Session"
+}
+{
+  "session_id": "c3bf40b3c5f84fcfa40df7e1ca588d33",
+  "sessionStartTime": "5/9/2021 5:20:24 AM",
+  "Event_type": "Start_Session"
+}
+{
+  "sessionEndTime": "5/9/2021 5:20:27 AM",
+  "Event_type": "End_Session"
 }

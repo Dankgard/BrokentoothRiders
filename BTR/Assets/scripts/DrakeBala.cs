@@ -26,6 +26,10 @@ public class DrakeBala : MonoBehaviour {
     {   
         if (collision.gameObject.tag == "Player")
         {
+            // TRACKER EVENT
+            string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString() };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
+
             GameManager.instance.TakeDamage(bulletDamage);
             Destroy(gameObject);
         }

@@ -39,7 +39,6 @@ public class DisparoRex : MonoBehaviour
         WeaponChange();
 
 		cursor = transform.GetChild(1).GetChild(0).GetComponent<SpriteRenderer>();
-
     }
 
     void Update()
