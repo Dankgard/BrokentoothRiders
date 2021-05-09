@@ -61,6 +61,8 @@ public class GameManager : MonoBehaviour
     void OnApplicationQuit()
     {
         // BTR TRACKER
+        string[] param = { Time.deltaTime.ToString() };
+        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END, param);
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
     }
     void OnEnable()
@@ -93,7 +95,7 @@ public class GameManager : MonoBehaviour
         {
             // Carga el menu principal
             UnityEngine.Cursor.visible = true;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("Menu Principal");
         }
     }
 

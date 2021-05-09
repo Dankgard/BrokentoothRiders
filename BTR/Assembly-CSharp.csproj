@@ -126,7 +126,6 @@
      <Compile Include="Assets\Scripts\TorrioBubble.cs" />
      <Compile Include="Assets\Scripts\VidaEnemigo.cs" />
      <Compile Include="Assets\Scripts\VidaJugador.cs" />
-     <Compile Include="Assets\soundtest.cs" />
      <None Include="Assets\Miscelaneo\RainMaker\Prefab\RainShader.shader" />
      <None Include="Assets\Arte\sprites\bulkhead-walls-files\license.txt" />
      <None Include="Assets\Miscelaneo\RainMaker\Readme.txt" />
