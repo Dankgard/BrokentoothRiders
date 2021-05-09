@@ -38,7 +38,8 @@ public class VidaEnemigo : MonoBehaviour {
         {
             if (isBoss)
             {
-                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END);
+                string[] param = { Time.deltaTime.ToString() };
+                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END, param);
                 GameManager.instance.StartLoadingScene(escena, 5);
             }
             barImage.fillAmount = 0;

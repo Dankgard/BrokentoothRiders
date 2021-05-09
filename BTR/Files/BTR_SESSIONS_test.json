@@ -1,0 +1,45 @@
+{
+  "session_id": "{7bf3db81-e9d3-406c-9906-9e0bd95666da}",
+  "sessionStartTime": "5/9/2021 6:34:43 PM",
+  "Event_type": "Start_Session"
+}
+{
+  "level_id": "level1_1",
+  "levelStartTime": "5/9/2021 6:34:59 PM",
+  "Event_type": "Start_Level"
+}
+{
+  "Positions": [],
+  "Event_type": "Damage_Frequency"
+}{
+  "HitPerEnemy": {},
+  "Event_type": "Hit_Frequency"
+}{
+  "WeaponUsage": {},
+  "Event_type": "Weapon Usage Frequency"
+}{
+  "WeaponHit": {
+    "Rifle": 3.0,
+    "Shotgun": 10.0
+  },
+  "WeaponMiss": {
+    "Rifle": 3.0,
+    "Shotgun": 7.0
+  },
+  "WeaponAccuracyPercentage": {
+    "Rifle": 0.5,
+    "Shotgun": 0.5882353
+  },
+  "Event_type": "Weapon_Accuracy"
+}{
+  "iniTime": 0.00625,
+  "totalTime": 0.0,
+  "Event_type": "Level_Time"
+}{
+  "endLevelTime": "5/9/2021 6:35:32 PM",
+  "Event_type": "End_Level"
+}
+{
+  "sessionEndTime": "5/9/2021 6:35:39 PM",
+  "Event_type": "End_Session"
+}

@@ -71,10 +71,6 @@ public class GameManager : MonoBehaviour
 
     IEnumerator DelayedQuit()
     {
-        // BTR TRACKER
-        string[] param = { Time.deltaTime.ToString() };
-        // Esta es la linea que esta dando problemas
-        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END);
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
         Debug.Log("Termina la sesion");
 
@@ -116,6 +112,12 @@ public class GameManager : MonoBehaviour
             // Carga el menu principal
             UnityEngine.Cursor.visible = true;
             SceneManager.LoadScene("Menu Principal");
+        }
+
+        if (Input.GetKey(KeyCode.L))
+        {
+            if(SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
@@ -205,21 +207,6 @@ public class GameManager : MonoBehaviour
     
     IEnumerator LoadScene(string escena, int time)
     {
-        string[] param = { "empty" };
-        if (instance_Tracker.TrackerRunning())
-        {
-            param[0] = Time.deltaTime.ToString();
-            instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END, param);
-        }
-
-        // TRACKER EVENT
-        param[0] = escena;
-        instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_START, param);
-        
-        // TRACKER EVENT
-        param[0] = Time.deltaTime.ToString();
-        instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_TIME, param);
-
         yield return new WaitForSeconds(time);
         if (escena != "level2_1")
         {
