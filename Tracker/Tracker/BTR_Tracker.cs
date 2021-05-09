@@ -31,12 +31,9 @@ namespace Tracker
         private WeaponUsageFrequency weaponUsageFrequency;
         private WeaponAccuracy weaponAccuracy;
 
-        //public List<Event> events { get; }
+        private bool isRunning;
 
-        public BTR_Tracker()
-        {
-            //events = new List<Event>();
-        }
+        public BTR_Tracker() { }
 
         public void SetFilePath(string path)
         {
@@ -52,6 +49,7 @@ namespace Tracker
                     {
                         startSession = new StartSession();
                     }
+                    StartRunning();
                     startSession.ToJson(filePath);
                     break;
                 case EventType.SESSION_END:
@@ -59,6 +57,7 @@ namespace Tracker
                     {
                         endSession = new EndSession();
                     }
+                    isRunning = false;
                     endSession.ToJson(filePath);
                     break;
                 case EventType.LEVEL_START:
@@ -74,8 +73,8 @@ namespace Tracker
                         endLevel = new EndLevel();
                     }
                     // Level Time
-                    levelTime.TotalTime(float.Parse(args[0]));
-                    levelTime.ToJson(filePath);
+                    //levelTime.TotalTime(float.Parse(args[0]));
+                    //levelTime.ToJson(filePath);
                     // Damage Frequency
                     damageFrequency.ToJson(filePath);
                     // Hit Frequency
@@ -127,5 +126,8 @@ namespace Tracker
                     break;
             }
         }
+
+        public void StartRunning() { isRunning = true; }
+        public bool TrackerRunning() { return isRunning; }
     }
 }

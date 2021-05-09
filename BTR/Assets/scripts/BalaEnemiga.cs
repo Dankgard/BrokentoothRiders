@@ -47,6 +47,7 @@ public class BalaEnemiga : MonoBehaviour {
 
             GameManager.instance.TakeDamage(bulletDamage);
             Destroy(gameObject);
+            Debug.Log("Player recibe daño");
         }
         else if (collision.gameObject.tag == "Bala")
             Destroy(gameObject);

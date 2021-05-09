@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 {
     // TRACKER ASSETS
     public static BTR_Tracker instance_Tracker = null;
+    private bool canQuit = false;
 
     public static GameManager instance = null;
     public GameObject player;
@@ -57,14 +58,33 @@ public class GameManager : MonoBehaviour
     {
         // BTR TRACKER
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START);
+        Debug.Log("Inicia la sesion");
     }
     void OnApplicationQuit()
     {
+        StartCoroutine("DelayedQuit");
+        if (!canQuit)
+        {
+            Application.CancelQuit();
+        }
+    }
+
+    IEnumerator DelayedQuit()
+    {
         // BTR TRACKER
         string[] param = { Time.deltaTime.ToString() };
-        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END, param);
+        // Esta es la linea que esta dando problemas
+        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END);
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
+        Debug.Log("Termina la sesion");
+
+        // Wait for showSplashTimeout
+        yield return new WaitForSeconds(2.5f);
+
+        // Ahora si
+        canQuit = true;
     }
+
     void OnEnable()
     {
         //Tell our 'OnLevelFinishedLoading' function to start listening for a scene change as soon as this script is enabled.
@@ -185,8 +205,15 @@ public class GameManager : MonoBehaviour
     
     IEnumerator LoadScene(string escena, int time)
     {
+        string[] param = { "empty" };
+        if (instance_Tracker.TrackerRunning())
+        {
+            param[0] = Time.deltaTime.ToString();
+            instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_END, param);
+        }
+
         // TRACKER EVENT
-        string[] param = { escena };
+        param[0] = escena;
         instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_START, param);
         
         // TRACKER EVENT

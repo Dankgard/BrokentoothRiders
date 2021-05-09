@@ -21,10 +21,10 @@ public class Bala : MonoBehaviour {
             Destroy(gameObject);
         else if (collider.gameObject.tag == "Enemigo" || collider.gameObject.tag == "Boss")
         {
-            // TRACKER EVENT
+            /*// TRACKER EVENT
             var prefabGameObject = PrefabUtility.GetPrefabParent(collider.gameObject);
             string[] parameters = { prefabGameObject.name };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, parameters);
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, parameters);*/
             
             VidaEnemigo enemigo = collider.gameObject.GetComponent<VidaEnemigo>();
             enemigo.TakeDamage(bulletDamage);
