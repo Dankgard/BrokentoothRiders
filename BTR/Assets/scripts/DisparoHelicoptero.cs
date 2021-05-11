@@ -30,6 +30,7 @@ public class DisparoHelicoptero : MonoBehaviour {
             shootingCount += Time.deltaTime;
             if (shootingCount >= shootingRate && !mov.colisionPlayer)
             {
+                misilePrefab.GetComponent<Granada>().enemy = "HELICOPTERO";
                 Instantiate(misilePrefab, missileSpawner.transform.position, misilePrefab.transform.rotation);
                 shootingCount = 0;
             }

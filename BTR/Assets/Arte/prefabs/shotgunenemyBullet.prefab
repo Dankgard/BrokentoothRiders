@@ -102,7 +102,7 @@ MonoBehaviour:
   speed: 5
   vidaBala: 1
   bulletDamage: 20
-  typeEnemy: ShotgunEnemy
+  typeEnemy: HOMBRE ESCOPETA
 --- !u!212 &212233674064393778
 SpriteRenderer:
   m_ObjectHideFlags: 1

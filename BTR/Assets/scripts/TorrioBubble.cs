@@ -24,7 +24,7 @@ public class TorrioBubble : MonoBehaviour {
             string[] param = { other.transform.position.x.ToString(), other.transform.position.y.ToString() };
             GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
 
-            string[] arg = { "TorrioMutant" };
+            string[] arg = { "TORRIO" };
             GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
 
             GameManager.instance.TakeDamage(damage);

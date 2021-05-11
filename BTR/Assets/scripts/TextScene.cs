@@ -15,13 +15,12 @@ public class TextScene : MonoBehaviour {
 	
 	void LoadScene()
     {
-        Debug.Log(BTR_Tracker.EventType.LEVEL_START);
-        Debug.Log(GameManager.instance_Tracker);
         if (escena[7] == '1')
         { // para todos los niveles levelX_1
             string[] arg = {escena};
             GameManager.instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_START, arg);
-            string[] param = { Time.deltaTime.ToString() };
+            GameManager.instance.resetLevelTime();
+            string[] param = { GameManager.instance.getLevelTime().ToString() };
             GameManager.instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_TIME, param);
         }
 

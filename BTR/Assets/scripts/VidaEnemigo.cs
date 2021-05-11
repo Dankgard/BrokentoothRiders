@@ -38,8 +38,22 @@ public class VidaEnemigo : MonoBehaviour {
         {
             if (isBoss)
             {
-                string[] param = { Time.deltaTime.ToString() };
+                string[] param = { GameManager.instance.getLevelTime().ToString() };
                 GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END, param);
+
+                if (GameManager.instance.ShotgunActive())
+                {
+                    string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
+                    GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+                    GameManager.instance.resetWeaponUsageTime();
+                }
+                else
+                {
+                    string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
+                    GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+                    GameManager.instance.resetWeaponUsageTime();
+                }
+
                 GameManager.instance.StartLoadingScene(escena, 5);
             }
             barImage.fillAmount = 0;

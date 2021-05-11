@@ -32,6 +32,10 @@ public class GameManager : MonoBehaviour
     // true escopeta, false fusil
     public bool shotgunActive;
 
+    private float weaponUsageTime;
+
+    private float levelTime = 0;
+
     void Awake()
     {
         if (instance == null)
@@ -58,6 +62,7 @@ public class GameManager : MonoBehaviour
     {
         // BTR TRACKER
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START);
+        weaponUsageTime = 0;
         Debug.Log("Inicia la sesion");
     }
     void OnApplicationQuit()
@@ -71,6 +76,18 @@ public class GameManager : MonoBehaviour
 
     IEnumerator DelayedQuit()
     {
+        if (GameManager.instance.ShotgunActive())
+        {
+            string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+            GameManager.instance.resetWeaponUsageTime();
+        }
+        else
+        {
+            string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+            GameManager.instance.resetWeaponUsageTime();
+        }
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
         Debug.Log("Termina la sesion");
 
@@ -119,7 +136,29 @@ public class GameManager : MonoBehaviour
             if(SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+
+        weaponUsageTime += Time.deltaTime;
+        levelTime += Time.deltaTime;
     }
+
+    public float getWeaponUsageTime()
+    {
+        return weaponUsageTime;
+    }
+    public void resetWeaponUsageTime()
+    {
+        weaponUsageTime = 0;
+    }
+
+    public float getLevelTime()
+    {
+        return levelTime;
+    }
+    public void resetLevelTime()
+    {
+        levelTime = 0;
+    }
+
 
     public int Health()
     {

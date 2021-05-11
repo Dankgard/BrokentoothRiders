@@ -31,6 +31,7 @@ public class AtaqueBoss2 : MonoBehaviour {
             throwCount += Time.deltaTime;
             if (throwCount >= throwTime && !mov.colisionPlayer)
             {
+                proyectil.GetComponent<Granada>().enemy = "VLAD";
                 GameObject proyectile = Instantiate(proyectil, enemyTrans.transform.position, Quaternion.identity);
                 Rigidbody2D rb = proyectile.GetComponent<Rigidbody2D>();
                 force = Random.Range(4, 10);

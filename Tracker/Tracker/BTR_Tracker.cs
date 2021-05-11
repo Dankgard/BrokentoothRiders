@@ -31,6 +31,8 @@ namespace Tracker
         private WeaponUsageFrequency weaponUsageFrequency;
         private WeaponAccuracy weaponAccuracy;
 
+        private bool print = false;
+
         public BTR_Tracker() {
             damageFrequency = new DamageFrequency();
             hitFrequency = new HitFrequency();
@@ -60,7 +62,19 @@ namespace Tracker
                     {
                         endSession = new EndSession();
                     }
-                    endSession.ToJson(filePath);
+                    if (!print)
+                    {
+                        damageFrequency.ToJson(filePath);
+                        // Hit Frequency
+                        hitFrequency.ToJson(filePath);
+                        // Weapon Usage Frequency
+                        weaponUsageFrequency.ToJson(filePath);
+                        // Weapon Accuracy
+                        weaponAccuracy.CalculateAccuracy();
+                        weaponAccuracy.ToJson(filePath);
+                    }
+
+                    endSession.ToJson(filePath);                    
                     break;
                 case EventType.LEVEL_START:
                     if (startLevel == null)
@@ -83,8 +97,11 @@ namespace Tracker
                     weaponAccuracy.CalculateAccuracy();
                     weaponAccuracy.ToJson(filePath);
                     // End Level
+                    levelTime.TotalTime(float.Parse(args[0]));
                     levelTime.ToJson(filePath);
                     endLevel.ToJson(filePath);
+
+                    print = true;
                     break;
                 case EventType.LEVEL_TIME:
                     levelTime.StartTimer(float.Parse(args[0]));

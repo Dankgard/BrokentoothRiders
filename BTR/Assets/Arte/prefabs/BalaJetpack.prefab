@@ -92,7 +92,7 @@ MonoBehaviour:
   speed: 5
   vidaBala: 5
   bulletDamage: 10
-  typeEnemy: JetpackEnemy
+  typeEnemy: HOMBRE JETPACK
 --- !u!212 &212049941974928460
 SpriteRenderer:
   m_ObjectHideFlags: 1

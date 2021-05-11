@@ -10,6 +10,7 @@ public class Explosion : MonoBehaviour {
 
     public AudioClip explosionSound;
     BoxCollider2D collider;
+    public string enemy;
 
     private void Awake()
     {
@@ -26,7 +27,10 @@ public class Explosion : MonoBehaviour {
             // TRACKER EVENT
             string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString() };
             GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
-            
+
+            string[] arg = { enemy };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+
             GameManager.instance.TakeDamage(explosionDamage);
         }
         if(collision.gameObject.tag == "Enemigo")

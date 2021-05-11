@@ -6,12 +6,13 @@ namespace Tracker
 {
     class WeaponUsageFrequency : Event
     {
+        public Dictionary<string, float> WeaponUsage;
+
         public WeaponUsageFrequency()
         {
-            Event_type = "Weapon Usage Frequency";
+            Event_type = "Weapon_Usage_Frequency";
             WeaponUsage = new Dictionary<string, float>();
         }
-        public Dictionary<string, float> WeaponUsage;
 
         //el tiempo que recibe en el parametro timeUsed se controla desde unity
         public void AddEntry(string gunType, float timeUsed)

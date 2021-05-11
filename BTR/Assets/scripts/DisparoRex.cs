@@ -90,7 +90,11 @@ public class DisparoRex : MonoBehaviour
             reach = shotgunReach;
             delay = shotgunDelay;
             automaticWeapon = false;
-        }
+
+            string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+            GameManager.instance.resetWeaponUsageTime();
+        } 
         else
         {
 			cursor.sprite = armas[0];
@@ -98,6 +102,10 @@ public class DisparoRex : MonoBehaviour
             reach = rifleReach;
             delay = rifleDelay;
             automaticWeapon = true;
+
+            string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+            GameManager.instance.resetWeaponUsageTime();
         }
         spriteArma.LoadWeapon(GameManager.instance.ShotgunActive());
     }
