@@ -14,6 +14,9 @@ public class BalaTorreta : MonoBehaviour {
             string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString() };
             GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
 
+            string[] arg = { "Turret" };
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+
             GameManager.instance.TakeDamage(bulletDamage);
             Destroy(gameObject);
         }
