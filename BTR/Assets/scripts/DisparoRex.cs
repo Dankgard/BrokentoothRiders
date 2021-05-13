@@ -92,7 +92,7 @@ public class DisparoRex : MonoBehaviour
             automaticWeapon = false;
 
             string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
             GameManager.instance.resetWeaponUsageTime();
         } 
         else
@@ -104,7 +104,7 @@ public class DisparoRex : MonoBehaviour
             automaticWeapon = true;
 
             string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
             GameManager.instance.resetWeaponUsageTime();
         }
         spriteArma.LoadWeapon(GameManager.instance.ShotgunActive());

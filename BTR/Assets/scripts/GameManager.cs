@@ -78,15 +78,15 @@ public class GameManager : MonoBehaviour
     {
         if (GameManager.instance.ShotgunActive())
         {
-            string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
-            GameManager.instance.resetWeaponUsageTime();
+            string[] arg = { "ESCOPETA", getWeaponUsageTime().ToString() };
+            instance_Tracker.RegisterEvent(BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
+            instance.resetWeaponUsageTime();
         }
         else
         {
-            string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
-            GameManager.instance.resetWeaponUsageTime();
+            string[] arg = { "RIFLE", getWeaponUsageTime().ToString() };
+            instance_Tracker.RegisterEvent(BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
+            instance.resetWeaponUsageTime();
         }
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
         Debug.Log("Termina la sesion");

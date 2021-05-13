@@ -1,85 +1,38 @@
 {
-  "session_id": "{d48af277-a6e0-4838-bb0b-f0a750ae42cb}",
-  "sessionStartTime": "5/11/2021 6:07:28 PM",
+  "session_id": "(767564ab-4b6b-42f0-b84b-8d3dda3f9802)",
+  "sessionStartTime": "5/13/2021 1:26:39 PM",
   "Event_type": "Start_Session"
 }
 {
   "level_id": "level1_1",
-  "levelStartTime": "5/11/2021 6:07:44 PM",
+  "levelStartTime": "5/13/2021 1:26:56 PM",
   "Event_type": "Start_Level"
 }
 {
   "Positions": [],
   "Event_type": "Damage_Frequency"
 }{
-  "HitPerEnemy": {
-    "ESCOPETA": 3,
-    "RIFLE": 1
-  },
+  "HitPerEnemy": {},
   "Event_type": "Hit_Frequency"
 }{
-  "WeaponUsage": {},
+  "WeaponUsage": {
+    "ESCOPETA": 18.3531322,
+    "RIFLE": 4.876368
+  },
   "Event_type": "Weapon_Usage_Frequency"
 }{
   "WeaponHit": {
-    "Rifle": 6.0
+    "Rifle": 3.0
   },
   "WeaponMiss": {
-    "Rifle": 11.0
+    "Rifle": 3.0,
+    "Shotgun": 8.0
   },
   "WeaponAccuracyPercentage": {
-    "Rifle": 0.3529412
+    "Rifle": 0.5
   },
   "Event_type": "Weapon_Accuracy"
 }{
-  "sessionEndTime": "5/11/2021 6:08:01 PM",
-  "Event_type": "End_Session"
-}
-{
-  "session_id": "293a7660-c258-4fce-84e1-e0f91dea75e2",
-  "sessionStartTime": "5/11/2021 6:08:04 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/11/2021 6:08:21 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "Positions": [],
-  "Event_type": "Damage_Frequency"
-}{
-  "HitPerEnemy": {
-    "ESCOPETA": 3,
-    "RIFLE": 4
-  },
-  "Event_type": "Hit_Frequency"
-}{
-  "WeaponUsage": {},
-  "Event_type": "Weapon_Usage_Frequency"
-}{
-  "WeaponHit": {
-    "Rifle": 19.0,
-    "Shotgun": 3.0
-  },
-  "WeaponMiss": {
-    "Rifle": 29.0,
-    "Shotgun": 11.0
-  },
-  "WeaponAccuracyPercentage": {
-    "Rifle": 0.395833343,
-    "Shotgun": 0.214285716
-  },
-  "Event_type": "Weapon_Accuracy"
-}{
-  "iniTime": 0.0,
-  "totalTime": 37.38396,
-  "Event_type": "Level_Time"
-}{
-  "endLevelTime": "5/11/2021 6:08:59 PM",
-  "Event_type": "End_Level"
-}
-{
-  "sessionEndTime": "5/11/2021 6:09:07 PM",
+  "sessionEndTime": "5/13/2021 1:27:03 PM",
   "Event_type": "End_Session"
 }
