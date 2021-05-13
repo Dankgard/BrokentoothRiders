@@ -43,12 +43,14 @@ public class VidaEnemigo : MonoBehaviour {
 
                 if (GameManager.instance.ShotgunActive())
                 {
+                    Debug.Log("MATAS AL JEFE CON ESCOPETA " + GameManager.instance.getWeaponUsageTime());
                     string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
                     GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
                     GameManager.instance.resetWeaponUsageTime();
                 }
                 else
                 {
+                    Debug.Log("MATAS AL JEFE CON RIFLE " + GameManager.instance.getWeaponUsageTime());
                     string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
                     GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
                     GameManager.instance.resetWeaponUsageTime();

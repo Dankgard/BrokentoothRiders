@@ -76,14 +76,16 @@ public class GameManager : MonoBehaviour
 
     IEnumerator DelayedQuit()
     {
-        if (GameManager.instance.ShotgunActive())
+        if (instance.ShotgunActive())
         {
+            Debug.Log("CIERRE CON ESCOPETA " + GameManager.instance.getWeaponUsageTime());
             string[] arg = { "ESCOPETA", getWeaponUsageTime().ToString() };
             instance_Tracker.RegisterEvent(BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
             instance.resetWeaponUsageTime();
         }
         else
         {
+            Debug.Log("CIERRE CON RIFLE " + GameManager.instance.getWeaponUsageTime());
             string[] arg = { "RIFLE", getWeaponUsageTime().ToString() };
             instance_Tracker.RegisterEvent(BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
             instance.resetWeaponUsageTime();
@@ -116,9 +118,11 @@ public class GameManager : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name != "level2_1")
         {
-            
-            vida = GameObject.FindWithTag("healthbar").GetComponent<VidaJugador>();
-            energia = GameObject.FindWithTag("energybar").GetComponent<EnergiaJugador>();
+            if (player != null)
+            {
+                vida = GameObject.FindWithTag("healthbar").GetComponent<VidaJugador>();
+                energia = GameObject.FindWithTag("energybar").GetComponent<EnergiaJugador>();
+            }
         }
     }
 
@@ -139,6 +143,7 @@ public class GameManager : MonoBehaviour
 
         weaponUsageTime += Time.deltaTime;
         levelTime += Time.deltaTime;
+        //Debug.Log(weaponUsageTime);
     }
 
     public float getWeaponUsageTime()

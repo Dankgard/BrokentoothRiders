@@ -90,10 +90,12 @@ public class DisparoRex : MonoBehaviour
             reach = shotgunReach;
             delay = shotgunDelay;
             automaticWeapon = false;
+            Debug.Log("CAMBIO A ESCOPETA " + GameManager.instance.getWeaponUsageTime());
 
             string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
             GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
             GameManager.instance.resetWeaponUsageTime();
+            
         } 
         else
         {
@@ -102,6 +104,8 @@ public class DisparoRex : MonoBehaviour
             reach = rifleReach;
             delay = rifleDelay;
             automaticWeapon = true;
+
+            Debug.Log("CAMBIO A RIFLE " + GameManager.instance.getWeaponUsageTime());
 
             string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
             GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);

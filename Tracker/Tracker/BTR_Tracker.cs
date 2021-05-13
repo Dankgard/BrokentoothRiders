@@ -77,11 +77,9 @@ namespace Tracker
                     endSession.ToJson(filePath);                    
                     break;
                 case EventType.LEVEL_START:
-                    if (startLevel == null)
-                    {
-                        startLevel = new StartLevel(args[0]);
-                    }
+                    startLevel = new StartLevel(args[0]);
                     startLevel.ToJson(filePath);
+                    print = false;
                     break;
                 case EventType.LEVEL_END:
                     if (endLevel == null)

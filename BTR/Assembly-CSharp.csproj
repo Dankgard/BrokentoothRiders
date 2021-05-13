@@ -120,6 +120,7 @@
      <Compile Include="Assets\scripts\SaltoHumano.cs" />
      <Compile Include="Assets\scripts\SkillsJugador.cs" />
      <Compile Include="Assets\scripts\SoundManager.cs" />
+     <Compile Include="Assets\scripts\StartLevel.cs" />
      <Compile Include="Assets\scripts\TextDialog.cs" />
      <Compile Include="Assets\scripts\TextScene.cs" />
      <Compile Include="Assets\scripts\TitanRock.cs" />
