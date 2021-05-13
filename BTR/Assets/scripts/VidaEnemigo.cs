@@ -38,9 +38,6 @@ public class VidaEnemigo : MonoBehaviour {
         {
             if (isBoss)
             {
-                string[] param = { GameManager.instance.getLevelTime().ToString() };
-                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END, param);
-
                 if (GameManager.instance.ShotgunActive())
                 {
                     Debug.Log("MATAS AL JEFE CON ESCOPETA " + GameManager.instance.getWeaponUsageTime());
@@ -55,6 +52,9 @@ public class VidaEnemigo : MonoBehaviour {
                     GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
                     GameManager.instance.resetWeaponUsageTime();
                 }
+
+                string[] param = { GameManager.instance.getLevelTime().ToString() };
+                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END, param);                
 
                 GameManager.instance.StartLoadingScene(escena, 5);
             }

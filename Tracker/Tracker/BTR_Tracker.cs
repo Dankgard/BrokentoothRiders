@@ -32,8 +32,10 @@ namespace Tracker
         private WeaponAccuracy weaponAccuracy;
 
         private bool print = false;
+        bool runLevel = false;
 
-        public BTR_Tracker() {
+        public void init()
+        {
             damageFrequency = new DamageFrequency();
             hitFrequency = new HitFrequency();
             weaponUsageFrequency = new WeaponUsageFrequency();
@@ -64,22 +66,33 @@ namespace Tracker
                     }
                     if (!print)
                     {
-                        damageFrequency.ToJson(filePath);
+                        if(damageFrequency != null)
+                            damageFrequency.ToJson(filePath);
                         // Hit Frequency
-                        hitFrequency.ToJson(filePath);
+                        if (hitFrequency != null)
+                            hitFrequency.ToJson(filePath);
                         // Weapon Usage Frequency
-                        weaponUsageFrequency.ToJson(filePath);
+                        if (weaponUsageFrequency != null)
+                            weaponUsageFrequency.ToJson(filePath);
                         // Weapon Accuracy
-                        weaponAccuracy.CalculateAccuracy();
-                        weaponAccuracy.ToJson(filePath);
+                        if (weaponAccuracy != null)
+                        {
+                            weaponAccuracy.CalculateAccuracy();
+                            weaponAccuracy.ToJson(filePath);
+                        }
                     }
 
                     endSession.ToJson(filePath);                    
                     break;
                 case EventType.LEVEL_START:
-                    startLevel = new StartLevel(args[0]);
-                    startLevel.ToJson(filePath);
-                    print = false;
+                    if (!runLevel)
+                    {
+                        init();
+                        startLevel = new StartLevel(args[0]);
+                        startLevel.ToJson(filePath);
+                        print = false;
+                        runLevel = true;
+                    }
                     break;
                 case EventType.LEVEL_END:
                     if (endLevel == null)
@@ -99,6 +112,7 @@ namespace Tracker
                     levelTime.ToJson(filePath);
                     endLevel.ToJson(filePath);
 
+                    runLevel = false;
                     print = true;
                     break;
                 case EventType.LEVEL_TIME:

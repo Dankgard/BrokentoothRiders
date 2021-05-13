@@ -31,12 +31,14 @@ public class DisparoRex : MonoBehaviour
 
 	public SpriteRenderer cursor;
 	public Sprite[] armas;
+    bool start = true;
 
     void Start()
     {
         canShoot = true;
         spriteArma = GameObject.FindWithTag("actualweapon").GetComponent<ArmaJugador>();
         WeaponChange();
+        start = false;
 
 		//cursor = transform.GetChild(1).GetChild(0).GetComponent<SpriteRenderer>();
     }
@@ -83,18 +85,36 @@ public class DisparoRex : MonoBehaviour
     {
         canShoot = true;
 
+        if (automaticWeapon)
+        {
+            if (!start)
+            {
+                Debug.Log("TENIA RIFLE " + GameManager.instance.getWeaponUsageTime());
+
+                string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
+                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
+                GameManager.instance.resetWeaponUsageTime();
+            }
+        }
+        else
+        {
+            if (!start)
+            {
+                Debug.Log("TENIA ESCOPETA " + GameManager.instance.getWeaponUsageTime());
+
+                string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
+                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
+                GameManager.instance.resetWeaponUsageTime();
+            }
+        }
+
         if (GameManager.instance.ShotgunActive())
         {
 			cursor.sprite = armas[1];
             bullets = shotgunBullets;
             reach = shotgunReach;
             delay = shotgunDelay;
-            automaticWeapon = false;
-            Debug.Log("CAMBIO A ESCOPETA " + GameManager.instance.getWeaponUsageTime());
-
-            string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
-            GameManager.instance.resetWeaponUsageTime();
+            automaticWeapon = false;          
             
         } 
         else
@@ -103,13 +123,7 @@ public class DisparoRex : MonoBehaviour
             bullets = rifleBullets;
             reach = rifleReach;
             delay = rifleDelay;
-            automaticWeapon = true;
-
-            Debug.Log("CAMBIO A RIFLE " + GameManager.instance.getWeaponUsageTime());
-
-            string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
-            GameManager.instance.resetWeaponUsageTime();
+            automaticWeapon = true;            
         }
         spriteArma.LoadWeapon(GameManager.instance.ShotgunActive());
     }
