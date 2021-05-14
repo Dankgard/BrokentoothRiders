@@ -54,7 +54,9 @@ public class VidaEnemigo : MonoBehaviour {
                 }
 
                 string[] param = { GameManager.instance.getLevelTime().ToString() };
-                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END, param);                
+                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END, param);
+
+                GameManager.instance.FinishLevel();
 
                 GameManager.instance.StartLoadingScene(escena, 5);
             }
