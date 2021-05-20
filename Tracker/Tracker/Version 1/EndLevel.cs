@@ -1,25 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class EndSession : Event
+    class EndLevel : Event
     {
-        public string sessionEndTime;
-        public EndSession()
-        {
-            Event_type = "End_Session";
+        public string endLevelTime;
 
-            // Momento en que acaba la sesion
+        public EndLevel()
+        {
+            Event_type = "End_Level";
+
+            // Momento en el que acaba el nivel
             DateTime endTime = DateTime.Now;
-            sessionEndTime = endTime.ToString();
+            endLevelTime = endTime.ToString();
         }
 
-        public override void ToJson(string path)
+        public void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             if (File.Exists(path))
