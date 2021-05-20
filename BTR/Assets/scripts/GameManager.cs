@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour
 
     private float levelTime = 0;
 
+    private bool startLevel = false;
+
     void Awake()
     {
         if (instance == null)
@@ -178,6 +180,21 @@ public class GameManager : MonoBehaviour
     public int Energy()
     {
         return currentEnergy;
+    }
+
+    public void StartLevel()
+    {
+        startLevel = true;
+    }
+
+    public void FinishLevel()
+    {
+        startLevel = false;
+    }
+
+    public bool getStartLevel()
+    {
+        return startLevel;
     }
 
     public bool ShotgunActive()
