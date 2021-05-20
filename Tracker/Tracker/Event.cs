@@ -1,9 +1,6 @@
 ﻿
-namespace Tracker
+public abstract class Event
 {
-    public abstract class Event
-    {
-        public string Event_type { get; set; }
-        public abstract void ToJson(string path);
-    }
+    public string Event_type { get; set; }
+
 }

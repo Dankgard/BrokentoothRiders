@@ -1,0 +1,23 @@
+{
+  "session_id": "{baa15be1-d8ee-4fa4-92f4-5799f891f526}",
+  "sessionStartTime": "5/20/2021 5:50:52 PM",
+  "Event_type": "Start_Session"
+}{
+  "numberOfTimes": 5,
+  "Event_type": "Grenade usage"
+}{
+  "sessionEndTime": "5/20/2021 5:50:57 PM",
+  "Event_type": "End_Session"
+}
+{
+  "session_id": "{af47541a-5026-4043-8f61-4fa5ddf4d8d6}",
+  "sessionStartTime": "5/20/2021 5:53:48 PM",
+  "Event_type": "Start_Session"
+}
+{
+  "numberOfTimes": 2,
+  "Event_type": "Grenade usage"
+}{
+  "sessionEndTime": "5/20/2021 5:53:55 PM",
+  "Event_type": "End_Session"
+}
