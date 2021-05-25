@@ -32,7 +32,6 @@ public class Habilidades : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E) && GameManager.instance.Energy() >= gasto)
             {
-                GameManager.instance_PracticaFinalTracker.RegisterEvent(Final_Tracker.PracticaFinalTracker.EventType.GRENADE_USAGES);
                 GameManager.instance.TakeEnergy(gasto);
                 granada.enemy = "PLAYER";
                 Granada boom = Instantiate(granada, grenadePoint.position, Quaternion.Euler(new Vector3(0, 0, 0)));

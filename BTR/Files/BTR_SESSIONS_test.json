@@ -1,349 +1,146 @@
 {
-  "session_id": "246432a4-882e-44b8-9df6-701d0ac03534",
-  "sessionStartTime": "5/13/2021 5:14:33 PM",
+  "session_id": "2d9f93fff88e43af84292be9eb9ff850",
+  "sessionStartTime": "5/14/2021 2:14:56 PM",
   "Event_type": "Start_Session"
 }
 {
-  "level_id": "level1_1",
-  "levelStartTime": "5/13/2021 5:14:33 PM",
+  "level_id": "level3_1",
+  "levelStartTime": "5/14/2021 2:14:56 PM",
+  "Event_type": "Start_Level"
+}
+{
+  "Positions": [],
+  "Event_type": "Damage_Frequency"
+}{
+  "HitPerEnemy": {},
+  "Event_type": "Hit_Frequency"
+}{
+  "WeaponUsage": {
+    "RIFLE": 15.7596378,
+    "ESCOPETA": 10.20275
+  },
+  "Event_type": "Weapon_Usage_Frequency"
+}{
+  "WeaponHit": {
+    "Rifle": 10.0,
+    "Shotgun": 7.0
+  },
+  "WeaponMiss": {
+    "Rifle": 13.0,
+    "Shotgun": 16.0
+  },
+  "WeaponAccuracyPercentage": {
+    "Rifle": 0.4347826,
+    "Shotgun": 0.3043478
+  },
+  "Event_type": "Weapon_Accuracy"
+}{
+  "iniTime": 0.0,
+  "totalTime": 25.9624,
+  "Event_type": "Level_Time"
+}{
+  "endLevelTime": "5/14/2021 2:15:23 PM",
+  "Event_type": "End_Level"
+}
+{
+  "level_id": "level4_1",
+  "levelStartTime": "5/14/2021 2:15:39 PM",
   "Event_type": "Start_Level"
 }
 {
   "Positions": [
     {
-      "X": 96.47776,
-      "Y": 8.272451
+      "X": 29.99553,
+      "Y": 0.6001351
     },
     {
-      "X": 99.17199,
-      "Y": 7.439853
+      "X": 126.9598,
+      "Y": 239.9468
     },
     {
-      "X": 143.9218,
-      "Y": 5.687164
+      "X": 127.9089,
+      "Y": 239.9468
     },
     {
-      "X": 171.6839,
-      "Y": 5.255117
-    },
-    {
-      "X": 187.1404,
-      "Y": 4.281572
-    },
-    {
-      "X": 221.7877,
-      "Y": 17.15509
-    },
-    {
-      "X": 219.5001,
-      "Y": 17.10013
+      "X": 122.2564,
+      "Y": 239.9468
     }
   ],
   "Event_type": "Damage_Frequency"
 }{
   "HitPerEnemy": {
-    "HOMBRE RIFLE": 7,
-    "HOMBRE ESCOPETA": 1
+    "HELICOPTERO": 1,
+    "BIRDIE": 3
   },
   "Event_type": "Hit_Frequency"
 }{
   "WeaponUsage": {
-    "ESCOPETA": 5.921385,
-    "RIFLE": 52.3653145
+    "ESCOPETA": 22.29467,
+    "RIFLE": 42.35369
   },
   "Event_type": "Weapon_Usage_Frequency"
 }{
   "WeaponHit": {
-    "Rifle": 18.0,
-    "Shotgun": 12.0
+    "Shotgun": 5.0,
+    "Rifle": 72.0
   },
   "WeaponMiss": {
-    "Rifle": 8.0,
-    "Shotgun": 2.0
+    "Shotgun": 3.0,
+    "Rifle": 21.0
   },
   "WeaponAccuracyPercentage": {
-    "Rifle": 0.6923077,
-    "Shotgun": 0.857142866
+    "Shotgun": 0.625,
+    "Rifle": 0.7741935
   },
   "Event_type": "Weapon_Accuracy"
 }{
-  "sessionEndTime": "5/13/2021 5:15:40 PM",
-  "Event_type": "End_Session"
+  "iniTime": 0.0,
+  "totalTime": 64.64764,
+  "Event_type": "Level_Time"
+}{
+  "endLevelTime": "5/14/2021 2:15:23 PM",
+  "Event_type": "End_Level"
 }
 {
-  "session_id": "e7ef7f87b5cf4285b74466082e272504",
-  "sessionStartTime": "5/13/2021 5:17:25 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/13/2021 5:17:25 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/13/2021 5:18:00 PM",
+  "level_id": "level5_1",
+  "levelStartTime": "5/14/2021 2:17:02 PM",
   "Event_type": "Start_Level"
 }
 {
   "Positions": [
     {
-      "X": 90.57369,
-      "Y": 5.100119
+      "X": 36.35622,
+      "Y": -7.866532
     },
     {
-      "X": 95.10769,
-      "Y": 5.841268
-    },
-    {
-      "X": 97.48768,
-      "Y": 8.178764
+      "X": 47.8528,
+      "Y": -12.86653
     }
   ],
   "Event_type": "Damage_Frequency"
 }{
   "HitPerEnemy": {
-    "HOMBRE ESCOPETA": 6,
-    "HOMBRE RIFLE": 2
+    "HELICOPTERO": 1,
+    "DRON": 1
   },
   "Event_type": "Hit_Frequency"
 }{
   "WeaponUsage": {
-    "ESCOPETA": 37.96368,
-    "RIFLE": 3.001453
+    "RIFLE": 18.36752
   },
   "Event_type": "Weapon_Usage_Frequency"
 }{
   "WeaponHit": {
-    "Rifle": 9.0
+    "Rifle": 23.0
   },
   "WeaponMiss": {
-    "Rifle": 5.0
+    "Rifle": 3.0
   },
   "WeaponAccuracyPercentage": {
-    "Rifle": 0.642857134
+    "Rifle": 0.884615362
   },
   "Event_type": "Weapon_Accuracy"
 }{
-  "sessionEndTime": "5/13/2021 5:18:07 PM",
-  "Event_type": "End_Session"
-}
-{
-  "session_id": "{26d3438a-5b1e-40f0-9da5-4f8d1d71acdd}",
-  "sessionStartTime": "5/20/2021 5:40:25 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/20/2021 5:40:25 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "Positions": [],
-  "Event_type": "Damage_Frequency"
-}{
-  "HitPerEnemy": {},
-  "Event_type": "Hit_Frequency"
-}{
-  "WeaponUsage": {
-    "ESCOPETA": 0.0,
-    "RIFLE": 5.859233
-  },
-  "Event_type": "Weapon_Usage_Frequency"
-}{
-  "WeaponHit": {},
-  "WeaponMiss": {},
-  "WeaponAccuracyPercentage": {},
-  "Event_type": "Weapon_Accuracy"
-}{
-  "sessionEndTime": "5/20/2021 5:40:31 PM",
-  "Event_type": "End_Session"
-}
-{
-  "session_id": "89328d20-bc03-4e05-aad5-fdd5c0ac2b52",
-  "sessionStartTime": "5/20/2021 5:42:19 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/20/2021 5:42:19 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "Positions": [],
-  "Event_type": "Damage_Frequency"
-}{
-  "HitPerEnemy": {},
-  "Event_type": "Hit_Frequency"
-}{
-  "WeaponUsage": {
-    "ESCOPETA": 0.0,
-    "RIFLE": 10.13168
-  },
-  "Event_type": "Weapon_Usage_Frequency"
-}{
-  "WeaponHit": {},
-  "WeaponMiss": {},
-  "WeaponAccuracyPercentage": {},
-  "Event_type": "Weapon_Accuracy"
-}{
-  "sessionEndTime": "5/20/2021 5:42:29 PM",
-  "Event_type": "End_Session"
-}
-{
-  "session_id": "{8642abdd-fba6-4486-b113-5b92716c2518}",
-  "sessionStartTime": "5/20/2021 5:48:05 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/20/2021 5:48:05 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "Positions": [],
-  "Event_type": "Damage_Frequency"
-}{
-  "HitPerEnemy": {},
-  "Event_type": "Hit_Frequency"
-}{
-  "WeaponUsage": {
-    "ESCOPETA": 0.0,
-    "RIFLE": 1.15985
-  },
-  "Event_type": "Weapon_Usage_Frequency"
-}{
-  "WeaponHit": {},
-  "WeaponMiss": {},
-  "WeaponAccuracyPercentage": {},
-  "Event_type": "Weapon_Accuracy"
-}{
-  "sessionEndTime": "5/20/2021 5:48:07 PM",
-  "Event_type": "End_Session"
-}
-{
-  "session_id": "5552c3ca17e644aeaadeaf5b38275933",
-  "sessionStartTime": "5/20/2021 5:48:17 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/20/2021 5:48:17 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "Positions": [],
-  "Event_type": "Damage_Frequency"
-}{
-  "HitPerEnemy": {},
-  "Event_type": "Hit_Frequency"
-}{
-  "WeaponUsage": {
-    "ESCOPETA": 0.0,
-    "RIFLE": 7.828017
-  },
-  "Event_type": "Weapon_Usage_Frequency"
-}{
-  "WeaponHit": {},
-  "WeaponMiss": {
-    "Rifle": 1.0
-  },
-  "WeaponAccuracyPercentage": {},
-  "Event_type": "Weapon_Accuracy"
-}{
-  "sessionEndTime": "5/20/2021 5:48:25 PM",
-  "Event_type": "End_Session"
-}
-{
-  "session_id": "(dcd610e9-47f0-4119-8a3d-a56a2f723a5c)",
-  "sessionStartTime": "5/20/2021 5:49:48 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/20/2021 5:49:49 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "Positions": [],
-  "Event_type": "Damage_Frequency"
-}{
-  "HitPerEnemy": {},
-  "Event_type": "Hit_Frequency"
-}{
-  "WeaponUsage": {
-    "ESCOPETA": 0.0,
-    "RIFLE": 6.10924
-  },
-  "Event_type": "Weapon_Usage_Frequency"
-}{
-  "WeaponHit": {},
-  "WeaponMiss": {},
-  "WeaponAccuracyPercentage": {},
-  "Event_type": "Weapon_Accuracy"
-}{
-  "sessionEndTime": "5/20/2021 5:49:55 PM",
-  "Event_type": "End_Session"
-}
-{
-  "session_id": "{ac752ee1-d266-42bd-a272-0ae6c09a8f50}",
-  "sessionStartTime": "5/20/2021 5:50:52 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/20/2021 5:50:52 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "Positions": [],
-  "Event_type": "Damage_Frequency"
-}{
-  "HitPerEnemy": {},
-  "Event_type": "Hit_Frequency"
-}{
-  "WeaponUsage": {
-    "ESCOPETA": 0.0,
-    "RIFLE": 5.043705
-  },
-  "Event_type": "Weapon_Usage_Frequency"
-}{
-  "WeaponHit": {},
-  "WeaponMiss": {},
-  "WeaponAccuracyPercentage": {},
-  "Event_type": "Weapon_Accuracy"
-}{
-  "sessionEndTime": "5/20/2021 5:50:57 PM",
-  "Event_type": "End_Session"
-}
-{
-  "session_id": "(3eb6d7d2-896b-482b-aabc-f294e362ce22)",
-  "sessionStartTime": "5/20/2021 5:53:48 PM",
-  "Event_type": "Start_Session"
-}
-{
-  "level_id": "level1_1",
-  "levelStartTime": "5/20/2021 5:53:48 PM",
-  "Event_type": "Start_Level"
-}
-{
-  "Positions": [],
-  "Event_type": "Damage_Frequency"
-}{
-  "HitPerEnemy": {},
-  "Event_type": "Hit_Frequency"
-}{
-  "WeaponUsage": {
-    "ESCOPETA": 0.0,
-    "RIFLE": 6.059438
-  },
-  "Event_type": "Weapon_Usage_Frequency"
-}{
-  "WeaponHit": {},
-  "WeaponMiss": {},
-  "WeaponAccuracyPercentage": {},
-  "Event_type": "Weapon_Accuracy"
-}{
-  "sessionEndTime": "5/20/2021 5:53:55 PM",
+  "sessionEndTime": "5/14/2021 2:17:21 PM",
   "Event_type": "End_Session"
 }

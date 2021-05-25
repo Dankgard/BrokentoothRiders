@@ -28,7 +28,7 @@ namespace Tracker
                 HitPerEnemy.Add(enemyType, 1);
             }
         }
-        public void ToJson(string path)
+        public override void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             if (File.Exists(path))

@@ -32,7 +32,7 @@ namespace Tracker
             return Guid.NewGuid().ToString(s);
         }
 
-        public void ToJson(string path)
+        public override void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             // Si el fichero existe

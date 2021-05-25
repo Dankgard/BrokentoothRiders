@@ -4,13 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Tracker;
-using Final_Tracker;
+
 
 public class GameManager : MonoBehaviour
 {
     // TRACKER ASSETS
     public static BTR_Tracker instance_Tracker = null;
-    public static PracticaFinalTracker instance_PracticaFinalTracker = null;
     private bool canQuit = false;
 
     public static GameManager instance = null;
@@ -49,8 +48,6 @@ public class GameManager : MonoBehaviour
             // BTR TRACKER
             instance_Tracker = new BTR_Tracker();
             instance_Tracker.SetFilePath("Files/BTR_SESSIONS_test.json");
-            instance_PracticaFinalTracker = new PracticaFinalTracker();
-            instance_PracticaFinalTracker.filepath = "Files/Final_tracker.json";
             // Nos aseguramos de no destruir el objeto, es decir, 
             // de que persista, si cambiamos de escena
             DontDestroyOnLoad(this.gameObject);
@@ -67,7 +64,6 @@ public class GameManager : MonoBehaviour
     {
         // BTR TRACKER
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START);
-        instance_PracticaFinalTracker.RegisterEvent(PracticaFinalTracker.EventType.START_SESSION);
         weaponUsageTime = 0;
         Debug.Log("Inicia la sesion");
     }
@@ -97,7 +93,6 @@ public class GameManager : MonoBehaviour
             instance.resetWeaponUsageTime();
         }
         instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
-        instance_PracticaFinalTracker.RegisterEvent(PracticaFinalTracker.EventType.END_SESSION);
         Debug.Log("Termina la sesion");
 
         // Wait for showSplashTimeout
@@ -150,7 +145,7 @@ public class GameManager : MonoBehaviour
 
         weaponUsageTime += Time.deltaTime;
         levelTime += Time.deltaTime;
-        Debug.Log(weaponUsageTime);
+        //Debug.Log(weaponUsageTime);
     }
 
     public float getWeaponUsageTime()

@@ -1,22 +1,29 @@
-﻿using Newtonsoft.Json;
+﻿
 using System.IO;
+using Newtonsoft.Json;
 
-namespace Final_Tracker
+namespace Tracker
 {
-    class GrenadeHurtsEnemy : Event
+    class LevelTime : Event
     {
-        public int numberOfTimes;
-        public GrenadeHurtsEnemy()
+        public float iniTime;
+        public float totalTime;
+        public LevelTime()
         {
-            Event_type = "Grenade hurt enemy";
-            numberOfTimes = 0;
+            Event_type = "Level_Time";
         }
 
-        public void addCurrency()
+        public void StartTimer(float iniTime_)
         {
-            ++numberOfTimes;
+            iniTime = iniTime_;
         }
-        public void ToJson(string path)
+
+        public void TotalTime(float endTime)
+        {
+            totalTime = endTime - iniTime;
+        }
+
+        public override void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             if (File.Exists(path))
