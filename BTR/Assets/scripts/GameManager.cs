@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     public static BTR_Tracker instance_Tracker = null;
     private bool canQuit = false;
 
+    // PRACTICA FINAL TRACKER
+    public static Practica_Final_Tracker final_tracker_instance = null;
+
     public static GameManager instance = null;
     public GameObject player;
 

@@ -17,7 +17,7 @@ namespace Tracker
             endLevelTime = endTime.ToString();
         }
 
-        public override void ToJson(string path)
+        public void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             if (File.Exists(path))

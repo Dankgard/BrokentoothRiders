@@ -1,31 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Newtonsoft.Json;
 using System.IO;
-using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class EndSession : Event
+    class GrenadeHurtsEnemy : Event
     {
-        public string sessionEndTime;
-        public EndSession()
+        public int counter;
+        public GrenadeHurtsEnemy()
         {
-            Event_type = "End_Session";
-
-            // Momento en que acaba la sesion
-            DateTime endTime = DateTime.Now;
-            sessionEndTime = endTime.ToString();
+            Event_type = "Grenade_Hurts_Enemy";
+            counter = 0;
         }
 
+        public void AddEntry()
+        {
+            counter++;
+        }
         public void ToJson(string path)
         {
             string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
             if (File.Exists(path))
             {
                 string temp = File.ReadAllText(path);
-                temp += jsonFile + "\n";
+                temp += jsonFile;
                 File.WriteAllText(path, temp);
             }
             else
