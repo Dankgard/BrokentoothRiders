@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class BalaEnemiga : MonoBehaviour {
@@ -43,13 +42,6 @@ public class BalaEnemiga : MonoBehaviour {
             Destroy(gameObject);
         else if (collision.gameObject.tag == "Player")
         {
-            // TRACKER EVENT
-            string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString()};
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
-
-            string[] arg = { typeEnemy };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
-
             GameManager.instance.TakeDamage(bulletDamage);
             Destroy(gameObject);
             Debug.Log("Player recibe daño");

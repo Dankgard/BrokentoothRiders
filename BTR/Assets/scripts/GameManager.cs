@@ -9,11 +9,8 @@ using Tracker;
 public class GameManager : MonoBehaviour
 {
     // TRACKER ASSETS
-    public static BTR_Tracker instance_Tracker = null;
+    public static Practica_Final_Tracker instance_Tracker = null;
     private bool canQuit = false;
-
-    // PRACTICA FINAL TRACKER
-    public static Practica_Final_Tracker final_tracker_instance = null;
 
     public static GameManager instance = null;
     public GameObject player;
@@ -35,10 +32,6 @@ public class GameManager : MonoBehaviour
     // true escopeta, false fusil
     public bool shotgunActive;
 
-    private float weaponUsageTime;
-
-    private float levelTime = 0;
-
     void Awake()
     {
         if (instance == null)
@@ -47,8 +40,8 @@ public class GameManager : MonoBehaviour
             instance = this;
 
             // BTR TRACKER
-            instance_Tracker = new BTR_Tracker();
-            instance_Tracker.SetFilePath("Files/BTR_SESSIONS_test.json");
+            instance_Tracker = new Practica_Final_Tracker();
+            instance_Tracker.filepath ="Files/PracticaFinal_pruebas.json";
             // Nos aseguramos de no destruir el objeto, es decir, 
             // de que persista, si cambiamos de escena
             DontDestroyOnLoad(this.gameObject);
@@ -64,8 +57,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         // BTR TRACKER
-        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START);
-        weaponUsageTime = 0;
+        instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.START_SESSION);
         Debug.Log("Inicia la sesion");
     }
     void OnApplicationQuit()
@@ -79,23 +71,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator DelayedQuit()
     {
-        if (instance.ShotgunActive())
-        {
-            Debug.Log("CIERRE CON ESCOPETA " + GameManager.instance.getWeaponUsageTime());
-            string[] arg = { "ESCOPETA", getWeaponUsageTime().ToString() };
-            instance_Tracker.RegisterEvent(BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
-            instance.resetWeaponUsageTime();
-        }
-        else
-        {
-            Debug.Log("CIERRE CON RIFLE " + GameManager.instance.getWeaponUsageTime());
-            string[] arg = { "RIFLE", getWeaponUsageTime().ToString() };
-            instance_Tracker.RegisterEvent(BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
-            instance.resetWeaponUsageTime();
-        }
-        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
-        Debug.Log("Termina la sesion");
-
+        instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.END_SESSION);
         // Wait for showSplashTimeout
         yield return new WaitForSeconds(2.5f);
 
@@ -148,25 +124,6 @@ public class GameManager : MonoBehaviour
         levelTime += Time.deltaTime;
         //Debug.Log(weaponUsageTime);
     }
-
-    public float getWeaponUsageTime()
-    {
-        return weaponUsageTime;
-    }
-    public void resetWeaponUsageTime()
-    {
-        weaponUsageTime = 0;
-    }
-
-    public float getLevelTime()
-    {
-        return levelTime;
-    }
-    public void resetLevelTime()
-    {
-        levelTime = 0;
-    }
-
 
     public int Health()
     {
@@ -232,13 +189,6 @@ public class GameManager : MonoBehaviour
     {
         alive = true;
         string scene = SceneManager.GetActiveScene().name;
-
-        // ESTE DE AQUI PENDIENTE
-
-        // TRACKER EVENT
-        //string[] param = { scene };
-        //instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_START, param);
-
         StartLoadingScene(scene, 2);
     }
 

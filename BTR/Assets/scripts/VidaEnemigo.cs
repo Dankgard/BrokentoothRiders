@@ -37,27 +37,7 @@ public class VidaEnemigo : MonoBehaviour {
         if (vida <= 0)
         {
             if (isBoss)
-            {
-                string[] param = { GameManager.instance.getLevelTime().ToString() };
-                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END, param);
-
-                if (GameManager.instance.ShotgunActive())
-                {
-                    Debug.Log("MATAS AL JEFE CON ESCOPETA " + GameManager.instance.getWeaponUsageTime());
-                    string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
-                    GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
-                    GameManager.instance.resetWeaponUsageTime();
-                }
-                else
-                {
-                    Debug.Log("MATAS AL JEFE CON RIFLE " + GameManager.instance.getWeaponUsageTime());
-                    string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
-                    GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
-                    GameManager.instance.resetWeaponUsageTime();
-                }
-
                 GameManager.instance.StartLoadingScene(escena, 5);
-            }
             barImage.fillAmount = 0;
             enemyName.text = "";
             ExplosionNoLetal boom = Instantiate(explosion, transform.position, Quaternion.identity);

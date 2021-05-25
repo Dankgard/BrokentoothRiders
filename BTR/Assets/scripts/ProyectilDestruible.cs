@@ -10,14 +10,6 @@ public class ProyectilDestruible : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            // TRACKER EVENT
-            string[] param = { other.transform.position.x.ToString(), other.transform.position.y.ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
-
-            
-            string[] arg = { "BIRDIE" };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
-
             GameManager.instance.TakeDamage(damage);
             Destroy(gameObject);
         }

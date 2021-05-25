@@ -85,15 +85,7 @@ public class MovimientoEspMut : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
-        {
-            if (!colisionPlayer)
-            {
-                string[] arg = { gameObject.GetComponent<VidaEnemigo>().name };
-                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
-            }
-
             colisionPlayer = true;
-        }
     }
     void OnTriggerExit2D(Collider2D collision)
     {
