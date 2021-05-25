@@ -32,11 +32,8 @@ namespace Tracker
         private WeaponAccuracy weaponAccuracy;
 
         private bool print = false;
-        bool runLevel = false;
-        bool startTime = false;
 
-        public void init()
-        {
+        public BTR_Tracker() {
             damageFrequency = new DamageFrequency();
             hitFrequency = new HitFrequency();
             weaponUsageFrequency = new WeaponUsageFrequency();
@@ -67,33 +64,22 @@ namespace Tracker
                     }
                     if (!print)
                     {
-                        if(damageFrequency != null)
-                            damageFrequency.ToJson(filePath);
+                        damageFrequency.ToJson(filePath);
                         // Hit Frequency
-                        if (hitFrequency != null)
-                            hitFrequency.ToJson(filePath);
+                        hitFrequency.ToJson(filePath);
                         // Weapon Usage Frequency
-                        if (weaponUsageFrequency != null)
-                            weaponUsageFrequency.ToJson(filePath);
+                        weaponUsageFrequency.ToJson(filePath);
                         // Weapon Accuracy
-                        if (weaponAccuracy != null)
-                        {
-                            weaponAccuracy.CalculateAccuracy();
-                            weaponAccuracy.ToJson(filePath);
-                        }
+                        weaponAccuracy.CalculateAccuracy();
+                        weaponAccuracy.ToJson(filePath);
                     }
 
                     endSession.ToJson(filePath);                    
                     break;
                 case EventType.LEVEL_START:
-                    if (!runLevel)
-                    {
-                        init();
-                        startLevel = new StartLevel(args[0]);
-                        startLevel.ToJson(filePath);
-                        print = false;
-                        runLevel = true;
-                    }
+                    startLevel = new StartLevel(args[0]);
+                    startLevel.ToJson(filePath);
+                    print = false;
                     break;
                 case EventType.LEVEL_END:
                     if (endLevel == null)
@@ -111,18 +97,12 @@ namespace Tracker
                     // End Level
                     levelTime.TotalTime(float.Parse(args[0]));
                     levelTime.ToJson(filePath);
-                    startTime = false;
                     endLevel.ToJson(filePath);
 
-                    runLevel = false;
                     print = true;
                     break;
                 case EventType.LEVEL_TIME:
-                    if (!startTime)
-                    {
-                        levelTime.StartTimer(float.Parse(args[0]));
-                        startTime = true;
-                    }
+                    levelTime.StartTimer(float.Parse(args[0]));
                     break;
                 case EventType.DAMAGE_FREQUENCY:
                     damageFrequency.AddPosition(float.Parse(args[0]), float.Parse(args[1]));
@@ -131,8 +111,7 @@ namespace Tracker
                     hitFrequency.AddEntry(args[0]);
                     break;
                 case EventType.WEAPON_USAGE_FREQUENCY:
-                    if(runLevel)
-                        weaponUsageFrequency.AddEntry(args[0], float.Parse(args[1]));
+                    weaponUsageFrequency.AddEntry(args[0], float.Parse(args[1]));
                     break;
                 case EventType.WEAPON_ACCURACY:
                     weaponAccuracy.AddHitEntry(args[0], bool.Parse(args[1]));
