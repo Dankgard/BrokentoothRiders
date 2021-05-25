@@ -28,7 +28,7 @@ public class Habilidades : MonoBehaviour
     void Update()
     {
 
-        if (GameManager.instance.Energy() >= 0)
+        if (GameManager.instance.Energy() > 0)
         {
             if (Input.GetKeyDown(KeyCode.E) && GameManager.instance.Energy() >= gasto)
             {
@@ -42,6 +42,9 @@ public class Habilidades : MonoBehaviour
                 else
                     rb.velocity = new Vector2(velGranada, velGranada);
 
+                Debug.Log("Tracker: grenade usage");
+                GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.GRENADE_USAGES);
+
             }
 
             if (Input.GetKeyDown(KeyCode.Q) && !activatedShield && GameManager.instance.Energy() >= gasto)
@@ -52,8 +55,14 @@ public class Habilidades : MonoBehaviour
                 Invoke("ActivateShield", nokiaShield.shieldLength);
             }
         }
+        else if(Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("Tracker: Use ability no energy");
+            GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.USE_ABILITY_NO_ENERGY);
+        }
     }
 
+    public bool getShieldActive() { return activatedShield; }
     void ActivateShield()
     {
         activatedShield = false;

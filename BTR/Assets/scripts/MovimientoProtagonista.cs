@@ -130,9 +130,13 @@ public class MovimientoProtagonista : MonoBehaviour
                 rb.velocity = new Vector2(RepeleX, RepeleY);
 
             }
-
+            if (GameObject.Find("Player").GetComponent<Habilidades>().getShieldActive())
+            {
+                Debug.Log("Tracker: player hurted with shield on");
+                GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.PLAYER_HURTED_WITH_SHIELD_ON);
+            }
             GameManager.instance.TakeDamage(repelDamage);
-
+            Debug.Log("melee");
         }
     }
 

@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour
         instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.END_SESSION);
         // Wait for showSplashTimeout
         yield return new WaitForSeconds(2.5f);
-
+        Debug.Log("End session");
         // Ahora si
         canQuit = true;
     }
@@ -119,10 +119,6 @@ public class GameManager : MonoBehaviour
             if(SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-
-        weaponUsageTime += Time.deltaTime;
-        levelTime += Time.deltaTime;
-        //Debug.Log(weaponUsageTime);
     }
 
     public int Health()

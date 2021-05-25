@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RotacionLaser : MonoBehaviour {
-
     public Transform laser;
     public float speed;
     public float degrees;
@@ -30,7 +29,12 @@ public class RotacionLaser : MonoBehaviour {
 
         else if (collision.gameObject.tag == "Player")
         {
-            GameManager.instance.TakeDamage(daño);            
+            GameManager.instance.TakeDamage(daño);
+            if (GameObject.Find("Player").GetComponent<Habilidades>().getShieldActive())
+            {
+                Debug.Log("Tracker: player hurted with shield on");
+                GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.PLAYER_HURTED_WITH_SHIELD_ON);
+            }
         }
     }
 }

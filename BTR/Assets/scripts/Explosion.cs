@@ -25,11 +25,15 @@ public class Explosion : MonoBehaviour {
         if (collision.gameObject.tag == "Player")
         {
             GameManager.instance.TakeDamage(explosionDamage);
+            Debug.Log("Tracker: Grenade hurt player");
+            GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.GRENADE_HURTS_PLAYER);
         }
         if(collision.gameObject.tag == "Enemigo")
         {
             VidaEnemigo enemigo = collision.gameObject.GetComponent<VidaEnemigo>();
             enemigo.TakeDamage(explosionDamage);
+            Debug.Log("Tracker: Grenade hurt enemy");
+            GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.GRENADE_HURTS_ENEMY);
         }
         if (collision.gameObject.tag == "Caja" || collision.gameObject.tag == "NPC")
         {
