@@ -37,7 +37,16 @@ public class VidaEnemigo : MonoBehaviour {
         if (vida <= 0)
         {
             if (isBoss)
+            {
+                GameManager.instance.sceneChanged = true;
+                GameManager.instance.ResetBoxes();
+                
+                string[] para = { GameManager.instance.GetNumBoxes().ToString(), SceneManager.GetActiveScene().name };
+
+                GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.END_LEVEL, para);
+
                 GameManager.instance.StartLoadingScene(escena, 5);
+            }
             barImage.fillAmount = 0;
             enemyName.text = "";
             ExplosionNoLetal boom = Instantiate(explosion, transform.position, Quaternion.identity);

@@ -12,6 +12,7 @@ namespace Tracker
         GrenadeHurtsPlayer grenadeHurtsPlayer;
         UseAbilityNoEnergy useAbilityNoEnergy;
         GrenadeUsage grenadeUsage;
+        TotalBoxesDestroyed totalBoxesDestroyed;
         StartSession startSession;
         EndSession endSession;
 
@@ -23,6 +24,9 @@ namespace Tracker
             GRENADE_HURTS_PLAYER,
             USE_ABILITY_NO_ENERGY,
             GRENADE_USAGES,
+            TOTAL_BOXES_DESTROYED,
+            START_LEVEL,
+            END_LEVEL,
             START_SESSION,
             END_SESSION
         }
@@ -51,6 +55,15 @@ namespace Tracker
                     if (grenadeUsage == null) grenadeUsage = new GrenadeUsage();
                     grenadeUsage.AddEntry();
                     break;
+                case EventType.TOTAL_BOXES_DESTROYED:
+                    if (totalBoxesDestroyed == null) totalBoxesDestroyed = new TotalBoxesDestroyed();
+                    break;
+                case EventType.START_LEVEL:
+                    totalBoxesDestroyed.StartLevel(int.Parse(args[0]));
+                    break;
+                case EventType.END_LEVEL:
+                    totalBoxesDestroyed.EndLevel(int.Parse(args[0]), args[1]);
+                    break;
                 case EventType.START_SESSION:
                     if (startSession == null) startSession = new StartSession();
                     break;
@@ -77,6 +90,8 @@ namespace Tracker
                 useAbilityNoEnergy.ToJson(filepath);
             if (grenadeUsage != null)
                 grenadeUsage.ToJson(filepath);
+            if (totalBoxesDestroyed != null)
+                totalBoxesDestroyed.ToJson(filepath);
             if (endSession != null)
                 endSession.ToJson(filepath);
         }

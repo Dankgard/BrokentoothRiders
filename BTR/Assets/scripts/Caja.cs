@@ -9,7 +9,6 @@ public class Caja : MonoBehaviour {
     public GameObject PaqueteEscopeta;
     public GameObject PaqueteRifle;
 
-
     int select;
     GameObject paquete;
 
@@ -32,6 +31,11 @@ public class Caja : MonoBehaviour {
         health = initialHealth;
     }
 
+    void Start()
+    {
+        GameManager.instance.AddBox();
+    }
+
 
     public void TakeDamage(int bulletDamage)
     {
@@ -44,6 +48,7 @@ public class Caja : MonoBehaviour {
         if (health <= 0)
         {
             GameObject drop = Instantiate(paquete, gameObject.transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            GameManager.instance.BoxDestroyed();
             Destroy(gameObject);
         }
     }

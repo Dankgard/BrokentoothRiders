@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Tracker;
 
-
 public class GameManager : MonoBehaviour
 {
     // TRACKER ASSETS
@@ -29,6 +28,10 @@ public class GameManager : MonoBehaviour
 
     public AudioClip hurtSound;
 
+    // Para las cajas
+    int numCajasEnNivel = 0;
+    public bool sceneChanged;
+
     // true escopeta, false fusil
     public bool shotgunActive;
 
@@ -44,22 +47,27 @@ public class GameManager : MonoBehaviour
             instance_Tracker.filepath ="Files/PracticaFinal_pruebas.json";
             // Nos aseguramos de no destruir el objeto, es decir, 
             // de que persista, si cambiamos de escena
-            DontDestroyOnLoad(this.gameObject);
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
             // Si ya existe un objeto GameManager, no necesitamos uno nuevo
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
         currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
         currentEnergy = initialEnergy;
     }
+    
     void Start()
     {
         // BTR TRACKER
         instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.START_SESSION);
+        instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.TOTAL_BOXES_DESTROYED);
         Debug.Log("Inicia la sesion");
+
+        sceneChanged = true;
     }
+
     void OnApplicationQuit()
     {
         StartCoroutine("DelayedQuit");
@@ -118,6 +126,14 @@ public class GameManager : MonoBehaviour
         {
             if(SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            ResetBoxes();
+        }
+
+        if (sceneChanged && numCajasEnNivel > 0)
+        {
+            sceneChanged = false;
+            string[] n = { numCajasEnNivel.ToString() };
+            instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.START_LEVEL, n);
         }
     }
 
@@ -208,11 +224,27 @@ public class GameManager : MonoBehaviour
             vida.Reload(initialHealth);
             energia.Reload(initialEnergy);
         }
+        // IRIA EL EVENTO
         SceneManager.LoadScene(escena);
     }
 
+    public void AddBox()
+    {
+        numCajasEnNivel++;
+    }
 
+    public void BoxDestroyed()
+    {
+        numCajasEnNivel--;
+    }
 
+    public void ResetBoxes()
+    {
+        numCajasEnNivel = 0;
+    }
 
-
+    public int GetNumBoxes()
+    {
+        return numCajasEnNivel;
+    }
 }
