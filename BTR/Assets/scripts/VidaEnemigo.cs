@@ -38,12 +38,13 @@ public class VidaEnemigo : MonoBehaviour {
         {
             if (isBoss)
             {
-                GameManager.instance.sceneChanged = true;
-                GameManager.instance.ResetBoxes();
+                GameManager.instance.sceneChanged = true;               
                 
                 string[] para = { GameManager.instance.GetNumBoxes().ToString(), SceneManager.GetActiveScene().name };
 
                 GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.END_LEVEL, para);
+
+                GameManager.instance.ResetBoxes();
 
                 GameManager.instance.StartLoadingScene(escena, 5);
             }

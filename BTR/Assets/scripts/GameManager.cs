@@ -193,6 +193,15 @@ public class GameManager : MonoBehaviour
             Destroy(player);
             alive = false;
             currentHealth = 0;
+
+            string[] para = { GetNumBoxes().ToString(), SceneManager.GetActiveScene().name };
+            Debug.Log(para[0]+ " " + para[1]);
+            instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.END_LEVEL, para);
+
+            ResetBoxes();
+
+            sceneChanged = true;
+
             ReloadScene();
         }
     }
