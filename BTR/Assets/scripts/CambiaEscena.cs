@@ -14,10 +14,10 @@ public class CambiaEscena : MonoBehaviour {
         {
             string[] para = { GameManager.instance.GetNumBoxes().ToString(), SceneManager.GetActiveScene().name };
             GameManager.instance_Tracker.RegisterEvent(Tracker.Practica_Final_Tracker.EventType.END_LEVEL, para);
-
+            GameManager.instance.ResetBoxes();
             SceneManager.LoadScene(escena);
             GameManager.instance.sceneChanged = true;
-            GameManager.instance.ResetBoxes();
+
         }
     }
 

@@ -1,0 +1,33 @@
+{
+  "session_id": "{9e964efd-c338-4c16-8eab-1d5aa398d9af}",
+  "sessionStartTime": "5/28/2021 5:20:34 PM",
+  "Event_type": "Start_Session"
+}{
+  "counter": 2,
+  "Event_type": "Grenade hurts player"
+}{
+  "counter": 1,
+  "Event_type": "Use_Ability_With_No_Energy"
+}{
+  "counter": 5,
+  "Event_type": "Grenade_Usage"
+}{
+  "porcentajes": [
+    {
+      "levelName": "level1_1",
+      "percentage": "11.11111%"
+    },
+    {
+      "levelName": "level4_1",
+      "percentage": "0%"
+    },
+    {
+      "levelName": "level4_1",
+      "percentage": "0%"
+    }
+  ],
+  "Event_type": "Total_Boxes_Destroyed"
+}{
+  "sessionEndTime": "5/28/2021 5:20:55 PM",
+  "Event_type": "End_Session"
+}

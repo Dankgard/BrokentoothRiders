@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Tracker;
+using System.IO;
 
 public class GameManager : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     bool alive = true;
     public bool interfaz = true;
+    bool endSession = true;
 
     public AudioClip hurtSound;
 
@@ -43,8 +45,20 @@ public class GameManager : MonoBehaviour
             instance = this;
 
             // BTR TRACKER
+            if (!Directory.Exists(Application.dataPath + "/Files"))
+                Directory.CreateDirectory(Application.dataPath + "/Files");
+            //File.WriteAllText(Application.dataPath + "/Files/file.txt", "this is some text!");
             instance_Tracker = new Practica_Final_Tracker();
-            instance_Tracker.filepath ="Files/PracticaFinal_pruebas.json";
+            int i = 0;
+            while (true)
+            {
+                if (!File.Exists(Application.dataPath + "/Files/PracticaFinal_pruebas_" + i + ".json"))
+                {
+                    instance_Tracker.filepath = Application.dataPath + "/Files/PracticaFinal_pruebas_" + i + ".json";
+                    break;
+                }
+                i++;
+            }
             // Nos aseguramos de no destruir el objeto, es decir, 
             // de que persista, si cambiamos de escena
             DontDestroyOnLoad(gameObject);
@@ -61,6 +75,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         // BTR TRACKER
+        endSession = false;
         instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.START_SESSION);
         instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.TOTAL_BOXES_DESTROYED);
         Debug.Log("Inicia la sesion");
@@ -79,12 +94,16 @@ public class GameManager : MonoBehaviour
 
     IEnumerator DelayedQuit()
     {
-        instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.END_SESSION);
+        if (!endSession)
+        {
+            endSession = true;
+            instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.END_SESSION);
+        }
         // Wait for showSplashTimeout
-        yield return new WaitForSeconds(2.5f);
         Debug.Log("End session");
         // Ahora si
         canQuit = true;
+        yield return new WaitForSeconds(2.5f);
     }
 
     void OnEnable()
@@ -117,18 +136,23 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
         {
+            string[] para = { GetNumBoxes().ToString(), SceneManager.GetActiveScene().name };
+            Debug.Log(para[0] + " " + para[1]);
+            instance_Tracker.RegisterEvent(Practica_Final_Tracker.EventType.END_LEVEL, para);
+            ResetBoxes();
             // Carga el menu principal
             UnityEngine.Cursor.visible = true;
+            instance.sceneChanged = true;
             SceneManager.LoadScene("Menu Principal");
         }
-
+#if UNITY_EDITOR
         if (Input.GetKey(KeyCode.L))
         {
             if(SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             ResetBoxes();
         }
-
+#endif
         if (sceneChanged && numCajasEnNivel > 0)
         {
             sceneChanged = false;
