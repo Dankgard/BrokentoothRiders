@@ -4,13 +4,12 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class LevelTime : Event
+    class LevelTime : TrackerEvent
     {
         public float iniTime;
         public float totalTime;
-        public LevelTime()
+        public LevelTime() : base(EventType.HIT_FREQUENCY)
         {
-            Event_type = "Level_Time";
         }
 
         public void StartTimer(float iniTime_)
@@ -23,17 +22,9 @@ namespace Tracker
             totalTime = endTime - iniTime;
         }
 
-        public override void ToJson(string path)
+        public override void toJson(out string inf)
         {
-            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            if (File.Exists(path))
-            {
-                string temp = File.ReadAllText(path);
-                temp += jsonFile;
-                File.WriteAllText(path, temp);
-            }
-            else
-                File.WriteAllText(path, jsonFile);
+            inf = JsonConvert.SerializeObject(this, Formatting.Indented);
         }
     }
 }

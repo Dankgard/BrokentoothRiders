@@ -4,13 +4,12 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class WeaponUsageFrequency : Event
+    class WeaponUsageFrequency : TrackerEvent
     {
         public Dictionary<string, float> WeaponUsage;
 
-        public WeaponUsageFrequency()
+        public WeaponUsageFrequency() : base(EventType.HIT_FREQUENCY)
         {
-            Event_type = "Weapon_Usage_Frequency";
             WeaponUsage = new Dictionary<string, float>();
         }
 
@@ -26,17 +25,9 @@ namespace Tracker
                 WeaponUsage.Add(gunType, timeUsed);
             }
         }
-        public override void ToJson(string path)
+        public override void toJson(out string inf)
         {
-            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            if (File.Exists(path))
-            {
-                string temp = File.ReadAllText(path);
-                temp += jsonFile;
-                File.WriteAllText(path, temp);
-            }
-            else
-                File.WriteAllText(path, jsonFile);
+            inf = JsonConvert.SerializeObject(this, Formatting.Indented);
         }
     }
 }

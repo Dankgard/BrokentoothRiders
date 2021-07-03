@@ -7,11 +7,10 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class HitFrequency : Event
+    class HitFrequency : TrackerEvent
     {
-        public HitFrequency()
+        public HitFrequency() : base(EventType.HIT_FREQUENCY)
         {
-            Event_type = "Hit_Frequency";
             HitPerEnemy = new Dictionary<string, int>();
         }
 
@@ -28,17 +27,9 @@ namespace Tracker
                 HitPerEnemy.Add(enemyType, 1);
             }
         }
-        public override void ToJson(string path)
+        public override void toJson(out string inf)
         {
-            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            if (File.Exists(path))
-            {
-                string temp = File.ReadAllText(path);
-                temp += jsonFile;
-                File.WriteAllText(path, temp);
-            }
-            else
-                File.WriteAllText(path, jsonFile);
+            inf = JsonConvert.SerializeObject(this, Formatting.Indented);
         }
     }
 }

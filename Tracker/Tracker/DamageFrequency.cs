@@ -10,12 +10,10 @@ namespace Tracker
         public float Y { get; set; }
     }
 
-    public class DamageFrequency : Event
+    public class DamageFrequency : TrackerEvent
     {
-        public DamageFrequency()
-        {
-            Event_type = "Damage_Frequency";
-            Positions = new List<Vector2>();
+        public DamageFrequency() : base(EventType.DAMAGE_FREQUENCY)
+        {            
         }
         public List<Vector2> Positions;
 
@@ -23,17 +21,9 @@ namespace Tracker
         {
             Positions.Add(new Vector2 { X = posX, Y = posY });
         }
-        public override void ToJson(string path)
+        public override void toJson(out string inf)
         {
-            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            if (File.Exists(path))
-            {
-                string temp = File.ReadAllText(path);
-                temp += jsonFile;
-                File.WriteAllText(path, temp);
-            }
-            else
-                File.WriteAllText(path, jsonFile);
+            inf = JsonConvert.SerializeObject(this, Formatting.Indented);
         }
     }
 }

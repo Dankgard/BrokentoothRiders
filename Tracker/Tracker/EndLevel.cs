@@ -4,30 +4,20 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class EndLevel : Event
+    class EndLevel : TrackerEvent
     {
         public string endLevelTime;
 
-        public EndLevel()
+        public EndLevel() : base(EventType.LEVEL_END)
         {
-            Event_type = "End_Level";
-
             // Momento en el que acaba el nivel
             DateTime endTime = DateTime.Now;
             endLevelTime = endTime.ToString();
         }
 
-        public override void ToJson(string path)
+        public override void toJson(out string inf)
         {
-            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            if (File.Exists(path))
-            {
-                string temp = File.ReadAllText(path);
-                temp += jsonFile + "\n";
-                File.WriteAllText(path, temp);
-            }
-            else
-                File.WriteAllText(path, jsonFile);
+            inf = JsonConvert.SerializeObject(this, Formatting.Indented);
         }
     }
 }

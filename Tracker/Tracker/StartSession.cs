@@ -7,15 +7,13 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class StartSession : Event
+    class StartSession : TrackerEvent
     {
         public string session_id;
         public string sessionStartTime;
 
-        public StartSession()
+        public StartSession() : base(EventType.HIT_FREQUENCY)
         {
-            Event_type = "Start_Session";
-
             // Genera una identidad unica para la sesion
             session_id = GenerateID();
 
@@ -32,18 +30,9 @@ namespace Tracker
             return Guid.NewGuid().ToString(s);
         }
 
-        public override void ToJson(string path)
+        public override void toJson(out string inf)
         {
-            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            // Si el fichero existe
-            if (File.Exists(path))
-            {
-                string temp = File.ReadAllText(path);
-                temp += jsonFile + "\n";
-                File.WriteAllText(path, temp);
-            }
-            else
-                File.WriteAllText(path, jsonFile);
+            inf = JsonConvert.SerializeObject(this, Formatting.Indented);
         }
     }
 }

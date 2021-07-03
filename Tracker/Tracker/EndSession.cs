@@ -7,29 +7,19 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class EndSession : Event
+    class EndSession : TrackerEvent
     {
         public string sessionEndTime;
-        public EndSession()
+        public EndSession() : base(EventType.SESSION_END)
         {
-            Event_type = "End_Session";
-
             // Momento en que acaba la sesion
             DateTime endTime = DateTime.Now;
             sessionEndTime = endTime.ToString();
         }
 
-        public override void ToJson(string path)
+        public override void toJson(out string inf)
         {
-            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            if (File.Exists(path))
-            {
-                string temp = File.ReadAllText(path);
-                temp += jsonFile + "\n";
-                File.WriteAllText(path, temp);
-            }
-            else
-                File.WriteAllText(path, jsonFile);
+            inf = JsonConvert.SerializeObject(this, Formatting.Indented);
         }
     }
 }

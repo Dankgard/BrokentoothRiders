@@ -4,31 +4,22 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class StartLevel : Event
+    class StartLevel : TrackerEvent
     {
         public string level_id;
         public string levelStartTime;
 
-        public StartLevel(string level)
+        public StartLevel(string level) : base(EventType.HIT_FREQUENCY)
         {
-            Event_type = "Start_Level";
             level_id = level;
 
             // Momento en el que empieza el nivel
             DateTime startTime = DateTime.Now;
             levelStartTime = startTime.ToString();
         }
-        public override void ToJson(string path)
+        public override void toJson(out string inf)
         {
-            string jsonFile = JsonConvert.SerializeObject(this, Formatting.Indented);
-            if (File.Exists(path))
-            {
-                string temp = File.ReadAllText(path);
-                temp += jsonFile + "\n";
-                File.WriteAllText(path, temp);
-            }
-            else
-                File.WriteAllText(path, jsonFile);
+            inf = JsonConvert.SerializeObject(this, Formatting.Indented);
         }
     }
 }
