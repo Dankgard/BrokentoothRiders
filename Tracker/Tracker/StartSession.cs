@@ -12,7 +12,7 @@ namespace Tracker
         public string session_id;
         public string sessionStartTime;
 
-        public StartSession() : base(EventType.HIT_FREQUENCY)
+        public StartSession() : base(EventType.SESSION_START)
         {
             // Genera una identidad unica para la sesion
             session_id = GenerateID();

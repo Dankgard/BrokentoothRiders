@@ -9,7 +9,7 @@ namespace Tracker
         public string level_id;
         public string levelStartTime;
 
-        public StartLevel(string level) : base(EventType.HIT_FREQUENCY)
+        public StartLevel(string level) : base(EventType.LEVEL_START)
         {
             level_id = level;
 

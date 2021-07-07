@@ -41,5 +41,10 @@ namespace Tracker
             inf = "";            
         }
 
+        public EventType GetEventType()
+        {
+            return eventTypeEnum_;
+        }
+
     }
 }
