@@ -16,7 +16,7 @@ namespace Tracker
             serializer_ = serializer;
         }
 
-        public abstract void send(TrackerEvent e);
+        public abstract void send(TrackerEvent e); //Podria hacerse aquí
         public abstract void flush();
 
         public void setSerializer(ISerializer s)

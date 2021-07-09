@@ -67,6 +67,8 @@
     }
   ],
   "Event_type": "Damage_Frequency"
+  
+  
 }{
   "HitPerEnemy": {
     "HELICOPTERO": 1,

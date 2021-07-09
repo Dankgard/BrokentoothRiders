@@ -1,16 +1,16 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class StartLevel : TrackerEvent
+    class WeaponChange : TrackerEvent
     {
-        public string level_id;
+        public string gunType;
 
-        public StartLevel(string level) : base(EventType.LEVEL_START)
+        public WeaponChange(string gunType_) : base(EventType.WEAPON_CHANGE)
         {
-            level_id = level;
+            gunType = gunType_;
         }
         public override void toJson(out string inf)
         {

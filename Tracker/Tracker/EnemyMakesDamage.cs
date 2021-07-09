@@ -7,10 +7,12 @@ using Newtonsoft.Json;
 
 namespace Tracker
 {
-    class EndSession : TrackerEvent
+    class EnemyMakesDamage : TrackerEvent
     {
-        public EndSession() : base(EventType.SESSION_END)
+        string enemyType;
+        public EnemyMakesDamage(string enemyType_) : base(EventType.ENEMY_MAKES_DAMAGE)
         {
+            enemyType = enemyType_;
         }
 
         public override void toJson(out string inf)

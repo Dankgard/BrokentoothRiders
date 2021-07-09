@@ -21,15 +21,13 @@ namespace Tracker
                     return true;
                 case TrackerEvent.EventType.SESSION_END:
                     return true;
-                case TrackerEvent.EventType.LEVEL_TIME:
+                case TrackerEvent.EventType.ENEMY_MAKES_DAMAGE:
                     return true;
-                case TrackerEvent.EventType.DAMAGE_FREQUENCY:
+                case TrackerEvent.EventType.WEAPON_CHANGE:
                     return true;
-                case TrackerEvent.EventType.HIT_FREQUENCY:
+                case TrackerEvent.EventType.WEAPON_SHOT_RESULT:
                     return true;
-                case TrackerEvent.EventType.WEAPON_USAGE_FREQUENCY:
-                    return true;
-                case TrackerEvent.EventType.WEAPON_ACCURACY:
+                case TrackerEvent.EventType.PLAYER_HIT:
                     return true;
                 default:
                     return false;

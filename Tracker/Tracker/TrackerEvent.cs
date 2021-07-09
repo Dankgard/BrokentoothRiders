@@ -14,15 +14,14 @@ namespace Tracker
             LEVEL_START,
             LEVEL_END,
             SESSION_END,
-            LEVEL_TIME,
-            DAMAGE_FREQUENCY,
-            HIT_FREQUENCY,
-            WEAPON_USAGE_FREQUENCY,
-            WEAPON_ACCURACY
+            PLAYER_HIT,
+            ENEMY_MAKES_DAMAGE,
+            WEAPON_CHANGE,
+            WEAPON_SHOT_RESULT
         }
 
         public string eventType;
-        public DateTime timestamp_;
+        public double timestamp_;
         EventType eventTypeEnum_;
         public string idGame;
         public string idSession;
@@ -33,7 +32,7 @@ namespace Tracker
             //idSession = se le da desde Tracker que es singleton
             eventTypeEnum_ = type;
             eventType = eventTypeEnum_.ToString();
-            timestamp_ = DateTime.Now;
+            timestamp_ = (DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds; ; //Una forma en convertirlos a epoch
         }
 
         public virtual void toJson(out string inf)

@@ -16,6 +16,11 @@ namespace Tracker
             BTR_TRACKER
         }
 
+        public enum SerializerType
+        {
+            JSON, NONE
+        }
+
         string idGame_;
         string idSession_;
 
@@ -25,10 +30,27 @@ namespace Tracker
             get{ return _instance; }
         }
 
-        public void init(string idGame)
+        public void init(string idGame, string path = "", SerializerType type = SerializerType.NONE)
         {
             idGame_ = idGame;
             idSession_ = GenerateID();
+            ISerializer s = null;
+
+            if (path != "")
+            {
+                switch (type)
+                {
+                    case SerializerType.JSON:
+                        s = new JsonSerializer();
+                        break;
+                    default:
+                        break;
+                }
+                if(s != null)
+                    persistence_ = new FilePersistence(s, path);
+                else
+                    throw new Exception("ERROR AL INICIALIZAR");
+            }
 
             trackerEvent(new StartSession());
         }
@@ -36,6 +58,7 @@ namespace Tracker
         public void end()
         {
             trackerEvent(new EndSession());
+            flush();
             activeTrackers_.Clear();
         }
 
@@ -49,6 +72,11 @@ namespace Tracker
                     break;
                 }
             }
+        }
+
+        public void flush()
+        {
+            persistence_.flush();
         }
 
         private string GenerateID()
