@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 
 
-namespace Tracker
+namespace TrackerSpace
 {
-    public abstract class IPersistence
+    abstract class IPersistence
     {
         public ISerializer serializer_ = null;
         public Queue<TrackerEvent> events = new Queue<TrackerEvent>();

@@ -2,7 +2,7 @@
 using System.IO;
 using Newtonsoft.Json;
 
-namespace Tracker
+namespace TrackerSpace
 {
     class WeaponShotResult : TrackerEvent
     {

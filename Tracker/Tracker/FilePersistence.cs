@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace Tracker
+namespace TrackerSpace
 {
     class FilePersistence : IPersistence
     {

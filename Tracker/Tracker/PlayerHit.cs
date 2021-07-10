@@ -2,15 +2,15 @@
 using System.IO;
 using Newtonsoft.Json;
 
-namespace Tracker
+namespace TrackerSpace
 {
-    public class Vector2
+    class Vector2
     {
         public float X { get; set; }
         public float Y { get; set; }
     }
 
-    public class PlayerHit : TrackerEvent
+    class PlayerHit : TrackerEvent
     {
         public Vector2 Positions;
 

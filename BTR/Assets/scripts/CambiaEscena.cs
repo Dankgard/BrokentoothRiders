@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TrackerSpace;
 
 public class CambiaEscena : MonoBehaviour {
 
@@ -16,8 +17,7 @@ public class CambiaEscena : MonoBehaviour {
         if(escena == "level2_text")
         {
             GameManager.instance.resetWeaponUsageTime();
-            string[] param = { GameManager.instance.getLevelTime().ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_END, param);
+            GameManager.instance_Tracker.addTrackerEvent(Tracker.EventType.LEVEL_END);
         }
 
         GameManager.instance.FinishLevel();

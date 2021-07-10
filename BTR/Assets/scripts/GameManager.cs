@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using Tracker;
+using TrackerSpace;
 
 
 public class GameManager : MonoBehaviour
 {
     // TRACKER ASSETS
-    public static BTR_Tracker instance_Tracker = null;
+    public static Tracker instance_Tracker = null;
     private bool canQuit = false;
 
     public static GameManager instance = null;
@@ -46,11 +46,12 @@ public class GameManager : MonoBehaviour
             instance = this;
 
             // BTR TRACKER
-            instance_Tracker = new BTR_Tracker();
-            instance_Tracker.SetFilePath("Files/BTR_SESSIONS_test.json");
+            instance_Tracker = Tracker.getInstance;
+            instance_Tracker.AddTracker(Tracker.TrackersType.BTR_TRACKER);
+            instance_Tracker.init("BTR", "Files/BTR_SESSIONS_test.json", Tracker.SerializerType.JSON);
             // Nos aseguramos de no destruir el objeto, es decir, 
             // de que persista, si cambiamos de escena
-            DontDestroyOnLoad(this.gameObject);
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -62,8 +63,6 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        // BTR TRACKER
-        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_START);
         weaponUsageTime = 0;
         Debug.Log("Inicia la sesion");
     }
@@ -81,20 +80,20 @@ public class GameManager : MonoBehaviour
         if (instance.ShotgunActive())
         {
             Debug.Log("CIERRE CON ESCOPETA " + GameManager.instance.getWeaponUsageTime());
-            string[] arg = { "ESCOPETA", getWeaponUsageTime().ToString() };
-            instance_Tracker.RegisterEvent(BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
+            string[] arg = {"ESCOPETA"};
+            instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
             instance.resetWeaponUsageTime();
         }
         else
         {
             Debug.Log("CIERRE CON RIFLE " + GameManager.instance.getWeaponUsageTime());
-            string[] arg = { "RIFLE", getWeaponUsageTime().ToString() };
-            instance_Tracker.RegisterEvent(BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
+            string[] arg = { "RIFLE" };
+            instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
             instance.resetWeaponUsageTime();
         }
-        instance_Tracker.RegisterEvent(BTR_Tracker.EventType.SESSION_END);
         Debug.Log("Termina la sesion");
 
+        instance_Tracker.end();
         // Wait for showSplashTimeout
         yield return new WaitForSeconds(2.5f);
 

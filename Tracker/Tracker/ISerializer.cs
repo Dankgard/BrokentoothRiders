@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Tracker
+namespace TrackerSpace
 {
-    public abstract class ISerializer
+    abstract class ISerializer
     {
         public abstract string serialize(TrackerEvent e);
         public abstract string getExtension();

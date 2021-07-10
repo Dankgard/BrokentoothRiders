@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Tracker
+namespace TrackerSpace
 {
-    public abstract class ITrackerAsset
+    abstract class ITrackerAsset
     {
         public abstract bool accept(TrackerEvent e);
     }

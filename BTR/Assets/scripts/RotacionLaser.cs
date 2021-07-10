@@ -31,10 +31,10 @@ public class RotacionLaser : MonoBehaviour {
         else if (collision.gameObject.tag == "Player")
         {
             string[] arg = { "LASER" };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
 
             string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
+            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.PLAYER_HIT, param);
 
             GameManager.instance.TakeDamage(daño);            
         }

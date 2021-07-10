@@ -26,10 +26,10 @@ public class Explosion : MonoBehaviour {
         {
             // TRACKER EVENT
             string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString() };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.DAMAGE_FREQUENCY, param);
+            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.PLAYER_HIT, param);
 
             string[] arg = { enemy };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
 
             GameManager.instance.TakeDamage(explosionDamage);
         }

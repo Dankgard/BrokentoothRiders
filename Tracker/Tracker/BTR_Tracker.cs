@@ -4,9 +4,9 @@ using Newtonsoft.Json;
 using System;
 using System.IO;
 
-namespace Tracker
+namespace TrackerSpace
 {
-    public class BTR_Tracker : ITrackerAsset
+    class BTR_Tracker : ITrackerAsset
     {
 
         public override bool accept(TrackerEvent e)

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TrackerSpace;
 
 public class DisparoRex : MonoBehaviour
 {
@@ -69,7 +70,7 @@ public class DisparoRex : MonoBehaviour
         shootDirection = shootDirection - transform.position;
 
 		GameObject bullet = Instantiate(bullets, SpawnBala.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-        Vector2 dir = shootDirection.normalized;
+        UnityEngine.Vector2 dir = shootDirection.normalized;
 
         bullet.GetComponent<Rigidbody2D>().velocity = dir * bulletSpeed; //shootDirection.normalized * bulletSpeed;
         Destroy(bullet, reach);
@@ -90,9 +91,8 @@ public class DisparoRex : MonoBehaviour
             if (!start)
             {
                 Debug.Log("TENIA RIFLE " + GameManager.instance.getWeaponUsageTime());
-
-                string[] arg = { "RIFLE", GameManager.instance.getWeaponUsageTime().ToString() };
-                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
+                string[] arg = { "RIFLE"};
+                GameManager.instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
                 GameManager.instance.resetWeaponUsageTime();
             }
         }
@@ -101,9 +101,8 @@ public class DisparoRex : MonoBehaviour
             if (!start)
             {
                 Debug.Log("TENIA ESCOPETA " + GameManager.instance.getWeaponUsageTime());
-
-                string[] arg = { "ESCOPETA", GameManager.instance.getWeaponUsageTime().ToString() };
-                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.WEAPON_USAGE_FREQUENCY, arg);
+                string[] arg = { "ESCOPETA" };
+                GameManager.instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
                 GameManager.instance.resetWeaponUsageTime();
             }
         }

@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Tracker;
 
 public class StartLevel : MonoBehaviour {
     public string escena;
@@ -11,11 +10,9 @@ public class StartLevel : MonoBehaviour {
         if (!GameManager.instance.getStartLevel())
         {
             string[] arg = { escena };
-            GameManager.instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_START, arg);
+            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.LEVEL_START, arg);
 
             GameManager.instance.resetLevelTime();
-            string[] param = { GameManager.instance.getLevelTime().ToString() };
-            GameManager.instance_Tracker.RegisterEvent(BTR_Tracker.EventType.LEVEL_TIME, param);
 
             GameManager.instance.resetWeaponUsageTime();
             GameManager.instance.StartLevel();

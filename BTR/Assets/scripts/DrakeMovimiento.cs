@@ -61,7 +61,7 @@ public class DrakeMovimiento : MonoBehaviour {
             if (!colisionPlayer)
             {
                 string[] arg = { gameObject.GetComponent<DrakeVida>().name };
-                GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, arg);
+                GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
             }
             colisionPlayer = true;
         }

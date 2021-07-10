@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Tracker
+namespace TrackerSpace
 {
-    class Tracker
+    public class Tracker
     {
-        private readonly static Tracker _instance = new Tracker();
+        private static Tracker _instance = null;
         IPersistence persistence_;
-        List<ITrackerAsset> activeTrackers_;
+        List<ITrackerAsset> activeTrackers_ = new List<ITrackerAsset>();
 
         public enum TrackersType
         {
@@ -21,13 +21,30 @@ namespace Tracker
             JSON, NONE
         }
 
+        public enum EventType
+        {
+            SESSION_START,
+            LEVEL_START,
+            LEVEL_END,
+            SESSION_END,
+            PLAYER_HIT,
+            ENEMY_MAKES_DAMAGE,
+            WEAPON_CHANGE,
+            WEAPON_SHOT_RESULT
+        }
+
         string idGame_;
         string idSession_;
 
         private Tracker() { }
         public static Tracker getInstance
         {
-            get{ return _instance; }
+            get
+            {
+                if(null == _instance)
+                    _instance = new Tracker();
+                return _instance;
+            }
         }
 
         public void init(string idGame, string path = "", SerializerType type = SerializerType.NONE)
@@ -52,24 +69,62 @@ namespace Tracker
                     throw new Exception("ERROR AL INICIALIZAR");
             }
 
-            trackerEvent(new StartSession());
+            addTrackerEvent(EventType.SESSION_START);
         }
 
         public void end()
         {
-            trackerEvent(new EndSession());
+            addTrackerEvent(EventType.SESSION_END);
             flush();
             activeTrackers_.Clear();
         }
 
-        public void trackerEvent(TrackerEvent e)
-        {            
-            foreach (ITrackerAsset T in activeTrackers_)
+        public void addTrackerEvent(EventType eventType_, string[] args = null)
+        {
+            TrackerEvent e = null;
+            switch (eventType_)
             {
-                if (T.accept(e))
-                {
-                    persistence_.send(e);
+                case EventType.SESSION_START:
+                    e = new StartSession();
                     break;
+                case EventType.LEVEL_START:
+                    e = new StartLevel(args[0]);
+                    break;
+                case EventType.LEVEL_END:
+                    e = new EndLevel();
+                    break;
+                case EventType.SESSION_END:
+                    e = new EndSession();
+                    break;
+                case EventType.PLAYER_HIT:
+                    e = new PlayerHit(float.Parse(args[0]), float.Parse(args[1]));
+                    break;
+                case EventType.ENEMY_MAKES_DAMAGE:
+                    e = new EnemyMakesDamage(args[0]);
+                    break;
+                case EventType.WEAPON_CHANGE:
+                    e = new WeaponChange(args[0]);
+                    break;
+                case EventType.WEAPON_SHOT_RESULT:
+                    e = new WeaponShotResult(args[0], bool.Parse(args[1]));
+                    break;
+                default:
+                    break;
+            }
+
+
+            if (e != null)
+            {
+                e.setID(idGame_, idSession_);
+                foreach (ITrackerAsset T in activeTrackers_)
+                {
+                    if (T.accept(e))
+                    {
+                        persistence_.send(e);
+                        if (eventType_ == EventType.LEVEL_END)
+                            flush();
+                        break;
+                    }
                 }
             }
         }

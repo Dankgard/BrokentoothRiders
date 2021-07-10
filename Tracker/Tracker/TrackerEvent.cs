@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Globalization;
 
-namespace Tracker
+namespace TrackerSpace
 {
     public class TrackerEvent
     {
@@ -28,11 +28,14 @@ namespace Tracker
 
         public TrackerEvent(EventType type)
         {
-            //idGame = se le da desde Tracker que es singleton
-            //idSession = se le da desde Tracker que es singleton
             eventTypeEnum_ = type;
             eventType = eventTypeEnum_.ToString();
             timestamp_ = (DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds; ; //Una forma en convertirlos a epoch
+        }
+        public void setID(string idGame_, string idSession_)
+        {
+            idGame = idGame_;
+            idSession = idSession_;
         }
 
         public virtual void toJson(out string inf)

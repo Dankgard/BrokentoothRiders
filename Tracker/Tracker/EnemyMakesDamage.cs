@@ -5,11 +5,11 @@ using System.Text;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace Tracker
+namespace TrackerSpace
 {
     class EnemyMakesDamage : TrackerEvent
     {
-        string enemyType;
+        public string enemyType;
         public EnemyMakesDamage(string enemyType_) : base(EventType.ENEMY_MAKES_DAMAGE)
         {
             enemyType = enemyType_;
