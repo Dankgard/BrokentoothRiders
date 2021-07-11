@@ -153,5 +153,10 @@ namespace TrackerSpace
                     break;
             }
         }
+
+        public void ChangeFilePath(string path)
+        {
+            persistence_.newFilePath(path);
+        }
     }
 }

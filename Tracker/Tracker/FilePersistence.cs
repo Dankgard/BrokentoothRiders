@@ -10,7 +10,7 @@ namespace TrackerSpace
     class FilePersistence : IPersistence
     {
 
-        string path;
+        private string path;
 
         public FilePersistence(ISerializer s, string path) : base(s)
         {
@@ -40,6 +40,11 @@ namespace TrackerSpace
         public override void send(TrackerEvent e)
         {
             events.Enqueue(e);
+        }
+
+        public override void newFilePath(string filePath)
+        {
+            path = filePath;
         }
     }
 }

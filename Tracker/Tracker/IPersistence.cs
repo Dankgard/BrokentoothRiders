@@ -16,7 +16,7 @@ namespace TrackerSpace
             serializer_ = serializer;
         }
 
-        public abstract void send(TrackerEvent e); //Podria hacerse aquí
+        public abstract void send(TrackerEvent e);
         public abstract void flush();
 
         public void setSerializer(ISerializer s)
@@ -28,5 +28,6 @@ namespace TrackerSpace
         {
             events.Clear();
         }
+        public abstract void newFilePath(string filePath);
     }
 }
