@@ -25,14 +25,15 @@ namespace TrackerSpace
                 inf += serializer_.serialize(e);
             }
 
-            if (File.Exists(path))
+            string filePath = path + serializer_.getExtension();
+            if (File.Exists(filePath))
             {
-                string temp = File.ReadAllText(path);
+                string temp = File.ReadAllText(filePath);
                 temp += inf;
-                File.WriteAllText(path, temp);
+                File.WriteAllText(filePath, temp);
             }
             else
-                File.WriteAllText(path, inf);
+                File.WriteAllText(filePath, inf);
 
             clearEvents();
         }

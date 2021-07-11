@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
             // BTR TRACKER
             instance_Tracker = Tracker.getInstance;
             instance_Tracker.AddTracker(Tracker.TrackersType.BTR_TRACKER);
-            instance_Tracker.init("BTR", "Files/BTR_SESSIONS_test.json", Tracker.SerializerType.JSON);
+            instance_Tracker.init("Brokentooth Riders", "Files/INICIO_SESION.json", Tracker.SerializerType.JSON);
             // Nos aseguramos de no destruir el objeto, es decir, 
             // de que persista, si cambiamos de escena
             DontDestroyOnLoad(gameObject);
@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
         else
         {
             // Si ya existe un objeto GameManager, no necesitamos uno nuevo
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
         currentHealth = initialHealth; //asigna la cantidad predeterminada de vida a la vida actual
         currentEnergy = initialEnergy;
@@ -79,14 +79,14 @@ public class GameManager : MonoBehaviour
     {
         if (instance.ShotgunActive())
         {
-            Debug.Log("CIERRE CON ESCOPETA " + GameManager.instance.getWeaponUsageTime());
+            Debug.Log("CIERRE CON ESCOPETA " + instance.getWeaponUsageTime());
             string[] arg = {"ESCOPETA"};
             instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
             instance.resetWeaponUsageTime();
         }
         else
         {
-            Debug.Log("CIERRE CON RIFLE " + GameManager.instance.getWeaponUsageTime());
+            Debug.Log("CIERRE CON RIFLE " + instance.getWeaponUsageTime());
             string[] arg = { "RIFLE" };
             instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
             instance.resetWeaponUsageTime();
@@ -245,12 +245,6 @@ public class GameManager : MonoBehaviour
     {
         alive = true;
         string scene = SceneManager.GetActiveScene().name;
-
-        // ESTE DE AQUI PENDIENTE
-
-        // TRACKER EVENT
-        //string[] param = { scene };
-        //instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.LEVEL_START, param);
 
         StartLoadingScene(scene, 2);
     }
