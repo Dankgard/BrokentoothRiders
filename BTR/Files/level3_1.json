@@ -1,0 +1,18 @@
+{
+  "level_id": "level3_1",
+  "eventType": "LEVEL_START",
+  "timestamp_": 1626002164.0718875,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "ESCOPETA",
+  "eventType": "WEAPON_CHANGE",
+  "timestamp_": 1626002165.3221543,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "eventType": "SESSION_END",
+  "timestamp_": 1626002165.3221543,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}

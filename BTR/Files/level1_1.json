@@ -1,0 +1,211 @@
+{
+  "eventType": "SESSION_START",
+  "timestamp_": 1626001778.2402048,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "level_id": "level1_1",
+  "eventType": "LEVEL_START",
+  "timestamp_": 1626001778.3381553,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Rifle",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001781.4847088,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Rifle",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001781.7996027,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Rifle",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001783.00838,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "RIFLE",
+  "eventType": "WEAPON_CHANGE",
+  "timestamp_": 1626001783.2578495,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001834.8856609,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001837.6996856,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001844.2827108,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001844.9783754,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001845.67468,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001854.9537375,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001856.5779023,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001857.5886872,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001859.0134964,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001860.1399431,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001864.4298744,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001865.3928709,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001866.4185414,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001867.5285587,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001868.5390408,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001869.4998217,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001931.3218293,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626001931.9354146,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626002015.4002423,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626002016.0297394,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626002016.6928179,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626002017.4385772,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626002029.2606597,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "gunType": "ESCOPETA",
+  "eventType": "WEAPON_CHANGE",
+  "timestamp_": 1626002029.26168,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "eventType": "LEVEL_END",
+  "timestamp_": 1626002029.26168,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}

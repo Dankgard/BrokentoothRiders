@@ -1,0 +1,19 @@
+{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626002030.5859025,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "level_id": "level2_1",
+  "eventType": "LEVEL_START",
+  "timestamp_": 1626002045.8292763,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}{
+  "eventType": "LEVEL_END",
+  "timestamp_": 1626002151.2109277,
+  "idGame": "BTR",
+  "idSession": "c9a8ab57fed048b6aa9aa84b89251f6d"
+}

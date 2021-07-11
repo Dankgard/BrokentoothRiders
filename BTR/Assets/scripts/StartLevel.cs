@@ -9,7 +9,7 @@ public class StartLevel : MonoBehaviour {
 
         if (!GameManager.instance.getStartLevel())
         {
-			string newPath = "Files/" + escena + ".json"
+            string newPath = "Files/" + escena + ".json";
 			GameManager.instance_Tracker.ChangeFilePath(newPath);
             string[] arg = { escena };
             GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.LEVEL_START, arg);
