@@ -16,7 +16,11 @@ namespace TrackerSpace
             serializer_ = serializer;
         }
 
-        public abstract void send(TrackerEvent e);
+        public void send(TrackerEvent e)
+        {
+            events.Enqueue(e);
+        }
+
         public abstract void flush();
 
         public void setSerializer(ISerializer s)

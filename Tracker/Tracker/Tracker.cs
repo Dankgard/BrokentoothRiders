@@ -63,7 +63,7 @@ namespace TrackerSpace
                     default:
                         break;
                 }
-                if(s != null || path == "")
+                if(s != null)
                     persistence_ = new FilePersistence(s, path);
                 else
                     throw new Exception("ERROR AL INICIALIZAR\n");
@@ -157,19 +157,6 @@ namespace TrackerSpace
         public void ChangeFilePath(string path)
         {
             persistence_.newFilePath(path);
-        }
-
-        public static void Main(string[] args)
-        {
-            Tracker instance = getInstance;
-
-            instance.init("PEDO", "Files/prueba", SerializerType.JSON);
-            instance.AddTracker(TrackersType.BTR_TRACKER);
-            instance.addTrackerEvent(EventType.SESSION_START);
-            instance.flush();
-            instance.ChangeFilePath("Files/prueba2");
-            instance.addTrackerEvent(EventType.SESSION_END);
-            instance.flush();
         }
     }
 }

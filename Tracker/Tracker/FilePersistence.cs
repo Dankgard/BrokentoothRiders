@@ -38,11 +38,6 @@ namespace TrackerSpace
             clearEvents();
         }
 
-        public override void send(TrackerEvent e)
-        {
-            events.Enqueue(e);
-        }
-
         public override void newFilePath(string filePath)
         {
             path = filePath;
