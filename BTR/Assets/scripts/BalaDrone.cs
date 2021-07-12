@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TrackerSpace;
 
 public class BalaDrone : MonoBehaviour {
 
@@ -36,10 +37,10 @@ public class BalaDrone : MonoBehaviour {
         {
             // TRACKER EVENT
             string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString() };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.PLAYER_HIT, param);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.PLAYER_HIT, param);
 
             string[] arg = { "DRON" };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
 
             GameManager.instance.TakeDamage(bulletDamage);
             Destroy(gameObject);

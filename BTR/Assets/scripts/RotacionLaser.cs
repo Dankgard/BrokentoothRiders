@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TrackerSpace;
 
 public class RotacionLaser : MonoBehaviour {
 
@@ -31,10 +32,10 @@ public class RotacionLaser : MonoBehaviour {
         else if (collision.gameObject.tag == "Player")
         {
             string[] arg = { "LASER" };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
+            Tracker.Instance.addTrackerEvent(Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
 
             string[] param = { collision.transform.position.x.ToString(), collision.transform.position.y.ToString() };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.PLAYER_HIT, param);
+            Tracker.Instance.addTrackerEvent(Tracker.EventType.PLAYER_HIT, param);
 
             GameManager.instance.TakeDamage(daño);            
         }

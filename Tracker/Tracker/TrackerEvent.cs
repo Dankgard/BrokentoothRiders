@@ -21,7 +21,7 @@ namespace TrackerSpace
         }
 
         public string eventType;
-        public double timestamp_;
+        public int timestamp_;
         EventType eventTypeEnum_;
         public string idGame;
         public string idSession;
@@ -30,7 +30,7 @@ namespace TrackerSpace
         {
             eventTypeEnum_ = type;
             eventType = eventTypeEnum_.ToString();
-            timestamp_ = (DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds; ; //Una forma en convertirlos a epoch
+            timestamp_ = (int)(DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds; //Una forma en convertirlos a epoch
         }
         public void setID(string idGame_, string idSession_)
         {

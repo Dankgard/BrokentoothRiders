@@ -17,7 +17,7 @@ public class CambiaEscena : MonoBehaviour {
         if(escena == "level2_text")
         {
             GameManager.instance.resetWeaponUsageTime();
-            GameManager.instance_Tracker.addTrackerEvent(Tracker.EventType.LEVEL_END);
+            Tracker.Instance.addTrackerEvent(Tracker.EventType.LEVEL_END);
         }
 
         GameManager.instance.FinishLevel();

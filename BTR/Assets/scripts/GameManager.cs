@@ -8,8 +8,6 @@ using TrackerSpace;
 
 public class GameManager : MonoBehaviour
 {
-    // TRACKER ASSETS
-    public static Tracker instance_Tracker = null;
     private bool canQuit = false;
 
     public static GameManager instance = null;
@@ -46,9 +44,8 @@ public class GameManager : MonoBehaviour
             instance = this;
 
             // BTR TRACKER
-            instance_Tracker = Tracker.getInstance;
-            instance_Tracker.AddTracker(Tracker.TrackersType.BTR_TRACKER);
-            instance_Tracker.init("Brokentooth Riders", "Files/INICIO_SESION.json", Tracker.SerializerType.JSON);
+            Tracker.Instance.AddTracker(Tracker.TrackersType.BTR_TRACKER);
+            Tracker.Instance.init("Brokentooth Riders", "Files/BTR_SESSIONS", Tracker.SerializerType.JSON);
             // Nos aseguramos de no destruir el objeto, es decir, 
             // de que persista, si cambiamos de escena
             DontDestroyOnLoad(gameObject);
@@ -81,19 +78,19 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("CIERRE CON ESCOPETA " + instance.getWeaponUsageTime());
             string[] arg = {"ESCOPETA"};
-            instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
+            Tracker.Instance.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
             instance.resetWeaponUsageTime();
         }
         else
         {
             Debug.Log("CIERRE CON RIFLE " + instance.getWeaponUsageTime());
             string[] arg = { "RIFLE" };
-            instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
+            Tracker.Instance.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
             instance.resetWeaponUsageTime();
         }
         Debug.Log("Termina la sesion");
 
-        instance_Tracker.end();
+        Tracker.Instance.end();
         // Wait for showSplashTimeout
         yield return new WaitForSeconds(2.5f);
 

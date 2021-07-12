@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using TrackerSpace;
 
 public class Bala : MonoBehaviour {
 
@@ -28,7 +29,7 @@ public class Bala : MonoBehaviour {
                 nombre = "Shotgun";
 
             string[] arg = { nombre, "false" };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
 
             destroyedByColision = true;
 
@@ -44,19 +45,14 @@ public class Bala : MonoBehaviour {
 
             string[] arg = { nombre, "true" };
 
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
 
             destroyedByColision = true;
 
             Destroy(gameObject);
         }
         else if (collider.gameObject.tag == "Enemigo" || collider.gameObject.tag == "Boss")
-        {
-            /*// TRACKER EVENT
-            var prefabGameObject = PrefabUtility.GetPrefabParent(collider.gameObject);
-            string[] parameters = { prefabGameObject.name };
-            GameManager.instance_Tracker.RegisterEvent(Tracker.BTR_Tracker.EventType.HIT_FREQUENCY, parameters);*/
-            
+        {            
             VidaEnemigo enemigo = collider.gameObject.GetComponent<VidaEnemigo>();
             enemigo.TakeDamage(bulletDamage);
             Bleed();
@@ -68,7 +64,7 @@ public class Bala : MonoBehaviour {
 
             string[] arg = { nombre , "true"};
 
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
 
             destroyedByColision = true;
 
@@ -88,7 +84,7 @@ public class Bala : MonoBehaviour {
                 nombre = "Shotgun";
 
             string[] arg = { nombre, "true" };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
 
             destroyedByColision = true;
 
@@ -106,7 +102,7 @@ public class Bala : MonoBehaviour {
                 nombre = "Shotgun";
 
             string[] arg = { nombre, "true" };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
 
             destroyedByColision = true;
 
@@ -123,7 +119,7 @@ public class Bala : MonoBehaviour {
                 nombre = "Shotgun";
 
             string[] arg = { nombre, "true" };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
 
             destroyedByColision = true;
 
@@ -153,7 +149,7 @@ public class Bala : MonoBehaviour {
                 nombre = "Shotgun";
 
             string[] arg = { nombre, "false" };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
+            Tracker.Instance.addTrackerEvent(TrackerSpace.Tracker.EventType.WEAPON_SHOT_RESULT, arg);
         }
     }
 }

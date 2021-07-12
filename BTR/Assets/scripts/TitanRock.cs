@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TrackerSpace;
 
 public class TitanRock : MonoBehaviour {
 
@@ -12,10 +13,10 @@ public class TitanRock : MonoBehaviour {
         {
             // TRACKER EVENT
             string[] param = { other.transform.position.x.ToString(), other.transform.position.y.ToString() };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.PLAYER_HIT, param);
+            Tracker.Instance.addTrackerEvent(Tracker.EventType.PLAYER_HIT, param);
 
             string[] arg = { "TITAN" };
-            GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
+            Tracker.Instance.addTrackerEvent(Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
 
             GameManager.instance.TakeDamage(damage);
             Destroy(gameObject);

@@ -92,7 +92,7 @@ public class DisparoRex : MonoBehaviour
             {
                 Debug.Log("TENIA RIFLE " + GameManager.instance.getWeaponUsageTime());
                 string[] arg = { "RIFLE"};
-                GameManager.instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
+                Tracker.Instance.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
                 GameManager.instance.resetWeaponUsageTime();
             }
         }
@@ -102,7 +102,7 @@ public class DisparoRex : MonoBehaviour
             {
                 Debug.Log("TENIA ESCOPETA " + GameManager.instance.getWeaponUsageTime());
                 string[] arg = { "ESCOPETA" };
-                GameManager.instance_Tracker.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
+                Tracker.Instance.addTrackerEvent(Tracker.EventType.WEAPON_CHANGE, arg);
                 GameManager.instance.resetWeaponUsageTime();
             }
         }

@@ -37,7 +37,7 @@ namespace TrackerSpace
         string idSession_;
 
         private Tracker() { }
-        public static Tracker getInstance
+        public static Tracker Instance
         {
             get
             {

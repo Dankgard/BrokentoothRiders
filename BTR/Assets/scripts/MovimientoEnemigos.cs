@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TrackerSpace;
 
 public class MovimientoEnemigos : MonoBehaviour {
 
@@ -92,7 +93,7 @@ public class MovimientoEnemigos : MonoBehaviour {
             if (!colisionPlayer)
             {
                 string[] arg = { gameObject.GetComponent<VidaEnemigo>().name };
-                GameManager.instance_Tracker.addTrackerEvent(TrackerSpace.Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
+                Tracker.Instance.addTrackerEvent(Tracker.EventType.ENEMY_MAKES_DAMAGE, arg);
             }
 
             colisionPlayer = true;            

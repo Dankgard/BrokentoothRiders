@@ -1,0 +1,282 @@
+{
+  "eventType": "SESSION_START",
+  "timestamp_": 1626101783,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "level_id": "level1_1",
+  "eventType": "LEVEL_START",
+  "timestamp_": 1626101783,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Rifle",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101786,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "Positions": {
+    "X": 8.411972,
+    "Y": 7.356565
+  },
+  "eventType": "PLAYER_HIT",
+  "timestamp_": 1626101795,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "enemyType": "HOMBRE ESCOPETA",
+  "eventType": "ENEMY_MAKES_DAMAGE",
+  "timestamp_": 1626101795,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Rifle",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101798,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Rifle",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101798,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Rifle",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101820,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "Positions": {
+    "X": 1.239908,
+    "Y": 5.603561
+  },
+  "eventType": "PLAYER_HIT",
+  "timestamp_": 1626101822,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "enemyType": "HOMBRE RIFLE",
+  "eventType": "ENEMY_MAKES_DAMAGE",
+  "timestamp_": 1626101822,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Rifle",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101838,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Rifle",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101838,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "RIFLE",
+  "eventType": "WEAPON_CHANGE",
+  "timestamp_": 1626101839,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101847,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101850,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101856,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101856,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101857,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101859,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101859,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101861,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101863,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101864,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "enemyType": "ED",
+  "eventType": "ENEMY_MAKES_DAMAGE",
+  "timestamp_": 1626101866,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "enemyType": "ED",
+  "eventType": "ENEMY_MAKES_DAMAGE",
+  "timestamp_": 1626101867,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101869,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101870,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101872,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101873,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "MISS",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101875,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "Shotgun",
+  "result": "HIT",
+  "eventType": "WEAPON_SHOT_RESULT",
+  "timestamp_": 1626101875,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "gunType": "ESCOPETA",
+  "eventType": "WEAPON_CHANGE",
+  "timestamp_": 1626101875,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "eventType": "LEVEL_END",
+  "timestamp_": 1626101875,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "eventType": "SESSION_END",
+  "timestamp_": 1626101879,
+  "idGame": "Brokentooth Riders",
+  "idSession": "3d3a5cab1bfb468cbda37b36d23ec94c"
+}{
+  "eventType": "SESSION_START",
+  "timestamp_": 1626102290,
+  "idGame": "Brokentooth Riders",
+  "idSession": "f6cd9d40-fa68-46a5-9ed6-8ea4cc96e202"
+}{
+  "level_id": "level1_1",
+  "eventType": "LEVEL_START",
+  "timestamp_": 1626102290,
+  "idGame": "Brokentooth Riders",
+  "idSession": "f6cd9d40-fa68-46a5-9ed6-8ea4cc96e202"
+}{
+  "Positions": {
+    "X": 84.82966,
+    "Y": -57.39987
+  },
+  "eventType": "PLAYER_HIT",
+  "timestamp_": 1626102329,
+  "idGame": "Brokentooth Riders",
+  "idSession": "f6cd9d40-fa68-46a5-9ed6-8ea4cc96e202"
+}{
+  "enemyType": "ED",
+  "eventType": "ENEMY_MAKES_DAMAGE",
+  "timestamp_": 1626102329,
+  "idGame": "Brokentooth Riders",
+  "idSession": "f6cd9d40-fa68-46a5-9ed6-8ea4cc96e202"
+}{
+  "Positions": {
+    "X": 82.4297,
+    "Y": -56.17707
+  },
+  "eventType": "PLAYER_HIT",
+  "timestamp_": 1626102330,
+  "idGame": "Brokentooth Riders",
+  "idSession": "f6cd9d40-fa68-46a5-9ed6-8ea4cc96e202"
+}{
+  "enemyType": "ED",
+  "eventType": "ENEMY_MAKES_DAMAGE",
+  "timestamp_": 1626102330,
+  "idGame": "Brokentooth Riders",
+  "idSession": "f6cd9d40-fa68-46a5-9ed6-8ea4cc96e202"
+}{
+  "gunType": "RIFLE",
+  "eventType": "WEAPON_CHANGE",
+  "timestamp_": 1626102332,
+  "idGame": "Brokentooth Riders",
+  "idSession": "f6cd9d40-fa68-46a5-9ed6-8ea4cc96e202"
+}{
+  "eventType": "SESSION_END",
+  "timestamp_": 1626102332,
+  "idGame": "Brokentooth Riders",
+  "idSession": "f6cd9d40-fa68-46a5-9ed6-8ea4cc96e202"
+}
